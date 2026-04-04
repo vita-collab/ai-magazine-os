@@ -93,6 +93,9 @@ class Item:
     summary: str = ""
     source: str = ""                # hf_papers | hf_models | hf_spaces | github | pwc | reddit
     tags: list = field(default_factory=list)   # model | product | repo | tool | discussion
+    geo_tags: list = field(default_factory=list)
+    entity_tags: list = field(default_factory=list)
+    topic_tags: list = field(default_factory=list)
     read_url: str = ""
     try_url: str = ""
     fork_url: str = ""
@@ -187,6 +190,78 @@ def auto_tag(item: Item) -> list:
     if any(kw in text for kw in ["agent", "workflow", "automation", "tool"]):
         tags.append("tool")
     return list(dict.fromkeys(tags)) or ["model"]
+
+
+def auto_geo_tags(item: Item) -> list:
+    text = f"{item.title} {item.summary}".lower()
+    tags = []
+
+    if any(k in text for k in ["china", "chinese", "beijing", "shanghai", "qwen", "alibaba", "bytedance", "deepseek", "xiaohongshu"]):
+        tags.append("China")
+    if any(k in text for k in ["us", "usa", "america", "openai", "anthropic", "meta", "google", "microsoft", "nvidia", "xai"]):
+        tags.append("US")
+    if any(k in text for k in ["japan", "japanese", "tokyo", "rakuten", "softbank"]):
+        tags.append("Japan")
+    if any(k in text for k in ["korea", "korean", "seoul", "samsung", "naver", "kakao"]):
+        tags.append("Korea")
+    if any(k in text for k in ["europe", "eu", "france", "germany", "uk", "britain", "mistral", "deepmind", "stability ai"]):
+        tags.append("Europe")
+
+    return list(dict.fromkeys(tags))
+
+
+def auto_entity_tags(item: Item) -> list:
+    text = f"{item.title} {item.summary}".lower()
+    tags = []
+
+    mapping = {
+        "OpenAI": ["openai", "gpt"],
+        "Google": ["google", "gemini", "deepmind"],
+        "Meta": ["meta", "llama"],
+        "Microsoft": ["microsoft", "phi", "copilot"],
+        "Anthropic": ["anthropic", "claude"],
+        "Alibaba": ["alibaba", "qwen"],
+        "ByteDance": ["bytedance", "doubao"],
+        "xAI": ["xai", "grok"],
+        "Nvidia": ["nvidia"],
+        "Mistral": ["mistral"],
+        "DeepSeek": ["deepseek"],
+    }
+
+    for name, keywords in mapping.items():
+        if any(k in text for k in keywords):
+            tags.append(name)
+
+    return list(dict.fromkeys(tags))
+
+
+def auto_topic_tags(item: Item) -> list:
+    text = f"{item.title} {item.summary}".lower()
+    tags = []
+
+    if any(k in text for k in ["agent", "agentic", "automation", "browser"]):
+        tags.append("Agent")
+    if any(k in text for k in ["video", "text-to-video"]):
+        tags.append("Video")
+    if any(k in text for k in ["image", "text-to-image", "diffusion", "flux"]):
+        tags.append("Image")
+    if any(k in text for k in ["code", "coding", "copilot", "cursor", "programming"]):
+        tags.append("Coding")
+    if any(k in text for k in ["robot", "robotics", "embodied"]):
+        tags.append("Robotics")
+    if any(k in text for k in ["search", "retrieval", "rag", "embedding", "vector"]):
+        tags.append("Search")
+    if any(k in text for k in ["benchmark", "eval", "evaluation", "leaderboard"]):
+        tags.append("Benchmark")
+    if any(k in text for k in ["open source", "github", "repo"]):
+        tags.append("Open Source")
+    if any(k in text for k in ["infra", "inference", "serving", "training", "gpu"]):
+        tags.append("Infra")
+    if any(k in text for k in ["policy", "regulation", "safety", "alignment"]):
+        tags.append("Policy")
+
+    return list(dict.fromkeys(tags))
+
 
 def auto_why(item: Item) -> str:
     """根据标题和摘要关键词，动态生成中文一句话价值总结。"""
@@ -338,6 +413,9 @@ def scrape_hf_papers() -> list[Item]:
                     scraped_at=now_iso(),
                 )
                 item.tags = auto_tag(item)
+                item.geo_tags = auto_geo_tags(item)
+                item.entity_tags = auto_entity_tags(item)
+                item.topic_tags = auto_topic_tags(item)
                 item.scores = auto_score(item)
                 item.why_it_matters = auto_why(item)
                 item.content_angle = auto_angle(item)

@@ -100,6 +100,8 @@ body{background:var(--bg-0);color:var(--t1);font-family:var(--font-b);line-heigh
 .card-score{font-family:var(--font-m);font-size:.68rem;color:var(--t3)}
 .card-score b{color:var(--green)}
 .card-title{font-family:var(--font-d);font-size:1.1rem;line-height:1.3;margin-bottom:7px}
+.subtags{display:flex;flex-wrap:wrap;gap:6px;margin:-2px 0 10px}
+.subtag{font-size:.62rem;padding:3px 8px;border-radius:999px;border:1px solid var(--border);color:var(--t2);background:rgba(255,255,255,.03)}
 .card-summary{font-size:.82rem;color:var(--t2);margin-bottom:12px;flex:1}
 .card-meta{margin-bottom:10px;padding:10px 12px;background:rgba(255,255,255,.015);border-radius:var(--r-s);border:1px solid rgba(255,255,255,.03)}
 .card-meta-label{font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:3px}
@@ -246,6 +248,16 @@ function buildCard(item, isCover = false) {
   const primaryTag = tags[0] || 'model';
   const eid = 'exp-' + item.id;
 
+  const subTags = [
+    ...(item.geo_tags || []),
+    ...(item.entity_tags || []),
+    ...(item.topic_tags || [])
+  ].slice(0, 6);
+
+  const subTagsHTML = subTags.length
+    ? `<div class="subtags">${subTags.map(t => `<span class="subtag">${t}</span>`).join('')}</div>`
+    : '';
+
   let metaHTML = '';
   if (item.why_it_matters) {
     metaHTML += `<div class="card-meta"><div class="card-meta-label why">⭐ 为什么值得看</div><div class="card-meta-text">${item.why_it_matters}</div></div>`;
@@ -280,6 +292,7 @@ function buildCard(item, isCover = false) {
     <div class="card anim" data-tag="${primaryTag}" style="animation-delay:${Math.random() * 0.2}s">
       <div class="card-top">${buildTag(primaryTag)}<span class="card-score"><b>${total}</b>/40</span></div>
       <h3 class="card-title">${item.title}</h3>
+      ${subTagsHTML}
       <p class="card-summary">${item.summary}</p>
       ${metaHTML}
       <div class="card-actions">${btns}</div>

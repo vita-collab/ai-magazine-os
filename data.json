@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-07-14T23:47:48.460155+00:00",
+    "updated_at": "2026-07-15T23:54:15.625567+00:00",
     "total_items": 27,
     "sources_scraped": [
       "hf_papers",
@@ -24,14 +24,14 @@
     {
       "label": "hype",
       "labelText": "Hype 预警",
-      "title": "AI 产品同质化严重",
-      "text": "大量包装类 AI 产品涌现，核心差异化不足"
+      "title": "AGI 叙事再次升温",
+      "text": "AGI 时间线预测频繁出现，但具体评估标准仍然模糊"
     },
     {
-      "label": "real",
-      "labelText": "真方向",
-      "title": "多模态成为标配",
-      "text": "文本、图像、音频、视频的统一处理能力越来越普遍"
+      "label": "watch",
+      "labelText": "值得关注",
+      "title": "Benchmark 刷新频率加快",
+      "text": "模型性能天花板持续提升，但实际应用差距仍待验证"
     },
     {
       "label": "watch",
@@ -48,69 +48,9 @@
   ],
   "cover": [
     {
-      "id": "517bf2e751ce",
-      "title": "A Theory of Contrastive Learning with Natural Images",
-      "summary": "Why does contrastive learning with simple images and augmentations yield useful representations for downstream tasks? We address this question by analytically computing the optimal representation in…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Image"
-      ],
-      "read_url": "https://huggingface.co/papers/2607.07470",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.07470",
-      "why_it_matters": "A Theory of Contrastive… 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 A Theory of Contrastive…，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 7,
-        "total": 18
-      },
-      "scraped_at": "2026-07-14T23:47:46.668942+00:00"
-    },
-    {
-      "id": "4e52dee20c9a",
-      "title": "Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model",
-      "summary": "Recent foundation image and video generation models offer strong generalization and controllability, but their direct application to embodied scenarios is limited by requirements for multi-view…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Video",
-        "Image",
-        "Robotics"
-      ],
-      "read_url": "https://huggingface.co/papers/2607.11643",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.11643",
-      "why_it_matters": "Xiaomi-Robotics-U0 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 Xiaomi-Robotics-U0 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 9,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 18
-      },
-      "scraped_at": "2026-07-14T23:47:46.669061+00:00"
-    },
-    {
-      "id": "17315f071769",
-      "title": "ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory",
-      "summary": "Recent VLM and VLA systems have improved robotic perception and action prediction, yet long-horizon embodied agents still require a general runtime layer for reasoning, memory, tool use,…",
+      "id": "5170e36bd989",
+      "title": "Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models",
+      "summary": "Coding agents must integrate external tool returns into ongoing reasoning - a capability that standard left-to-right pretraining on code exposes only in its forward direction. We observe that the…",
       "source": "hf_papers",
       "tags": [
         "model",
@@ -122,27 +62,83 @@
       "entity_tags": [],
       "topic_tags": [
         "Agent",
-        "Robotics"
+        "Coding",
+        "Infra"
       ],
-      "read_url": "https://huggingface.co/papers/2607.10350",
+      "read_url": "https://huggingface.co/papers/2607.12463",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.10350",
-      "why_it_matters": "ABot-AgentOS 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 ABot-AgentOS 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "engage_url": "https://huggingface.co/papers/2607.12463",
+      "why_it_matters": "Function-Aware… 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 Function-Aware… 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
       "scores": {
-        "knowledge_value": 5,
+        "knowledge_value": 9,
         "marketing_value": 7,
         "forkability": 3,
         "engageability": 3,
+        "total": 22
+      },
+      "scraped_at": "2026-07-15T23:54:13.278717+00:00"
+    },
+    {
+      "id": "6ae342936089",
+      "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+      "summary": "In this paper, we propose SpectraReward, a training-free reward function that turns pretrained MLLMs into off-the-shelf reward models for image-generation reinforcement learning. Instead of asking…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Image",
+        "Infra"
+      ],
+      "read_url": "https://huggingface.co/papers/2607.11886",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.11886",
+      "why_it_matters": "Read It Back 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 Read It Back 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+      "scores": {
+        "knowledge_value": 7,
+        "marketing_value": 7,
+        "forkability": 3,
+        "engageability": 5,
+        "total": 22
+      },
+      "scraped_at": "2026-07-15T23:54:13.280503+00:00"
+    },
+    {
+      "id": "f20034bd15bf",
+      "title": "What LLM Forecasters Know but Don't Say: Probing Internal Representations for Calibration and Faithfulness",
+      "summary": "Large language models fine-tuned for forecasting can be accurate yet poorly calibrated, and their chain-of-thought (CoT) reasoning may not faithfully reflect the evidence behind a forecast. We ask…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [],
+      "read_url": "https://huggingface.co/papers/2607.08046",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.08046",
+      "why_it_matters": "What LLM Forecasters Know but… 降低了定制模型的门槛，小团队也能训练专属 AI",
+      "content_angle": "写 What LLM Forecasters Know but… 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
+      "scores": {
+        "knowledge_value": 7,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 5,
         "total": 18
       },
-      "scraped_at": "2026-07-14T23:47:46.670187+00:00"
+      "scraped_at": "2026-07-15T23:54:13.278946+00:00"
     },
     {
       "id": "2c8a094ec358",
       "title": "Shubhamsaboo/awesome-llm-apps",
-      "summary": "[Python] 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. · 1,104 stars today",
+      "summary": "[Python] 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. · 1,278 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -164,30 +160,28 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-07-14T23:47:47.836876+00:00"
+      "scraped_at": "2026-07-15T23:54:14.693307+00:00"
     },
     {
-      "id": "f740f7442a91",
-      "title": "EgoSteer: A Full-Stack System Towards Steerable Dexterous Manipulation from Egocentric Videos",
-      "summary": "Steerability is a defining capability of generalist robot policies, yet remains largely absent in dexterous-hand systems for lack of large-scale, language-aligned, and action-accurate demonstration…",
+      "id": "a56eb7e1d2d3",
+      "title": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
+      "summary": "Mainstream visual encoders are pretrained on natural images and cannot be effectively applied to document images without document-oriented adaptation, as dense text and fine-grained character strokes…",
       "source": "hf_papers",
       "tags": [
         "model"
       ],
-      "geo_tags": [
-        "US"
-      ],
+      "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [
-        "Video",
-        "Robotics"
+        "Image",
+        "Coding"
       ],
-      "read_url": "https://huggingface.co/papers/2607.09701",
+      "read_url": "https://huggingface.co/papers/2607.11562",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.09701",
-      "why_it_matters": "EgoSteer 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 EgoSteer，发帖「一句话看懂今天的 AI 论文」",
+      "engage_url": "https://huggingface.co/papers/2607.11562",
+      "why_it_matters": "MonkeyOCRv2 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 MonkeyOCRv2 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 7,
@@ -195,31 +189,57 @@
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-07-14T23:47:46.669147+00:00"
+      "scraped_at": "2026-07-15T23:54:13.279510+00:00"
     },
     {
-      "id": "ae9f0b1038a2",
-      "title": "Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals",
-      "summary": "Post-training is essential for refining the domain-specific capabilities of large language models (LLMs), yet existing reward optimization and distribution matching methods tightly couple policy…",
+      "id": "24139e8dc9c4",
+      "title": "Let RGB Be the Language of Vision",
+      "summary": "This work introduces a unified formulation for vision models, where diverse forms of visual information beyond natural images, such as masks, depth maps, and other structured visual signals, are all…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Image"
+      ],
+      "read_url": "https://huggingface.co/papers/2607.12450",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.12450",
+      "why_it_matters": "Let RGB Be the Language of… 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+      "content_angle": "用通俗语言解读 Let RGB Be the Language of…，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 5,
+        "total": 16
+      },
+      "scraped_at": "2026-07-15T23:54:13.279657+00:00"
+    },
+    {
+      "id": "0d4033c42462",
+      "title": "Principled Analysis of Deep Reinforcement Learning Evaluation and Design Paradigms",
+      "summary": "Starting from the utilization of deep neural networks to approximate the state-action value function that led to winning one of the most challenging games, to algorithmic advancements that allowed…",
       "source": "hf_papers",
       "tags": [
         "model"
       ],
       "geo_tags": [
-        "US",
         "Europe"
       ],
       "entity_tags": [],
       "topic_tags": [
-        "Infra",
-        "Policy"
+        "Benchmark"
       ],
-      "read_url": "https://huggingface.co/papers/2607.11505",
+      "read_url": "https://huggingface.co/papers/2607.07769",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.11505",
-      "why_it_matters": "Proxy Exploration and… 降低了定制模型的门槛，小团队也能训练专属 AI",
-      "content_angle": "写 Proxy Exploration and… 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
+      "engage_url": "https://huggingface.co/papers/2607.07769",
+      "why_it_matters": "Principled Analysis of Deep… 提供了新的评估标准，帮助判断哪些模型真正好用",
+      "content_angle": "写一篇 Principled Analysis of Deep… 的安装和上手教程，发帖「这个开源项目值得试」",
       "scores": {
         "knowledge_value": 5,
         "marketing_value": 5,
@@ -227,127 +247,43 @@
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-07-14T23:47:46.669373+00:00"
+      "scraped_at": "2026-07-15T23:54:13.280136+00:00"
     },
     {
-      "id": "7ab8181739ff",
-      "title": "hasaneyldrm/exercises-dataset",
-      "summary": "[HTML] 1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app. · 864 stars today",
-      "source": "github",
+      "id": "a99f2e19b1fd",
+      "title": "Blind-Spots-Bench: Evaluating Blind Spots in Multimodal Models",
+      "summary": "Modern AI models achieve strong performance on many established benchmarks, yet they still fail on tasks that humans find almost trivial, such as manipulating a string or drawing a dog with five…",
+      "source": "hf_papers",
       "tags": [
-        "repo"
+        "model"
       ],
       "geo_tags": [],
       "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "topic_tags": [
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2607.08317",
       "try_url": "",
-      "fork_url": "https://github.com/hasaneyldrm/exercises-dataset",
-      "engage_url": "https://github.com/hasaneyldrm/exercises-dataset/discussions",
-      "why_it_matters": "exercises-dataset 提供了新的评估标准，帮助判断哪些模型真正好用",
-      "content_angle": "写一篇 exercises-dataset 的安装和上手教程，发帖「这个开源项目值得试」",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.08317",
+      "why_it_matters": "Blind-Spots-Bench 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+      "content_angle": "用通俗语言解读 Blind-Spots-Bench，发帖「一句话看懂今天的 AI 论文」",
       "scores": {
         "knowledge_value": 5,
-        "marketing_value": 5,
+        "marketing_value": 3,
         "forkability": 3,
-        "engageability": 3,
+        "engageability": 5,
         "total": 16
       },
-      "scraped_at": "2026-07-14T23:47:47.840873+00:00"
-    },
-    {
-      "id": "5c7f6ac485d7",
-      "title": "AIEraDev/Clypra",
-      "summary": "[TypeScript] A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities · 66 stars today",
-      "source": "github",
-      "tags": [
-        "repo"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://github.com/AIEraDev/Clypra",
-      "try_url": "",
-      "fork_url": "https://github.com/AIEraDev/Clypra",
-      "engage_url": "https://github.com/AIEraDev/Clypra/discussions",
-      "why_it_matters": "Clypra 正在 GitHub 上快速增长，说明开发者有真实需求",
-      "content_angle": "写一篇 Clypra 的安装和上手教程，发帖「这个开源项目值得试」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 7,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 16
-      },
-      "scraped_at": "2026-07-14T23:47:47.841762+00:00"
+      "scraped_at": "2026-07-15T23:54:13.280320+00:00"
     }
   ],
   "sections": {
     "models": [
       {
-        "id": "517bf2e751ce",
-        "title": "A Theory of Contrastive Learning with Natural Images",
-        "summary": "Why does contrastive learning with simple images and augmentations yield useful representations for downstream tasks? We address this question by analytically computing the optimal representation in…",
-        "source": "hf_papers",
-        "tags": [
-          "model"
-        ],
-        "geo_tags": [
-          "US"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
-          "Image"
-        ],
-        "read_url": "https://huggingface.co/papers/2607.07470",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2607.07470",
-        "why_it_matters": "A Theory of Contrastive… 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-        "content_angle": "用通俗语言解读 A Theory of Contrastive…，发帖「一句话看懂今天的 AI 论文」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 7,
-          "total": 18
-        },
-        "scraped_at": "2026-07-14T23:47:46.668942+00:00"
-      },
-      {
-        "id": "4e52dee20c9a",
-        "title": "Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model",
-        "summary": "Recent foundation image and video generation models offer strong generalization and controllability, but their direct application to embodied scenarios is limited by requirements for multi-view…",
-        "source": "hf_papers",
-        "tags": [
-          "model"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Video",
-          "Image",
-          "Robotics"
-        ],
-        "read_url": "https://huggingface.co/papers/2607.11643",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2607.11643",
-        "why_it_matters": "Xiaomi-Robotics-U0 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-        "content_angle": "拿 Xiaomi-Robotics-U0 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 9,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-07-14T23:47:46.669061+00:00"
-      },
-      {
-        "id": "17315f071769",
-        "title": "ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory",
-        "summary": "Recent VLM and VLA systems have improved robotic perception and action prediction, yet long-horizon embodied agents still require a general runtime layer for reasoning, memory, tool use,…",
+        "id": "5170e36bd989",
+        "title": "Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models",
+        "summary": "Coding agents must integrate external tool returns into ongoing reasoning - a capability that standard left-to-right pretraining on code exposes only in its forward direction. We observe that the…",
         "source": "hf_papers",
         "tags": [
           "model",
@@ -359,45 +295,99 @@
         "entity_tags": [],
         "topic_tags": [
           "Agent",
-          "Robotics"
+          "Coding",
+          "Infra"
         ],
-        "read_url": "https://huggingface.co/papers/2607.10350",
+        "read_url": "https://huggingface.co/papers/2607.12463",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2607.10350",
-        "why_it_matters": "ABot-AgentOS 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 ABot-AgentOS 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "engage_url": "https://huggingface.co/papers/2607.12463",
+        "why_it_matters": "Function-Aware… 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 Function-Aware… 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
         "scores": {
-          "knowledge_value": 5,
+          "knowledge_value": 9,
           "marketing_value": 7,
           "forkability": 3,
           "engageability": 3,
-          "total": 18
+          "total": 22
         },
-        "scraped_at": "2026-07-14T23:47:46.670187+00:00"
+        "scraped_at": "2026-07-15T23:54:13.278717+00:00"
       },
       {
-        "id": "f740f7442a91",
-        "title": "EgoSteer: A Full-Stack System Towards Steerable Dexterous Manipulation from Egocentric Videos",
-        "summary": "Steerability is a defining capability of generalist robot policies, yet remains largely absent in dexterous-hand systems for lack of large-scale, language-aligned, and action-accurate demonstration…",
+        "id": "6ae342936089",
+        "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+        "summary": "In this paper, we propose SpectraReward, a training-free reward function that turns pretrained MLLMs into off-the-shelf reward models for image-generation reinforcement learning. Instead of asking…",
         "source": "hf_papers",
         "tags": [
           "model"
         ],
-        "geo_tags": [
-          "US"
-        ],
+        "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [
-          "Video",
-          "Robotics"
+          "Image",
+          "Infra"
         ],
-        "read_url": "https://huggingface.co/papers/2607.09701",
+        "read_url": "https://huggingface.co/papers/2607.11886",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2607.09701",
-        "why_it_matters": "EgoSteer 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-        "content_angle": "用通俗语言解读 EgoSteer，发帖「一句话看懂今天的 AI 论文」",
+        "engage_url": "https://huggingface.co/papers/2607.11886",
+        "why_it_matters": "Read It Back 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+        "content_angle": "拿 Read It Back 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+        "scores": {
+          "knowledge_value": 7,
+          "marketing_value": 7,
+          "forkability": 3,
+          "engageability": 5,
+          "total": 22
+        },
+        "scraped_at": "2026-07-15T23:54:13.280503+00:00"
+      },
+      {
+        "id": "f20034bd15bf",
+        "title": "What LLM Forecasters Know but Don't Say: Probing Internal Representations for Calibration and Faithfulness",
+        "summary": "Large language models fine-tuned for forecasting can be accurate yet poorly calibrated, and their chain-of-thought (CoT) reasoning may not faithfully reflect the evidence behind a forecast. We ask…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://huggingface.co/papers/2607.08046",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2607.08046",
+        "why_it_matters": "What LLM Forecasters Know but… 降低了定制模型的门槛，小团队也能训练专属 AI",
+        "content_angle": "写 What LLM Forecasters Know but… 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
+        "scores": {
+          "knowledge_value": 7,
+          "marketing_value": 3,
+          "forkability": 3,
+          "engageability": 5,
+          "total": 18
+        },
+        "scraped_at": "2026-07-15T23:54:13.278946+00:00"
+      },
+      {
+        "id": "a56eb7e1d2d3",
+        "title": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
+        "summary": "Mainstream visual encoders are pretrained on natural images and cannot be effectively applied to document images without document-oriented adaptation, as dense text and fine-grained character strokes…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Image",
+          "Coding"
+        ],
+        "read_url": "https://huggingface.co/papers/2607.11562",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2607.11562",
+        "why_it_matters": "MonkeyOCRv2 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 MonkeyOCRv2 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
         "scores": {
           "knowledge_value": 3,
           "marketing_value": 7,
@@ -405,31 +395,57 @@
           "engageability": 3,
           "total": 16
         },
-        "scraped_at": "2026-07-14T23:47:46.669147+00:00"
+        "scraped_at": "2026-07-15T23:54:13.279510+00:00"
       },
       {
-        "id": "ae9f0b1038a2",
-        "title": "Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals",
-        "summary": "Post-training is essential for refining the domain-specific capabilities of large language models (LLMs), yet existing reward optimization and distribution matching methods tightly couple policy…",
+        "id": "24139e8dc9c4",
+        "title": "Let RGB Be the Language of Vision",
+        "summary": "This work introduces a unified formulation for vision models, where diverse forms of visual information beyond natural images, such as masks, depth maps, and other structured visual signals, are all…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Image"
+        ],
+        "read_url": "https://huggingface.co/papers/2607.12450",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2607.12450",
+        "why_it_matters": "Let RGB Be the Language of… 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+        "content_angle": "用通俗语言解读 Let RGB Be the Language of…，发帖「一句话看懂今天的 AI 论文」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 5,
+          "total": 16
+        },
+        "scraped_at": "2026-07-15T23:54:13.279657+00:00"
+      },
+      {
+        "id": "0d4033c42462",
+        "title": "Principled Analysis of Deep Reinforcement Learning Evaluation and Design Paradigms",
+        "summary": "Starting from the utilization of deep neural networks to approximate the state-action value function that led to winning one of the most challenging games, to algorithmic advancements that allowed…",
         "source": "hf_papers",
         "tags": [
           "model"
         ],
         "geo_tags": [
-          "US",
           "Europe"
         ],
         "entity_tags": [],
         "topic_tags": [
-          "Infra",
-          "Policy"
+          "Benchmark"
         ],
-        "read_url": "https://huggingface.co/papers/2607.11505",
+        "read_url": "https://huggingface.co/papers/2607.07769",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2607.11505",
-        "why_it_matters": "Proxy Exploration and… 降低了定制模型的门槛，小团队也能训练专属 AI",
-        "content_angle": "写 Proxy Exploration and… 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
+        "engage_url": "https://huggingface.co/papers/2607.07769",
+        "why_it_matters": "Principled Analysis of Deep… 提供了新的评估标准，帮助判断哪些模型真正好用",
+        "content_angle": "写一篇 Principled Analysis of Deep… 的安装和上手教程，发帖「这个开源项目值得试」",
         "scores": {
           "knowledge_value": 5,
           "marketing_value": 5,
@@ -437,92 +453,68 @@
           "engageability": 3,
           "total": 16
         },
-        "scraped_at": "2026-07-14T23:47:46.669373+00:00"
+        "scraped_at": "2026-07-15T23:54:13.280136+00:00"
       },
       {
-        "id": "66f0dedafb5d",
-        "title": "Multi-Agent LLMs Fail to Explore Each Other",
-        "summary": "Exploration is essential for reliable autonomy in multi-agent systems, yet it remains unclear whether large language model (LLM) agents can explore effectively when interacting with one another. We…",
+        "id": "a99f2e19b1fd",
+        "title": "Blind-Spots-Bench: Evaluating Blind Spots in Multimodal Models",
+        "summary": "Modern AI models achieve strong performance on many established benchmarks, yet they still fail on tasks that humans find almost trivial, such as manipulating a string or drawing a dog with five…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Benchmark"
+        ],
+        "read_url": "https://huggingface.co/papers/2607.08317",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2607.08317",
+        "why_it_matters": "Blind-Spots-Bench 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+        "content_angle": "用通俗语言解读 Blind-Spots-Bench，发帖「一句话看懂今天的 AI 论文」",
+        "scores": {
+          "knowledge_value": 5,
+          "marketing_value": 3,
+          "forkability": 3,
+          "engageability": 5,
+          "total": 16
+        },
+        "scraped_at": "2026-07-15T23:54:13.280320+00:00"
+      },
+      {
+        "id": "1b41398ead60",
+        "title": "Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution",
+        "summary": "LLM-based coding agents have significantly advanced automated software issue resolution, yet they remain highly prone to factual errors caused by insufficient repository understanding. Recent methods…",
         "source": "hf_papers",
         "tags": [
           "model",
           "tool"
         ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent"
-        ],
-        "read_url": "https://huggingface.co/papers/2607.11250",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2607.11250",
-        "why_it_matters": "Multi-Agent LLMs Fail to… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 Multi-Agent LLMs Fail to… 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 14
-        },
-        "scraped_at": "2026-07-14T23:47:46.668533+00:00"
-      },
-      {
-        "id": "fbcdb09c0e98",
-        "title": "Evidence-Backed Video Question Answering",
-        "summary": "Current Video Large Language Models (Video LLMs) excel in question answering (QA) but largely operate as black boxes, providing textual answers without verifiable visual grounding. Existing…",
-        "source": "hf_papers",
-        "tags": [
-          "model"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Video"
-        ],
-        "read_url": "https://huggingface.co/papers/2607.11862",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2607.11862",
-        "why_it_matters": "Evidence-Backed Video… 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-        "content_angle": "用通俗语言解读 Evidence-Backed Video…，发帖「一句话看懂今天的 AI 论文」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 14
-        },
-        "scraped_at": "2026-07-14T23:47:46.668682+00:00"
-      },
-      {
-        "id": "fe1f67f448d5",
-        "title": "MET: Theory-Grounded and Culture-Aware Multilingual Moral Reasoning",
-        "summary": "Language models are increasingly used for moral decision-making across diverse linguistic and cultural contexts, yet existing work overlooks multilinguality on three aspects: 1) multilingual…",
-        "source": "hf_papers",
-        "tags": [
-          "model"
-        ],
         "geo_tags": [
           "US"
         ],
         "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://huggingface.co/papers/2607.11736",
+        "topic_tags": [
+          "Agent",
+          "Coding",
+          "Open Source"
+        ],
+        "read_url": "https://huggingface.co/papers/2607.11111",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2607.11736",
-        "why_it_matters": "MET 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-        "content_angle": "用通俗语言解读 MET，发帖「一句话看懂今天的 AI 论文」",
+        "engage_url": "https://huggingface.co/papers/2607.11111",
+        "why_it_matters": "Know Before Fix 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 Know Before Fix 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
         "scores": {
-          "knowledge_value": 5,
-          "marketing_value": 3,
-          "forkability": 3,
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 5,
           "engageability": 3,
-          "total": 14
+          "total": 16
         },
-        "scraped_at": "2026-07-14T23:47:46.668811+00:00"
+        "scraped_at": "2026-07-15T23:54:13.280648+00:00"
       }
     ],
     "products": [],
@@ -530,7 +522,7 @@
       {
         "id": "2c8a094ec358",
         "title": "Shubhamsaboo/awesome-llm-apps",
-        "summary": "[Python] 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. · 1,104 stars today",
+        "summary": "[Python] 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. · 1,278 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -552,91 +544,12 @@
           "engageability": 3,
           "total": 18
         },
-        "scraped_at": "2026-07-14T23:47:47.836876+00:00"
-      },
-      {
-        "id": "7ab8181739ff",
-        "title": "hasaneyldrm/exercises-dataset",
-        "summary": "[HTML] 1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app. · 864 stars today",
-        "source": "github",
-        "tags": [
-          "repo"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/hasaneyldrm/exercises-dataset",
-        "try_url": "",
-        "fork_url": "https://github.com/hasaneyldrm/exercises-dataset",
-        "engage_url": "https://github.com/hasaneyldrm/exercises-dataset/discussions",
-        "why_it_matters": "exercises-dataset 提供了新的评估标准，帮助判断哪些模型真正好用",
-        "content_angle": "写一篇 exercises-dataset 的安装和上手教程，发帖「这个开源项目值得试」",
-        "scores": {
-          "knowledge_value": 5,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 16
-        },
-        "scraped_at": "2026-07-14T23:47:47.840873+00:00"
-      },
-      {
-        "id": "5c7f6ac485d7",
-        "title": "AIEraDev/Clypra",
-        "summary": "[TypeScript] A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities · 66 stars today",
-        "source": "github",
-        "tags": [
-          "repo"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/AIEraDev/Clypra",
-        "try_url": "",
-        "fork_url": "https://github.com/AIEraDev/Clypra",
-        "engage_url": "https://github.com/AIEraDev/Clypra/discussions",
-        "why_it_matters": "Clypra 正在 GitHub 上快速增长，说明开发者有真实需求",
-        "content_angle": "写一篇 Clypra 的安装和上手教程，发帖「这个开源项目值得试」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 16
-        },
-        "scraped_at": "2026-07-14T23:47:47.841762+00:00"
-      },
-      {
-        "id": "3cb1656cf1e3",
-        "title": "Dicklesworthstone/destructive_command_guard",
-        "summary": "[Rust] The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents. · 481 stars today",
-        "source": "github",
-        "tags": [
-          "repo",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-        "try_url": "",
-        "fork_url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-        "engage_url": "https://github.com/Dicklesworthstone/destructive_command_guard/discussions",
-        "why_it_matters": "destructive_command_guard 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 destructive_command_guard 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 14
-        },
-        "scraped_at": "2026-07-14T23:47:47.837974+00:00"
+        "scraped_at": "2026-07-15T23:54:14.693307+00:00"
       },
       {
         "id": "05275031be29",
         "title": "OpenCut-app/OpenCut",
-        "summary": "[TypeScript] The open-source CapCut alternative · 4,349 stars today",
+        "summary": "[TypeScript] The open-source CapCut alternative · 1,505 stars today",
         "source": "github",
         "tags": [
           "repo"
@@ -657,12 +570,65 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-07-14T23:47:47.838522+00:00"
+        "scraped_at": "2026-07-15T23:54:14.689504+00:00"
+      },
+      {
+        "id": "856f0a7511cd",
+        "title": "moeru-ai/airi",
+        "summary": "[TypeScript] 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat,… · 144 stars today",
+        "source": "github",
+        "tags": [
+          "repo"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/moeru-ai/airi",
+        "try_url": "",
+        "fork_url": "https://github.com/moeru-ai/airi",
+        "engage_url": "https://github.com/moeru-ai/airi/discussions",
+        "why_it_matters": "airi 正在 GitHub 上快速增长，说明开发者有真实需求",
+        "content_angle": "写一篇 airi 的安装和上手教程，发帖「这个开源项目值得试」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 3,
+          "forkability": 3,
+          "engageability": 5,
+          "total": 14
+        },
+        "scraped_at": "2026-07-15T23:54:14.690813+00:00"
+      },
+      {
+        "id": "3cb1656cf1e3",
+        "title": "Dicklesworthstone/destructive_command_guard",
+        "summary": "[Rust] The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents. · 497 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+        "try_url": "",
+        "fork_url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+        "engage_url": "https://github.com/Dicklesworthstone/destructive_command_guard/discussions",
+        "why_it_matters": "destructive_command_guard 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 destructive_command_guard 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 14
+        },
+        "scraped_at": "2026-07-15T23:54:14.691314+00:00"
       },
       {
         "id": "0bcd8bdd1c96",
         "title": "HKUDS/Vibe-Trading",
-        "summary": "[Python] \"Vibe-Trading: Your Personal Trading Agent\" · 1,265 stars today",
+        "summary": "[Python] \"Vibe-Trading: Your Personal Trading Agent\" · 924 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -684,25 +650,26 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-07-14T23:47:47.839875+00:00"
+        "scraped_at": "2026-07-15T23:54:14.691698+00:00"
       },
       {
-        "id": "9eb313c10989",
-        "title": "Raphire/Win11Debloat",
-        "summary": "[PowerShell] A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience.… · 779 stars today",
+        "id": "6c44f9779880",
+        "title": "openinterpreter/openinterpreter",
+        "summary": "[Rust] A coding agent for low-cost models · 345 stars today",
         "source": "github",
         "tags": [
-          "repo"
+          "repo",
+          "tool"
         ],
         "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [],
-        "read_url": "https://github.com/Raphire/Win11Debloat",
+        "read_url": "https://github.com/openinterpreter/openinterpreter",
         "try_url": "",
-        "fork_url": "https://github.com/Raphire/Win11Debloat",
-        "engage_url": "https://github.com/Raphire/Win11Debloat/discussions",
-        "why_it_matters": "Win11Debloat 是可以直接用的工具，能立刻提升你的工作效率",
-        "content_angle": "写一篇 Win11Debloat 的安装和上手教程，发帖「这个开源项目值得试」",
+        "fork_url": "https://github.com/openinterpreter/openinterpreter",
+        "engage_url": "https://github.com/openinterpreter/openinterpreter/discussions",
+        "why_it_matters": "openinterpreter 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 openinterpreter 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
         "scores": {
           "knowledge_value": 3,
           "marketing_value": 5,
@@ -710,12 +677,12 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-07-14T23:47:47.840397+00:00"
+        "scraped_at": "2026-07-15T23:54:14.692065+00:00"
       },
       {
-        "id": "c0a12ac997ed",
-        "title": "1c7/chinese-independent-developer",
-        "summary": "[Python] 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么 · 1,194 stars today",
+        "id": "52d084fab5cd",
+        "title": "HenryNdubuaku/maths-cs-ai-compendium",
+        "summary": "[TypeScript] Become a cracked AI/ML Research Engineer · 729 stars today",
         "source": "github",
         "tags": [
           "repo"
@@ -723,27 +690,54 @@
         "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [],
-        "read_url": "https://github.com/1c7/chinese-independent-developer",
+        "read_url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
         "try_url": "",
-        "fork_url": "https://github.com/1c7/chinese-independent-developer",
-        "engage_url": "https://github.com/1c7/chinese-independent-developer/discussions",
-        "why_it_matters": "chinese-independent-developer 正在 GitHub 上快速增长，说明开发者有真实需求",
-        "content_angle": "写一篇 chinese-independent-developer 的安装和上手教程，发帖「这个开源项目值得试」",
+        "fork_url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+        "engage_url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium/discussions",
+        "why_it_matters": "maths-cs-ai-compendium 提升了 AI 获取和使用外部知识的能力，准确率更高了",
+        "content_angle": "用 maths-cs-ai-compendium 搭一个简单知识库 demo，发帖「10 分钟搭建 AI 知识助手」",
         "scores": {
-          "knowledge_value": 3,
+          "knowledge_value": 5,
           "marketing_value": 3,
           "forkability": 3,
           "engageability": 3,
-          "total": 12
+          "total": 14
         },
-        "scraped_at": "2026-07-14T23:47:47.836322+00:00"
+        "scraped_at": "2026-07-15T23:54:14.692932+00:00"
+      },
+      {
+        "id": "0dd44027b83b",
+        "title": "coreyhaines31/marketingskills",
+        "summary": "[JavaScript] Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. · 390 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/coreyhaines31/marketingskills",
+        "try_url": "",
+        "fork_url": "https://github.com/coreyhaines31/marketingskills",
+        "engage_url": "https://github.com/coreyhaines31/marketingskills/discussions",
+        "why_it_matters": "marketingskills 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 marketingskills 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 14
+        },
+        "scraped_at": "2026-07-15T23:54:14.693766+00:00"
       }
     ],
     "tools": [
       {
-        "id": "17315f071769",
-        "title": "ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory",
-        "summary": "Recent VLM and VLA systems have improved robotic perception and action prediction, yet long-horizon embodied agents still require a general runtime layer for reasoning, memory, tool use,…",
+        "id": "5170e36bd989",
+        "title": "Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models",
+        "summary": "Coding agents must integrate external tool returns into ongoing reasoning - a capability that standard left-to-right pretraining on code exposes only in its forward direction. We observe that the…",
         "source": "hf_papers",
         "tags": [
           "model",
@@ -755,27 +749,28 @@
         "entity_tags": [],
         "topic_tags": [
           "Agent",
-          "Robotics"
+          "Coding",
+          "Infra"
         ],
-        "read_url": "https://huggingface.co/papers/2607.10350",
+        "read_url": "https://huggingface.co/papers/2607.12463",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2607.10350",
-        "why_it_matters": "ABot-AgentOS 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 ABot-AgentOS 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "engage_url": "https://huggingface.co/papers/2607.12463",
+        "why_it_matters": "Function-Aware… 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 Function-Aware… 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
         "scores": {
-          "knowledge_value": 5,
+          "knowledge_value": 9,
           "marketing_value": 7,
           "forkability": 3,
           "engageability": 3,
-          "total": 18
+          "total": 22
         },
-        "scraped_at": "2026-07-14T23:47:46.670187+00:00"
+        "scraped_at": "2026-07-15T23:54:13.278717+00:00"
       },
       {
         "id": "2c8a094ec358",
         "title": "Shubhamsaboo/awesome-llm-apps",
-        "summary": "[Python] 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. · 1,104 stars today",
+        "summary": "[Python] 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. · 1,278 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -797,7 +792,104 @@
           "engageability": 3,
           "total": 18
         },
-        "scraped_at": "2026-07-14T23:47:47.836876+00:00"
+        "scraped_at": "2026-07-15T23:54:14.693307+00:00"
+      },
+      {
+        "id": "1b41398ead60",
+        "title": "Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution",
+        "summary": "LLM-based coding agents have significantly advanced automated software issue resolution, yet they remain highly prone to factual errors caused by insufficient repository understanding. Recent methods…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [
+          "US"
+        ],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Coding",
+          "Open Source"
+        ],
+        "read_url": "https://huggingface.co/papers/2607.11111",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2607.11111",
+        "why_it_matters": "Know Before Fix 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 Know Before Fix 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 5,
+          "engageability": 3,
+          "total": 16
+        },
+        "scraped_at": "2026-07-15T23:54:13.280648+00:00"
+      },
+      {
+        "id": "0a5b04de31a3",
+        "title": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
+        "summary": "Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities,…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [
+          "US"
+        ],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Search"
+        ],
+        "read_url": "https://huggingface.co/papers/2607.05382",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2607.05382",
+        "why_it_matters": "Search Beyond What Can Be… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 Search Beyond What Can Be… 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 14
+        },
+        "scraped_at": "2026-07-15T23:54:13.279343+00:00"
+      },
+      {
+        "id": "e96a62b63539",
+        "title": "Towards Autonomous and Auditable Medical Imaging Model Development",
+        "summary": "Large language model (LLM) agents are beginning to automate machine learning engineering (MLE) by coupling planning, code execution, debugging, and empirical feedback. Translating this capability to…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [
+          "US"
+        ],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Coding"
+        ],
+        "read_url": "https://huggingface.co/papers/2607.10522",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2607.10522",
+        "why_it_matters": "Towards Autonomous and… 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 Towards Autonomous and… 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 14
+        },
+        "scraped_at": "2026-07-15T23:54:13.279985+00:00"
       },
       {
         "id": "66f0dedafb5d",
@@ -826,12 +918,12 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-07-14T23:47:46.668533+00:00"
+        "scraped_at": "2026-07-15T23:54:13.280794+00:00"
       },
       {
         "id": "3cb1656cf1e3",
         "title": "Dicklesworthstone/destructive_command_guard",
-        "summary": "[Rust] The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents. · 481 stars today",
+        "summary": "[Rust] The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents. · 497 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -853,12 +945,12 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-07-14T23:47:47.837974+00:00"
+        "scraped_at": "2026-07-15T23:54:14.691314+00:00"
       },
       {
         "id": "0bcd8bdd1c96",
         "title": "HKUDS/Vibe-Trading",
-        "summary": "[Python] \"Vibe-Trading: Your Personal Trading Agent\" · 1,265 stars today",
+        "summary": "[Python] \"Vibe-Trading: Your Personal Trading Agent\" · 924 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -880,7 +972,7 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-07-14T23:47:47.839875+00:00"
+        "scraped_at": "2026-07-15T23:54:14.691698+00:00"
       }
     ],
     "discussions": []
@@ -899,98 +991,38 @@
       "title": "📝 可发内容 Top 5",
       "text": "营销价值最高的话题",
       "items": [
-        "「Xiaomi-Robotics-U0: Unified Em」—— 拿 Xiaomi-Robotics-U0 生成一组作品截图，发帖「AI 做的图/",
-        "「ABot-AgentOS: A General Roboti」—— 录制 ABot-AgentOS 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "「Function-Aware Fill-in-the-Mid」—— 用 Function-Aware… 完成一个实际任务，录屏发帖「AI 写代码 v",
+        "「Read It Back: Pretrained MLLMs」—— 拿 Read It Back 生成一组作品截图，发帖「AI 做的图/视频能到什么",
         "「Shubhamsaboo/awesome-llm-apps」—— 录制 awesome-llm-apps 自动完成任务的过程，发帖「AI 自动化实",
-        "「EgoSteer: A Full-Stack System 」—— 用通俗语言解读 EgoSteer，发帖「一句话看懂今天的 AI 论文」",
-        "「AIEraDev/Clypra」—— 写一篇 Clypra 的安装和上手教程，发帖「这个开源项目值得试」"
+        "「MonkeyOCRv2: A Visual-Text Fou」—— 用 MonkeyOCRv2 完成一个实际任务，录屏发帖「AI 写代码 vs 人写",
+        "「Let RGB Be the Language of Vis」—— 用通俗语言解读 Let RGB Be the Language of…，发帖「一"
       ]
     },
     {
       "title": "📸 截图素材建议",
       "text": "可直接截图发社交媒体",
       "items": [
-        "Xiaomi-Robotics-U0: Unifi 的界面/结果截图",
-        "ABot-AgentOS: A General R 的界面/结果截图",
+        "Function-Aware Fill-in-th 的界面/结果截图",
+        "Read It Back: Pretrained  的界面/结果截图",
         "Shubhamsaboo/awesome-llm- 的界面/结果截图",
-        "EgoSteer: A Full-Stack Sy 的界面/结果截图"
+        "MonkeyOCRv2: A Visual-Tex 的界面/结果截图"
       ]
     },
     {
       "title": "⚡ 本周行动建议",
       "text": "基于趋势推荐的 3 个行动",
       "items": [
-        "试用/Fork: Xiaomi-Robotics-U0: Unifi",
-        "深度阅读: ABot-AgentOS: A General R",
+        "试用/Fork: Function-Aware Fill-in-th",
+        "深度阅读: Function-Aware Fill-in-th",
         "在 Reddit 发一篇 AI 工具对比帖"
       ]
     }
   ],
   "all_items": [
     {
-      "id": "517bf2e751ce",
-      "title": "A Theory of Contrastive Learning with Natural Images",
-      "summary": "Why does contrastive learning with simple images and augmentations yield useful representations for downstream tasks? We address this question by analytically computing the optimal representation in…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Image"
-      ],
-      "read_url": "https://huggingface.co/papers/2607.07470",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.07470",
-      "why_it_matters": "A Theory of Contrastive… 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 A Theory of Contrastive…，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 7,
-        "total": 18
-      },
-      "scraped_at": "2026-07-14T23:47:46.668942+00:00"
-    },
-    {
-      "id": "4e52dee20c9a",
-      "title": "Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model",
-      "summary": "Recent foundation image and video generation models offer strong generalization and controllability, but their direct application to embodied scenarios is limited by requirements for multi-view…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Video",
-        "Image",
-        "Robotics"
-      ],
-      "read_url": "https://huggingface.co/papers/2607.11643",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.11643",
-      "why_it_matters": "Xiaomi-Robotics-U0 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 Xiaomi-Robotics-U0 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 9,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 18
-      },
-      "scraped_at": "2026-07-14T23:47:46.669061+00:00"
-    },
-    {
-      "id": "17315f071769",
-      "title": "ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory",
-      "summary": "Recent VLM and VLA systems have improved robotic perception and action prediction, yet long-horizon embodied agents still require a general runtime layer for reasoning, memory, tool use,…",
+      "id": "5170e36bd989",
+      "title": "Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models",
+      "summary": "Coding agents must integrate external tool returns into ongoing reasoning - a capability that standard left-to-right pretraining on code exposes only in its forward direction. We observe that the…",
       "source": "hf_papers",
       "tags": [
         "model",
@@ -1002,27 +1034,83 @@
       "entity_tags": [],
       "topic_tags": [
         "Agent",
-        "Robotics"
+        "Coding",
+        "Infra"
       ],
-      "read_url": "https://huggingface.co/papers/2607.10350",
+      "read_url": "https://huggingface.co/papers/2607.12463",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.10350",
-      "why_it_matters": "ABot-AgentOS 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 ABot-AgentOS 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "engage_url": "https://huggingface.co/papers/2607.12463",
+      "why_it_matters": "Function-Aware… 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 Function-Aware… 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
       "scores": {
-        "knowledge_value": 5,
+        "knowledge_value": 9,
         "marketing_value": 7,
         "forkability": 3,
         "engageability": 3,
+        "total": 22
+      },
+      "scraped_at": "2026-07-15T23:54:13.278717+00:00"
+    },
+    {
+      "id": "6ae342936089",
+      "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+      "summary": "In this paper, we propose SpectraReward, a training-free reward function that turns pretrained MLLMs into off-the-shelf reward models for image-generation reinforcement learning. Instead of asking…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Image",
+        "Infra"
+      ],
+      "read_url": "https://huggingface.co/papers/2607.11886",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.11886",
+      "why_it_matters": "Read It Back 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 Read It Back 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+      "scores": {
+        "knowledge_value": 7,
+        "marketing_value": 7,
+        "forkability": 3,
+        "engageability": 5,
+        "total": 22
+      },
+      "scraped_at": "2026-07-15T23:54:13.280503+00:00"
+    },
+    {
+      "id": "f20034bd15bf",
+      "title": "What LLM Forecasters Know but Don't Say: Probing Internal Representations for Calibration and Faithfulness",
+      "summary": "Large language models fine-tuned for forecasting can be accurate yet poorly calibrated, and their chain-of-thought (CoT) reasoning may not faithfully reflect the evidence behind a forecast. We ask…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [],
+      "read_url": "https://huggingface.co/papers/2607.08046",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.08046",
+      "why_it_matters": "What LLM Forecasters Know but… 降低了定制模型的门槛，小团队也能训练专属 AI",
+      "content_angle": "写 What LLM Forecasters Know but… 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
+      "scores": {
+        "knowledge_value": 7,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 5,
         "total": 18
       },
-      "scraped_at": "2026-07-14T23:47:46.670187+00:00"
+      "scraped_at": "2026-07-15T23:54:13.278946+00:00"
     },
     {
       "id": "2c8a094ec358",
       "title": "Shubhamsaboo/awesome-llm-apps",
-      "summary": "[Python] 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. · 1,104 stars today",
+      "summary": "[Python] 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. · 1,278 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1044,12 +1132,220 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-07-14T23:47:47.836876+00:00"
+      "scraped_at": "2026-07-15T23:54:14.693307+00:00"
     },
     {
-      "id": "f740f7442a91",
-      "title": "EgoSteer: A Full-Stack System Towards Steerable Dexterous Manipulation from Egocentric Videos",
-      "summary": "Steerability is a defining capability of generalist robot policies, yet remains largely absent in dexterous-hand systems for lack of large-scale, language-aligned, and action-accurate demonstration…",
+      "id": "a56eb7e1d2d3",
+      "title": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
+      "summary": "Mainstream visual encoders are pretrained on natural images and cannot be effectively applied to document images without document-oriented adaptation, as dense text and fine-grained character strokes…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Image",
+        "Coding"
+      ],
+      "read_url": "https://huggingface.co/papers/2607.11562",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.11562",
+      "why_it_matters": "MonkeyOCRv2 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 MonkeyOCRv2 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 7,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 16
+      },
+      "scraped_at": "2026-07-15T23:54:13.279510+00:00"
+    },
+    {
+      "id": "24139e8dc9c4",
+      "title": "Let RGB Be the Language of Vision",
+      "summary": "This work introduces a unified formulation for vision models, where diverse forms of visual information beyond natural images, such as masks, depth maps, and other structured visual signals, are all…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Image"
+      ],
+      "read_url": "https://huggingface.co/papers/2607.12450",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.12450",
+      "why_it_matters": "Let RGB Be the Language of… 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+      "content_angle": "用通俗语言解读 Let RGB Be the Language of…，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 5,
+        "total": 16
+      },
+      "scraped_at": "2026-07-15T23:54:13.279657+00:00"
+    },
+    {
+      "id": "0d4033c42462",
+      "title": "Principled Analysis of Deep Reinforcement Learning Evaluation and Design Paradigms",
+      "summary": "Starting from the utilization of deep neural networks to approximate the state-action value function that led to winning one of the most challenging games, to algorithmic advancements that allowed…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [
+        "Europe"
+      ],
+      "entity_tags": [],
+      "topic_tags": [
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2607.07769",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.07769",
+      "why_it_matters": "Principled Analysis of Deep… 提供了新的评估标准，帮助判断哪些模型真正好用",
+      "content_angle": "写一篇 Principled Analysis of Deep… 的安装和上手教程，发帖「这个开源项目值得试」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 16
+      },
+      "scraped_at": "2026-07-15T23:54:13.280136+00:00"
+    },
+    {
+      "id": "a99f2e19b1fd",
+      "title": "Blind-Spots-Bench: Evaluating Blind Spots in Multimodal Models",
+      "summary": "Modern AI models achieve strong performance on many established benchmarks, yet they still fail on tasks that humans find almost trivial, such as manipulating a string or drawing a dog with five…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2607.08317",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.08317",
+      "why_it_matters": "Blind-Spots-Bench 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+      "content_angle": "用通俗语言解读 Blind-Spots-Bench，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 5,
+        "total": 16
+      },
+      "scraped_at": "2026-07-15T23:54:13.280320+00:00"
+    },
+    {
+      "id": "1b41398ead60",
+      "title": "Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution",
+      "summary": "LLM-based coding agents have significantly advanced automated software issue resolution, yet they remain highly prone to factual errors caused by insufficient repository understanding. Recent methods…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Coding",
+        "Open Source"
+      ],
+      "read_url": "https://huggingface.co/papers/2607.11111",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.11111",
+      "why_it_matters": "Know Before Fix 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 Know Before Fix 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 5,
+        "forkability": 5,
+        "engageability": 3,
+        "total": 16
+      },
+      "scraped_at": "2026-07-15T23:54:13.280648+00:00"
+    },
+    {
+      "id": "b367a0d3d668",
+      "title": "SynthDocBench: Controlled Benchmark for Long-Context Visual Document Understanding",
+      "summary": "Vision language models (VLMs) have achieved strong performance on visual document understanding benchmarks such as DocVQA, ChartQA, and MMLongBench-Doc. However, real-world documents combine multiple…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2607.10400",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.10400",
+      "why_it_matters": "SynthDocBench 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+      "content_angle": "用通俗语言解读 SynthDocBench，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 14
+      },
+      "scraped_at": "2026-07-15T23:54:13.279156+00:00"
+    },
+    {
+      "id": "0a5b04de31a3",
+      "title": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
+      "summary": "Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities,…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Search"
+      ],
+      "read_url": "https://huggingface.co/papers/2607.05382",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2607.05382",
+      "why_it_matters": "Search Beyond What Can Be… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 Search Beyond What Can Be… 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 14
+      },
+      "scraped_at": "2026-07-15T23:54:13.279343+00:00"
+    },
+    {
+      "id": "95333ba96ea0",
+      "title": "MuScriptor: An Open Model for Multi-Instrument Music Transcription",
+      "summary": "Existing methods for automatic music transcription are often limited to single-instrument recordings or fail on complex, real music mixes. Although previous work utilizes synthetic training data, the…",
       "source": "hf_papers",
       "tags": [
         "model"
@@ -1059,107 +1355,54 @@
       ],
       "entity_tags": [],
       "topic_tags": [
-        "Video",
-        "Robotics"
+        "Infra"
       ],
-      "read_url": "https://huggingface.co/papers/2607.09701",
+      "read_url": "https://huggingface.co/papers/2607.08168",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.09701",
-      "why_it_matters": "EgoSteer 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 EgoSteer，发帖「一句话看懂今天的 AI 论文」",
+      "engage_url": "https://huggingface.co/papers/2607.08168",
+      "why_it_matters": "MuScriptor 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "写 MuScriptor 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
       "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 7,
+        "knowledge_value": 5,
+        "marketing_value": 3,
         "forkability": 3,
         "engageability": 3,
-        "total": 16
+        "total": 14
       },
-      "scraped_at": "2026-07-14T23:47:46.669147+00:00"
+      "scraped_at": "2026-07-15T23:54:13.279821+00:00"
     },
     {
-      "id": "ae9f0b1038a2",
-      "title": "Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals",
-      "summary": "Post-training is essential for refining the domain-specific capabilities of large language models (LLMs), yet existing reward optimization and distribution matching methods tightly couple policy…",
+      "id": "e96a62b63539",
+      "title": "Towards Autonomous and Auditable Medical Imaging Model Development",
+      "summary": "Large language model (LLM) agents are beginning to automate machine learning engineering (MLE) by coupling planning, code execution, debugging, and empirical feedback. Translating this capability to…",
       "source": "hf_papers",
       "tags": [
-        "model"
+        "model",
+        "tool"
       ],
       "geo_tags": [
-        "US",
-        "Europe"
+        "US"
       ],
       "entity_tags": [],
       "topic_tags": [
-        "Infra",
-        "Policy"
+        "Agent",
+        "Coding"
       ],
-      "read_url": "https://huggingface.co/papers/2607.11505",
+      "read_url": "https://huggingface.co/papers/2607.10522",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.11505",
-      "why_it_matters": "Proxy Exploration and… 降低了定制模型的门槛，小团队也能训练专属 AI",
-      "content_angle": "写 Proxy Exploration and… 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 16
-      },
-      "scraped_at": "2026-07-14T23:47:46.669373+00:00"
-    },
-    {
-      "id": "7ab8181739ff",
-      "title": "hasaneyldrm/exercises-dataset",
-      "summary": "[HTML] 1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app. · 864 stars today",
-      "source": "github",
-      "tags": [
-        "repo"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://github.com/hasaneyldrm/exercises-dataset",
-      "try_url": "",
-      "fork_url": "https://github.com/hasaneyldrm/exercises-dataset",
-      "engage_url": "https://github.com/hasaneyldrm/exercises-dataset/discussions",
-      "why_it_matters": "exercises-dataset 提供了新的评估标准，帮助判断哪些模型真正好用",
-      "content_angle": "写一篇 exercises-dataset 的安装和上手教程，发帖「这个开源项目值得试」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 16
-      },
-      "scraped_at": "2026-07-14T23:47:47.840873+00:00"
-    },
-    {
-      "id": "5c7f6ac485d7",
-      "title": "AIEraDev/Clypra",
-      "summary": "[TypeScript] A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities · 66 stars today",
-      "source": "github",
-      "tags": [
-        "repo"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://github.com/AIEraDev/Clypra",
-      "try_url": "",
-      "fork_url": "https://github.com/AIEraDev/Clypra",
-      "engage_url": "https://github.com/AIEraDev/Clypra/discussions",
-      "why_it_matters": "Clypra 正在 GitHub 上快速增长，说明开发者有真实需求",
-      "content_angle": "写一篇 Clypra 的安装和上手教程，发帖「这个开源项目值得试」",
+      "engage_url": "https://huggingface.co/papers/2607.10522",
+      "why_it_matters": "Towards Autonomous and… 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 Towards Autonomous and… 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
       "scores": {
         "knowledge_value": 3,
-        "marketing_value": 7,
+        "marketing_value": 5,
         "forkability": 3,
         "engageability": 3,
-        "total": 16
+        "total": 14
       },
-      "scraped_at": "2026-07-14T23:47:47.841762+00:00"
+      "scraped_at": "2026-07-15T23:54:13.279985+00:00"
     },
     {
       "id": "66f0dedafb5d",
@@ -1188,7 +1431,7 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-07-14T23:47:46.668533+00:00"
+      "scraped_at": "2026-07-15T23:54:13.280794+00:00"
     },
     {
       "id": "fbcdb09c0e98",
@@ -1216,7 +1459,7 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-07-14T23:47:46.668682+00:00"
+      "scraped_at": "2026-07-15T23:54:13.280931+00:00"
     },
     {
       "id": "fe1f67f448d5",
@@ -1244,27 +1487,25 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-07-14T23:47:46.668811+00:00"
+      "scraped_at": "2026-07-15T23:54:13.281114+00:00"
     },
     {
-      "id": "61af0f7e00e1",
-      "title": "Latent-Identity Tuning in Text-to-Image Personalization Models",
-      "summary": "Generating and editing a person's face demands high precision, as even minor modifications can significantly alter a subject's perceived identity. Current personalization and editing methods built on…",
-      "source": "hf_papers",
+      "id": "05275031be29",
+      "title": "OpenCut-app/OpenCut",
+      "summary": "[TypeScript] The open-source CapCut alternative · 1,505 stars today",
+      "source": "github",
       "tags": [
-        "model"
+        "repo"
       ],
       "geo_tags": [],
       "entity_tags": [],
-      "topic_tags": [
-        "Image"
-      ],
-      "read_url": "https://huggingface.co/papers/2607.11885",
+      "topic_tags": [],
+      "read_url": "https://github.com/OpenCut-app/OpenCut",
       "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.11885",
-      "why_it_matters": "Latent-Identity Tuning in… 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "用通俗语言解读 Latent-Identity Tuning in…，发帖「一句话看懂今天的 AI 论文」",
+      "fork_url": "https://github.com/OpenCut-app/OpenCut",
+      "engage_url": "https://github.com/OpenCut-app/OpenCut/discussions",
+      "why_it_matters": "OpenCut 是开源的，意味着任何人都可以免费使用、修改和部署",
+      "content_angle": "写一篇 OpenCut 的安装和上手教程，发帖「这个开源项目值得试」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 5,
@@ -1272,27 +1513,25 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-07-14T23:47:46.669272+00:00"
+      "scraped_at": "2026-07-15T23:54:14.689504+00:00"
     },
     {
-      "id": "c74203ca6ad3",
-      "title": "CtrlVTON: Controllable Virtual Try-On via Visual-Instance-Prompt Segmentation",
-      "summary": "Virtual try-on (VTO) has made significant progress in realistically transferring garments onto a target person. Yet most systems give the user little control over how a garment should be worn -- its…",
-      "source": "hf_papers",
+      "id": "856f0a7511cd",
+      "title": "moeru-ai/airi",
+      "summary": "[TypeScript] 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat,… · 144 stars today",
+      "source": "github",
       "tags": [
-        "model"
+        "repo"
       ],
-      "geo_tags": [
-        "US"
-      ],
+      "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://huggingface.co/papers/2607.09362",
+      "read_url": "https://github.com/moeru-ai/airi",
       "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.09362",
-      "why_it_matters": "CtrlVTON 是行业正在争论的话题，了解各方观点能帮你做判断",
-      "content_angle": "用通俗语言解读 CtrlVTON，发帖「一句话看懂今天的 AI 论文」",
+      "fork_url": "https://github.com/moeru-ai/airi",
+      "engage_url": "https://github.com/moeru-ai/airi/discussions",
+      "why_it_matters": "airi 正在 GitHub 上快速增长，说明开发者有真实需求",
+      "content_angle": "写一篇 airi 的安装和上手教程，发帖「这个开源项目值得试」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 3,
@@ -1300,99 +1539,12 @@
         "engageability": 5,
         "total": 14
       },
-      "scraped_at": "2026-07-14T23:47:46.669511+00:00"
-    },
-    {
-      "id": "ad7db82ea7e1",
-      "title": "Motion4Motion: Motion Transfer Across Subjects at Inference",
-      "summary": "This work explores the motion transfer from one video to another, which is crucial in animation for diverse characters. Previously, video motion transfer has been largely explored between human and…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Video",
-        "Infra"
-      ],
-      "read_url": "https://huggingface.co/papers/2607.11644",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.11644",
-      "why_it_matters": "Motion4Motion 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 Motion4Motion，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 14
-      },
-      "scraped_at": "2026-07-14T23:47:46.669855+00:00"
-    },
-    {
-      "id": "c38ca2a3a939",
-      "title": "LATO.2: Factorized 3D Mesh Generation with Vertex and Topology Flow",
-      "summary": "Flow matching over carefully designed latent representations has recently emerged as a powerful paradigm for topology-aware mesh generation. Existing approaches, however, model vertices and…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://huggingface.co/papers/2607.10623",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.10623",
-      "why_it_matters": "LATO.2 是可以直接用的工具，能立刻提升你的工作效率",
-      "content_angle": "实测 LATO.2 做一个具体任务，发帖「这个 AI 工具能帮你省多少时间」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 14
-      },
-      "scraped_at": "2026-07-14T23:47:46.669969+00:00"
-    },
-    {
-      "id": "7bc014d61529",
-      "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) is a powerful recipe for improving language-model reasoning, but it is expensive to repeat on every new strong model because the target model…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Policy"
-      ],
-      "read_url": "https://huggingface.co/papers/2607.05394",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.05394",
-      "why_it_matters": "Weak-to-Strong Generalization… 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 Weak-to-Strong Generalization…，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 14
-      },
-      "scraped_at": "2026-07-14T23:47:46.670078+00:00"
+      "scraped_at": "2026-07-15T23:54:14.690813+00:00"
     },
     {
       "id": "3cb1656cf1e3",
       "title": "Dicklesworthstone/destructive_command_guard",
-      "summary": "[Rust] The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents. · 481 stars today",
+      "summary": "[Rust] The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents. · 497 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1414,38 +1566,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-07-14T23:47:47.837974+00:00"
-    },
-    {
-      "id": "05275031be29",
-      "title": "OpenCut-app/OpenCut",
-      "summary": "[TypeScript] The open-source CapCut alternative · 4,349 stars today",
-      "source": "github",
-      "tags": [
-        "repo"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://github.com/OpenCut-app/OpenCut",
-      "try_url": "",
-      "fork_url": "https://github.com/OpenCut-app/OpenCut",
-      "engage_url": "https://github.com/OpenCut-app/OpenCut/discussions",
-      "why_it_matters": "OpenCut 是开源的，意味着任何人都可以免费使用、修改和部署",
-      "content_angle": "写一篇 OpenCut 的安装和上手教程，发帖「这个开源项目值得试」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 14
-      },
-      "scraped_at": "2026-07-14T23:47:47.838522+00:00"
+      "scraped_at": "2026-07-15T23:54:14.691314+00:00"
     },
     {
       "id": "0bcd8bdd1c96",
       "title": "HKUDS/Vibe-Trading",
-      "summary": "[Python] \"Vibe-Trading: Your Personal Trading Agent\" · 1,265 stars today",
+      "summary": "[Python] \"Vibe-Trading: Your Personal Trading Agent\" · 924 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1467,25 +1593,26 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-07-14T23:47:47.839875+00:00"
+      "scraped_at": "2026-07-15T23:54:14.691698+00:00"
     },
     {
-      "id": "9eb313c10989",
-      "title": "Raphire/Win11Debloat",
-      "summary": "[PowerShell] A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience.… · 779 stars today",
+      "id": "6c44f9779880",
+      "title": "openinterpreter/openinterpreter",
+      "summary": "[Rust] A coding agent for low-cost models · 345 stars today",
       "source": "github",
       "tags": [
-        "repo"
+        "repo",
+        "tool"
       ],
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://github.com/Raphire/Win11Debloat",
+      "read_url": "https://github.com/openinterpreter/openinterpreter",
       "try_url": "",
-      "fork_url": "https://github.com/Raphire/Win11Debloat",
-      "engage_url": "https://github.com/Raphire/Win11Debloat/discussions",
-      "why_it_matters": "Win11Debloat 是可以直接用的工具，能立刻提升你的工作效率",
-      "content_angle": "写一篇 Win11Debloat 的安装和上手教程，发帖「这个开源项目值得试」",
+      "fork_url": "https://github.com/openinterpreter/openinterpreter",
+      "engage_url": "https://github.com/openinterpreter/openinterpreter/discussions",
+      "why_it_matters": "openinterpreter 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 openinterpreter 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 5,
@@ -1493,68 +1620,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-07-14T23:47:47.840397+00:00"
+      "scraped_at": "2026-07-15T23:54:14.692065+00:00"
     },
     {
-      "id": "de98af5c2d7a",
-      "title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
-      "summary": "Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [
-        "Meta"
-      ],
-      "topic_tags": [],
-      "read_url": "https://huggingface.co/papers/2607.11881",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.11881",
-      "why_it_matters": "Metacognition in LLMs 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 Metacognition in LLMs，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 12
-      },
-      "scraped_at": "2026-07-14T23:47:46.669630+00:00"
-    },
-    {
-      "id": "c83ab4843635",
-      "title": "4D Human-Scene Reconstruction from Low-Overlap Captures",
-      "summary": "Existing volumetric capture of dynamic human performance achieves high fidelity with dense camera arrays. However, in real-world scenarios, only a handful of low-overlap cameras are available, which…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://huggingface.co/papers/2607.09125",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2607.09125",
-      "why_it_matters": "4D Human-Scene Reconstruction… 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 4D Human-Scene Reconstruction…，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 12
-      },
-      "scraped_at": "2026-07-14T23:47:46.669742+00:00"
-    },
-    {
-      "id": "c0a12ac997ed",
-      "title": "1c7/chinese-independent-developer",
-      "summary": "[Python] 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么 · 1,194 stars today",
+      "id": "52d084fab5cd",
+      "title": "HenryNdubuaku/maths-cs-ai-compendium",
+      "summary": "[TypeScript] Become a cracked AI/ML Research Engineer · 729 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1562,77 +1633,52 @@
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://github.com/1c7/chinese-independent-developer",
+      "read_url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
       "try_url": "",
-      "fork_url": "https://github.com/1c7/chinese-independent-developer",
-      "engage_url": "https://github.com/1c7/chinese-independent-developer/discussions",
-      "why_it_matters": "chinese-independent-developer 正在 GitHub 上快速增长，说明开发者有真实需求",
-      "content_angle": "写一篇 chinese-independent-developer 的安装和上手教程，发帖「这个开源项目值得试」",
+      "fork_url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "engage_url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium/discussions",
+      "why_it_matters": "maths-cs-ai-compendium 提升了 AI 获取和使用外部知识的能力，准确率更高了",
+      "content_angle": "用 maths-cs-ai-compendium 搭一个简单知识库 demo，发帖「10 分钟搭建 AI 知识助手」",
       "scores": {
-        "knowledge_value": 3,
+        "knowledge_value": 5,
         "marketing_value": 3,
         "forkability": 3,
         "engageability": 3,
-        "total": 12
+        "total": 14
       },
-      "scraped_at": "2026-07-14T23:47:47.836322+00:00"
+      "scraped_at": "2026-07-15T23:54:14.692932+00:00"
     },
     {
-      "id": "90eb2a5bd08d",
-      "title": "mattpocock/skills",
-      "summary": "[Shell] Skills for Real Engineers. Straight from my .claude directory. · 1,864 stars today",
+      "id": "0dd44027b83b",
+      "title": "coreyhaines31/marketingskills",
+      "summary": "[JavaScript] Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. · 390 stars today",
       "source": "github",
       "tags": [
-        "repo"
+        "repo",
+        "tool"
       ],
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://github.com/mattpocock/skills",
+      "read_url": "https://github.com/coreyhaines31/marketingskills",
       "try_url": "",
-      "fork_url": "https://github.com/mattpocock/skills",
-      "engage_url": "https://github.com/mattpocock/skills/discussions",
-      "why_it_matters": "skills 刷新了模型能力上限，直接影响应用层能做什么",
-      "content_angle": "对比测试 skills 和竞品，发帖「大模型横评：谁更好用？」",
+      "fork_url": "https://github.com/coreyhaines31/marketingskills",
+      "engage_url": "https://github.com/coreyhaines31/marketingskills/discussions",
+      "why_it_matters": "marketingskills 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 marketingskills 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
       "scores": {
         "knowledge_value": 3,
-        "marketing_value": 3,
+        "marketing_value": 5,
         "forkability": 3,
         "engageability": 3,
-        "total": 12
+        "total": 14
       },
-      "scraped_at": "2026-07-14T23:47:47.837420+00:00"
-    },
-    {
-      "id": "62825e5d1b16",
-      "title": "virattt/ai-hedge-fund",
-      "summary": "[Python] An AI Hedge Fund Team · 156 stars today",
-      "source": "github",
-      "tags": [
-        "repo"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://github.com/virattt/ai-hedge-fund",
-      "try_url": "",
-      "fork_url": "https://github.com/virattt/ai-hedge-fund",
-      "engage_url": "https://github.com/virattt/ai-hedge-fund/discussions",
-      "why_it_matters": "ai-hedge-fund 证明小模型也能跑出好效果，本地部署成本大幅降低",
-      "content_angle": "写一篇 ai-hedge-fund 的安装和上手教程，发帖「这个开源项目值得试」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 12
-      },
-      "scraped_at": "2026-07-14T23:47:47.838969+00:00"
+      "scraped_at": "2026-07-15T23:54:14.693766+00:00"
     },
     {
       "id": "7dc8ff9325f8",
       "title": "Nutlope/hallmark",
-      "summary": "[CSS] Anti-AI-slop design skill for Claude Code, Cursor, and Codex. · 1,010 stars today",
+      "summary": "[CSS] Anti-AI-slop design skill for Claude Code, Cursor, and Codex. · 1,119 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1653,12 +1699,12 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-07-14T23:47:47.839441+00:00"
+      "scraped_at": "2026-07-15T23:54:14.689961+00:00"
     },
     {
-      "id": "fc8f360fdef6",
-      "title": "penpot/penpot",
-      "summary": "[Clojure] Penpot: The open-source design platform for Product teams that need scalable collaboration. · 264 stars today",
+      "id": "90eb2a5bd08d",
+      "title": "mattpocock/skills",
+      "summary": "[Shell] Skills for Real Engineers. Straight from my .claude directory. · 2,160 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1666,12 +1712,12 @@
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://github.com/penpot/penpot",
+      "read_url": "https://github.com/mattpocock/skills",
       "try_url": "",
-      "fork_url": "https://github.com/penpot/penpot",
-      "engage_url": "https://github.com/penpot/penpot/discussions",
-      "why_it_matters": "penpot 是开源的，意味着任何人都可以免费使用、修改和部署",
-      "content_angle": "写一篇 penpot 的安装和上手教程，发帖「这个开源项目值得试」",
+      "fork_url": "https://github.com/mattpocock/skills",
+      "engage_url": "https://github.com/mattpocock/skills/discussions",
+      "why_it_matters": "skills 刷新了模型能力上限，直接影响应用层能做什么",
+      "content_angle": "对比测试 skills 和竞品，发帖「大模型横评：谁更好用？」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 3,
@@ -1679,7 +1725,59 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-07-14T23:47:47.841318+00:00"
+      "scraped_at": "2026-07-15T23:54:14.690425+00:00"
+    },
+    {
+      "id": "844f181ef13b",
+      "title": "HKUDS/DeepTutor",
+      "summary": "[Python] DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/. · 128 stars today",
+      "source": "github",
+      "tags": [
+        "repo"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [],
+      "read_url": "https://github.com/HKUDS/DeepTutor",
+      "try_url": "",
+      "fork_url": "https://github.com/HKUDS/DeepTutor",
+      "engage_url": "https://github.com/HKUDS/DeepTutor/discussions",
+      "why_it_matters": "DeepTutor 正在 GitHub 上快速增长，说明开发者有真实需求",
+      "content_angle": "写一篇 DeepTutor 的安装和上手教程，发帖「这个开源项目值得试」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 12
+      },
+      "scraped_at": "2026-07-15T23:54:14.692445+00:00"
+    },
+    {
+      "id": "37b0aec6f080",
+      "title": "YimMenu/YimMenuV2",
+      "summary": "[C++] Experimental menu for GTA 5: Enhanced · 21 stars today",
+      "source": "github",
+      "tags": [
+        "repo"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [],
+      "read_url": "https://github.com/YimMenu/YimMenuV2",
+      "try_url": "",
+      "fork_url": "https://github.com/YimMenu/YimMenuV2",
+      "engage_url": "https://github.com/YimMenu/YimMenuV2/discussions",
+      "why_it_matters": "YimMenuV2 正在 GitHub 上快速增长，说明开发者有真实需求",
+      "content_angle": "写一篇 YimMenuV2 的安装和上手教程，发帖「这个开源项目值得试」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 12
+      },
+      "scraped_at": "2026-07-15T23:54:14.694127+00:00"
     }
   ]
 }

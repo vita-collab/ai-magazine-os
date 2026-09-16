@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updated_at": "2026-09-15T01:07:28.896747+00:00",
+    "updated_at": "2026-09-16T00:58:40.066346+00:00",
     "total_items": 27,
     "sources_scraped": [
-      "github",
-      "hf_papers"
+      "hf_papers",
+      "github"
     ],
     "version": "1.0"
   },
@@ -48,9 +48,37 @@
   ],
   "cover": [
     {
-      "id": "26054df27001",
-      "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
-      "summary": "Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations. Because cost and latency accumulate over the full…",
+      "id": "d8772871ce5f",
+      "title": "E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning",
+      "summary": "Can financial vision-language models (VLMs) turn chart evidence into reliable action recommendations? Existing hallucination evaluations are mostly claim-centric; they assess whether generated…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.14302",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2609.14302",
+      "why_it_matters": "E2A-Bench 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+      "content_angle": "用通俗语言解读 E2A-Bench，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 9,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 20
+      },
+      "scraped_at": "2026-09-16T00:58:37.779000+00:00"
+    },
+    {
+      "id": "cb35a6003113",
+      "title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
+      "summary": "Video diffusion models are stochastic and hard to control: precise content often requires repeated sampling without guaranteed success, and long-horizon scenes drift in appearance, interactions, and…",
       "source": "hf_papers",
       "tags": [
         "model",
@@ -62,92 +90,56 @@
       "entity_tags": [],
       "topic_tags": [
         "Agent",
-        "Coding"
+        "Video",
+        "Image"
       ],
-      "read_url": "https://huggingface.co/papers/2609.11977",
+      "read_url": "https://huggingface.co/papers/2609.15863",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.11977",
-      "why_it_matters": "Occamy-1.0 正在改变写代码的方式——速度和质量都在跃升",
-      "content_angle": "用 Occamy-1.0 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "engage_url": "https://huggingface.co/papers/2609.15863",
+      "why_it_matters": "LynnReal-Omni 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 LynnReal-Omni 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
       "scores": {
         "knowledge_value": 3,
-        "marketing_value": 9,
+        "marketing_value": 10,
         "forkability": 3,
         "engageability": 3,
-        "total": 18
+        "total": 19
       },
-      "scraped_at": "2026-09-15T01:07:26.278980+00:00"
+      "scraped_at": "2026-09-16T00:58:37.779623+00:00"
     },
     {
-      "id": "469103c7d707",
-      "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
-      "summary": "Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusable resources such as indices, scripts, or procedural guidance. Most automated…",
+      "id": "28d1cb5f5b34",
+      "title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+      "summary": "We demonstrate that training LLMs with RL does not improve performance equally across a dataset. RL shows large improvements on easy problems that an LLM is already good at solving, but small…",
       "source": "hf_papers",
       "tags": [
-        "model",
-        "tool"
+        "model"
       ],
-      "geo_tags": [
-        "US",
-        "Europe"
-      ],
+      "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [
-        "Agent"
-      ],
-      "read_url": "https://huggingface.co/papers/2609.10824",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.10824",
-      "why_it_matters": "Studying Without a Syllabus 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 Studying Without a Syllabus 自动完成任务的过程，发帖「AI 自动化实操演示」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 7,
-        "forkability": 3,
-        "engageability": 5,
-        "total": 18
-      },
-      "scraped_at": "2026-09-15T01:07:26.279800+00:00"
-    },
-    {
-      "id": "4a46ef20491a",
-      "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
-      "summary": "GUI agents accumulate high-resolution screenshots as the trajectory unfolds, increasing inference latency and memory usage. Training-free visual token pruning can reduce this cost, but cache reuse…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [
-        "US",
-        "Europe"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
         "Infra"
       ],
-      "read_url": "https://huggingface.co/papers/2609.10297",
+      "read_url": "https://huggingface.co/papers/2609.13443",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.10297",
-      "why_it_matters": "TRACE 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 TRACE 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "engage_url": "https://huggingface.co/papers/2609.13443",
+      "why_it_matters": "Learning to Solve Hard… 降低了定制模型的门槛，小团队也能训练专属 AI",
+      "content_angle": "在本地跑一下 Learning to Solve Hard…，截图发帖「用自己电脑跑 AI 是什么体验」",
       "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 7,
+        "knowledge_value": 7,
+        "marketing_value": 5,
         "forkability": 3,
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-09-15T01:07:26.279874+00:00"
+      "scraped_at": "2026-09-16T00:58:37.778784+00:00"
     },
     {
       "id": "992ec44c4a56",
       "title": "alibaba/open-code-review",
-      "summary": "[Go] Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,… · 1,571 stars today",
+      "summary": "[Go] Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,… · 2,756 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -169,25 +161,31 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-09-15T01:07:27.899024+00:00"
+      "scraped_at": "2026-09-16T00:58:39.173783+00:00"
     },
     {
-      "id": "99d7b4168835",
-      "title": "Feature Recovery for Object Understanding After Irreversible Fire Damage",
-      "summary": "Objects in post-fire environments often undergo irreversible physical transformations that change their geometry, material state, and visual appearance. Detecting and identifying these remnants is…",
+      "id": "baa132925116",
+      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
+      "summary": "The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals…",
       "source": "hf_papers",
       "tags": [
-        "model"
+        "model",
+        "tool"
       ],
-      "geo_tags": [],
+      "geo_tags": [
+        "US"
+      ],
       "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://huggingface.co/papers/2609.12078",
+      "topic_tags": [
+        "Agent",
+        "Search"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.13463",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.12078",
-      "why_it_matters": "Feature Recovery for Object… 是可以直接用的工具，能立刻提升你的工作效率",
-      "content_angle": "实测 Feature Recovery for Object… 做一个具体任务，发帖「这个 AI 工具能帮你省多少时间」",
+      "engage_url": "https://huggingface.co/papers/2609.13463",
+      "why_it_matters": "Root-Cause Attribution Is a… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 Root-Cause Attribution Is a… 自动完成任务的过程，发帖「AI 自动化实操演示」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 5,
@@ -195,12 +193,12 @@
         "engageability": 5,
         "total": 16
       },
-      "scraped_at": "2026-09-15T01:07:26.279411+00:00"
+      "scraped_at": "2026-09-16T00:58:37.778905+00:00"
     },
     {
-      "id": "2aab474febe6",
-      "title": "ActionSplice: In-Flight Action Editing for Interactive World Models",
-      "summary": "Chunk-autoregressive video world models typically condition each generated chunk on one action. An action received during sampling must therefore wait for the next chunk, condition future solver…",
+      "id": "f86fd3f02556",
+      "title": "Thought without systematicity? Evaluating reasoning models on rule induction tasks",
+      "summary": "A central tenet of human cognition is systematicity, the principle that understanding one concept is inherently tied to understanding close variations of that concept. Do reasoning models robustly…",
       "source": "hf_papers",
       "tags": [
         "model"
@@ -210,72 +208,45 @@
       ],
       "entity_tags": [],
       "topic_tags": [
-        "Video"
+        "Benchmark"
       ],
-      "read_url": "https://huggingface.co/papers/2609.08230",
+      "read_url": "https://huggingface.co/papers/2609.13948",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.08230",
-      "why_it_matters": "ActionSplice 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 ActionSplice，发帖「一句话看懂今天的 AI 论文」",
+      "engage_url": "https://huggingface.co/papers/2609.13948",
+      "why_it_matters": "Thought without… 提供了新的评估标准，帮助判断哪些模型真正好用",
+      "content_angle": "用通俗语言解读 Thought without…，发帖「一句话看懂今天的 AI 论文」",
       "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 7,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 16
-      },
-      "scraped_at": "2026-09-15T01:07:26.279945+00:00"
-    },
-    {
-      "id": "ae02f105b4e9",
-      "title": "DataFlex-RL: An Evaluation Platform for RLVR Data Policies",
-      "summary": "Data policies for reinforcement learning with verifiable rewards (RLVR) determine which rollouts are used, how strongly they are weighted, and which domains contribute to subsequent training batches.…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Benchmark",
-        "Infra"
-      ],
-      "read_url": "https://huggingface.co/papers/2609.06107",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.06107",
-      "why_it_matters": "DataFlex-RL 降低了定制模型的门槛，小团队也能训练专属 AI",
-      "content_angle": "写 DataFlex-RL 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
-      "scores": {
-        "knowledge_value": 7,
+        "knowledge_value": 5,
         "marketing_value": 3,
         "forkability": 3,
-        "engageability": 3,
+        "engageability": 5,
         "total": 16
       },
-      "scraped_at": "2026-09-15T01:07:26.280048+00:00"
+      "scraped_at": "2026-09-16T00:58:37.779111+00:00"
     },
     {
-      "id": "e1265bb58a93",
-      "title": "Panniantong/Agent-Reach",
-      "summary": "[Python] Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. · 651 stars today",
-      "source": "github",
+      "id": "10c8ef4c687a",
+      "title": "ModaLens: Measuring Image Sensitivity in Report-Conditioned Medical VLMs",
+      "summary": "A radiology report can already answer a clinical question, so it is hard to tell whether a vision-language model also uses the image. ModaLens, a paired image-swap audit, measures how report…",
+      "source": "hf_papers",
       "tags": [
-        "repo",
-        "tool"
+        "model"
       ],
-      "geo_tags": [],
+      "geo_tags": [
+        "US"
+      ],
       "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://github.com/Panniantong/Agent-Reach",
+      "topic_tags": [
+        "Image",
+        "Open Source"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.15635",
       "try_url": "",
-      "fork_url": "https://github.com/Panniantong/Agent-Reach",
-      "engage_url": "https://github.com/Panniantong/Agent-Reach/discussions",
-      "why_it_matters": "Agent-Reach 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 Agent-Reach 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2609.15635",
+      "why_it_matters": "ModaLens 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+      "content_angle": "用通俗语言解读 ModaLens，发帖「一句话看懂今天的 AI 论文」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 5,
@@ -283,15 +254,71 @@
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-09-15T01:07:27.900312+00:00"
+      "scraped_at": "2026-09-16T00:58:37.779409+00:00"
+    },
+    {
+      "id": "5f0c5ceae8d7",
+      "title": "Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction",
+      "summary": "The KV cache is a primary bottleneck for Transformer decoding: its memory footprint and cache-read traffic grow with sequence length. Grouped-query attention (GQA) reduces this cost by sharing…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Coding"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.13285",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2609.13285",
+      "why_it_matters": "Grouped Value Attention 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 Grouped Value Attention 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "scores": {
+        "knowledge_value": 7,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 16
+      },
+      "scraped_at": "2026-09-16T00:58:37.779905+00:00"
     }
   ],
   "sections": {
     "models": [
       {
-        "id": "26054df27001",
-        "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
-        "summary": "Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations. Because cost and latency accumulate over the full…",
+        "id": "d8772871ce5f",
+        "title": "E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning",
+        "summary": "Can financial vision-language models (VLMs) turn chart evidence into reliable action recommendations? Existing hallucination evaluations are mostly claim-centric; they assess whether generated…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Benchmark"
+        ],
+        "read_url": "https://huggingface.co/papers/2609.14302",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2609.14302",
+        "why_it_matters": "E2A-Bench 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+        "content_angle": "用通俗语言解读 E2A-Bench，发帖「一句话看懂今天的 AI 论文」",
+        "scores": {
+          "knowledge_value": 9,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 20
+        },
+        "scraped_at": "2026-09-16T00:58:37.779000+00:00"
+      },
+      {
+        "id": "cb35a6003113",
+        "title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
+        "summary": "Video diffusion models are stochastic and hard to control: precise content often requires repeated sampling without guaranteed success, and long-horizon scenes drift in appearance, interactions, and…",
         "source": "hf_papers",
         "tags": [
           "model",
@@ -303,105 +330,75 @@
         "entity_tags": [],
         "topic_tags": [
           "Agent",
-          "Coding"
+          "Video",
+          "Image"
         ],
-        "read_url": "https://huggingface.co/papers/2609.11977",
+        "read_url": "https://huggingface.co/papers/2609.15863",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2609.11977",
-        "why_it_matters": "Occamy-1.0 正在改变写代码的方式——速度和质量都在跃升",
-        "content_angle": "用 Occamy-1.0 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "engage_url": "https://huggingface.co/papers/2609.15863",
+        "why_it_matters": "LynnReal-Omni 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+        "content_angle": "拿 LynnReal-Omni 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
         "scores": {
           "knowledge_value": 3,
-          "marketing_value": 9,
+          "marketing_value": 10,
           "forkability": 3,
           "engageability": 3,
-          "total": 18
+          "total": 19
         },
-        "scraped_at": "2026-09-15T01:07:26.278980+00:00"
+        "scraped_at": "2026-09-16T00:58:37.779623+00:00"
       },
       {
-        "id": "469103c7d707",
-        "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
-        "summary": "Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusable resources such as indices, scripts, or procedural guidance. Most automated…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [
-          "US",
-          "Europe"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent"
-        ],
-        "read_url": "https://huggingface.co/papers/2609.10824",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2609.10824",
-        "why_it_matters": "Studying Without a Syllabus 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 Studying Without a Syllabus 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 5,
-          "total": 18
-        },
-        "scraped_at": "2026-09-15T01:07:26.279800+00:00"
-      },
-      {
-        "id": "4a46ef20491a",
-        "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
-        "summary": "GUI agents accumulate high-resolution screenshots as the trajectory unfolds, increasing inference latency and memory usage. Training-free visual token pruning can reduce this cost, but cache reuse…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [
-          "US",
-          "Europe"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Infra"
-        ],
-        "read_url": "https://huggingface.co/papers/2609.10297",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2609.10297",
-        "why_it_matters": "TRACE 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 TRACE 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 5,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-09-15T01:07:26.279874+00:00"
-      },
-      {
-        "id": "99d7b4168835",
-        "title": "Feature Recovery for Object Understanding After Irreversible Fire Damage",
-        "summary": "Objects in post-fire environments often undergo irreversible physical transformations that change their geometry, material state, and visual appearance. Detecting and identifying these remnants is…",
+        "id": "28d1cb5f5b34",
+        "title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+        "summary": "We demonstrate that training LLMs with RL does not improve performance equally across a dataset. RL shows large improvements on easy problems that an LLM is already good at solving, but small…",
         "source": "hf_papers",
         "tags": [
           "model"
         ],
         "geo_tags": [],
         "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://huggingface.co/papers/2609.12078",
+        "topic_tags": [
+          "Infra"
+        ],
+        "read_url": "https://huggingface.co/papers/2609.13443",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2609.12078",
-        "why_it_matters": "Feature Recovery for Object… 是可以直接用的工具，能立刻提升你的工作效率",
-        "content_angle": "实测 Feature Recovery for Object… 做一个具体任务，发帖「这个 AI 工具能帮你省多少时间」",
+        "engage_url": "https://huggingface.co/papers/2609.13443",
+        "why_it_matters": "Learning to Solve Hard… 降低了定制模型的门槛，小团队也能训练专属 AI",
+        "content_angle": "在本地跑一下 Learning to Solve Hard…，截图发帖「用自己电脑跑 AI 是什么体验」",
+        "scores": {
+          "knowledge_value": 7,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 18
+        },
+        "scraped_at": "2026-09-16T00:58:37.778784+00:00"
+      },
+      {
+        "id": "baa132925116",
+        "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
+        "summary": "The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [
+          "US"
+        ],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Search"
+        ],
+        "read_url": "https://huggingface.co/papers/2609.13463",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2609.13463",
+        "why_it_matters": "Root-Cause Attribution Is a… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 Root-Cause Attribution Is a… 自动完成任务的过程，发帖「AI 自动化实操演示」",
         "scores": {
           "knowledge_value": 3,
           "marketing_value": 5,
@@ -409,12 +406,101 @@
           "engageability": 5,
           "total": 16
         },
-        "scraped_at": "2026-09-15T01:07:26.279411+00:00"
+        "scraped_at": "2026-09-16T00:58:37.778905+00:00"
       },
       {
-        "id": "2aab474febe6",
-        "title": "ActionSplice: In-Flight Action Editing for Interactive World Models",
-        "summary": "Chunk-autoregressive video world models typically condition each generated chunk on one action. An action received during sampling must therefore wait for the next chunk, condition future solver…",
+        "id": "f86fd3f02556",
+        "title": "Thought without systematicity? Evaluating reasoning models on rule induction tasks",
+        "summary": "A central tenet of human cognition is systematicity, the principle that understanding one concept is inherently tied to understanding close variations of that concept. Do reasoning models robustly…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [
+          "US"
+        ],
+        "entity_tags": [],
+        "topic_tags": [
+          "Benchmark"
+        ],
+        "read_url": "https://huggingface.co/papers/2609.13948",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2609.13948",
+        "why_it_matters": "Thought without… 提供了新的评估标准，帮助判断哪些模型真正好用",
+        "content_angle": "用通俗语言解读 Thought without…，发帖「一句话看懂今天的 AI 论文」",
+        "scores": {
+          "knowledge_value": 5,
+          "marketing_value": 3,
+          "forkability": 3,
+          "engageability": 5,
+          "total": 16
+        },
+        "scraped_at": "2026-09-16T00:58:37.779111+00:00"
+      },
+      {
+        "id": "10c8ef4c687a",
+        "title": "ModaLens: Measuring Image Sensitivity in Report-Conditioned Medical VLMs",
+        "summary": "A radiology report can already answer a clinical question, so it is hard to tell whether a vision-language model also uses the image. ModaLens, a paired image-swap audit, measures how report…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [
+          "US"
+        ],
+        "entity_tags": [],
+        "topic_tags": [
+          "Image",
+          "Open Source"
+        ],
+        "read_url": "https://huggingface.co/papers/2609.15635",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2609.15635",
+        "why_it_matters": "ModaLens 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+        "content_angle": "用通俗语言解读 ModaLens，发帖「一句话看懂今天的 AI 论文」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 5,
+          "engageability": 3,
+          "total": 16
+        },
+        "scraped_at": "2026-09-16T00:58:37.779409+00:00"
+      },
+      {
+        "id": "5f0c5ceae8d7",
+        "title": "Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction",
+        "summary": "The KV cache is a primary bottleneck for Transformer decoding: its memory footprint and cache-read traffic grow with sequence length. Grouped-query attention (GQA) reduces this cost by sharing…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Coding"
+        ],
+        "read_url": "https://huggingface.co/papers/2609.13285",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2609.13285",
+        "why_it_matters": "Grouped Value Attention 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 Grouped Value Attention 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "scores": {
+          "knowledge_value": 7,
+          "marketing_value": 3,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 16
+        },
+        "scraped_at": "2026-09-16T00:58:37.779905+00:00"
+      },
+      {
+        "id": "f7675dd33fbf",
+        "title": "AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video",
+        "summary": "Interactive video world models must maintain broad scene context under camera motion while producing high-fidelity observations with low latency. Existing approaches face a representation trade-off:…",
         "source": "hf_papers",
         "tags": [
           "model"
@@ -426,12 +512,12 @@
         "topic_tags": [
           "Video"
         ],
-        "read_url": "https://huggingface.co/papers/2609.08230",
+        "read_url": "https://huggingface.co/papers/2609.14462",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2609.08230",
-        "why_it_matters": "ActionSplice 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-        "content_angle": "用通俗语言解读 ActionSplice，发帖「一句话看懂今天的 AI 论文」",
+        "engage_url": "https://huggingface.co/papers/2609.14462",
+        "why_it_matters": "AlayaVista 是可以直接用的工具，能立刻提升你的工作效率",
+        "content_angle": "实测 AlayaVista 做一个具体任务，发帖「这个 AI 工具能帮你省多少时间」",
         "scores": {
           "knowledge_value": 3,
           "marketing_value": 7,
@@ -439,96 +525,7 @@
           "engageability": 3,
           "total": 16
         },
-        "scraped_at": "2026-09-15T01:07:26.279945+00:00"
-      },
-      {
-        "id": "ae02f105b4e9",
-        "title": "DataFlex-RL: An Evaluation Platform for RLVR Data Policies",
-        "summary": "Data policies for reinforcement learning with verifiable rewards (RLVR) determine which rollouts are used, how strongly they are weighted, and which domains contribute to subsequent training batches.…",
-        "source": "hf_papers",
-        "tags": [
-          "model"
-        ],
-        "geo_tags": [
-          "US"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
-          "Benchmark",
-          "Infra"
-        ],
-        "read_url": "https://huggingface.co/papers/2609.06107",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2609.06107",
-        "why_it_matters": "DataFlex-RL 降低了定制模型的门槛，小团队也能训练专属 AI",
-        "content_angle": "写 DataFlex-RL 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
-        "scores": {
-          "knowledge_value": 7,
-          "marketing_value": 3,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 16
-        },
-        "scraped_at": "2026-09-15T01:07:26.280048+00:00"
-      },
-      {
-        "id": "6564ed5a13c3",
-        "title": "ReMoMask-2: Latent Retrieval-Augmented Masked Motion Generation",
-        "summary": "Text-to-motion (T2M) generation maps natural language to human joint movements, aiding gaming, VR, and robotics. Retrieval-Augmented Text-to-Motion (RAG-T2M) improves generation on complex…",
-        "source": "hf_papers",
-        "tags": [
-          "model"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Robotics",
-          "Search",
-          "Benchmark"
-        ],
-        "read_url": "https://huggingface.co/papers/2609.08365",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2609.08365",
-        "why_it_matters": "ReMoMask-2 提升了 AI 获取和使用外部知识的能力，准确率更高了",
-        "content_angle": "用 ReMoMask-2 搭一个简单知识库 demo，发帖「10 分钟搭建 AI 知识助手」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 3,
-          "forkability": 3,
-          "engageability": 5,
-          "total": 14
-        },
-        "scraped_at": "2026-09-15T01:07:26.278744+00:00"
-      },
-      {
-        "id": "3d78b1e2d679",
-        "title": "MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control",
-        "summary": "Grounding natural-language instructions into reliable and executable actions remains a fundamental challenge for vision-language-action (VLA) systems on mobile robots, due to the persistent gap…",
-        "source": "hf_papers",
-        "tags": [
-          "model"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Robotics"
-        ],
-        "read_url": "https://huggingface.co/papers/2609.06251",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2609.06251",
-        "why_it_matters": "MobileVLA-R1 2.0 证明小模型也能跑出好效果，本地部署成本大幅降低",
-        "content_angle": "用通俗语言解读 MobileVLA-R1 2.0，发帖「一句话看懂今天的 AI 论文」",
-        "scores": {
-          "knowledge_value": 5,
-          "marketing_value": 3,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 14
-        },
-        "scraped_at": "2026-09-15T01:07:26.278879+00:00"
+        "scraped_at": "2026-09-16T00:58:37.780107+00:00"
       }
     ],
     "products": [],
@@ -536,7 +533,7 @@
       {
         "id": "992ec44c4a56",
         "title": "alibaba/open-code-review",
-        "summary": "[Go] Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,… · 1,571 stars today",
+        "summary": "[Go] Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,… · 2,756 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -558,12 +555,12 @@
           "engageability": 3,
           "total": 18
         },
-        "scraped_at": "2026-09-15T01:07:27.899024+00:00"
+        "scraped_at": "2026-09-16T00:58:39.173783+00:00"
       },
       {
-        "id": "e1265bb58a93",
-        "title": "Panniantong/Agent-Reach",
-        "summary": "[Python] Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. · 651 stars today",
+        "id": "98e90272cb42",
+        "title": "melgarafael/DeskcommCRM",
+        "summary": "[TypeScript] Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD. · 193 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -572,39 +569,12 @@
         "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [],
-        "read_url": "https://github.com/Panniantong/Agent-Reach",
+        "read_url": "https://github.com/melgarafael/DeskcommCRM",
         "try_url": "",
-        "fork_url": "https://github.com/Panniantong/Agent-Reach",
-        "engage_url": "https://github.com/Panniantong/Agent-Reach/discussions",
-        "why_it_matters": "Agent-Reach 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 Agent-Reach 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 5,
-          "forkability": 5,
-          "engageability": 3,
-          "total": 16
-        },
-        "scraped_at": "2026-09-15T01:07:27.900312+00:00"
-      },
-      {
-        "id": "13ee412bb1f8",
-        "title": "rlaope/oh-my-hermes",
-        "summary": "[Python] All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages · 77 stars today",
-        "source": "github",
-        "tags": [
-          "repo",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/rlaope/oh-my-hermes",
-        "try_url": "",
-        "fork_url": "https://github.com/rlaope/oh-my-hermes",
-        "engage_url": "https://github.com/rlaope/oh-my-hermes/discussions",
-        "why_it_matters": "oh-my-hermes 正在改变写代码的方式——速度和质量都在跃升",
-        "content_angle": "用 oh-my-hermes 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "fork_url": "https://github.com/melgarafael/DeskcommCRM",
+        "engage_url": "https://github.com/melgarafael/DeskcommCRM/discussions",
+        "why_it_matters": "DeskcommCRM 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 DeskcommCRM 自动完成任务的过程，发帖「AI 自动化实操演示」",
         "scores": {
           "knowledge_value": 3,
           "marketing_value": 7,
@@ -612,12 +582,12 @@
           "engageability": 3,
           "total": 16
         },
-        "scraped_at": "2026-09-15T01:07:27.900976+00:00"
+        "scraped_at": "2026-09-16T00:58:39.176397+00:00"
       },
       {
-        "id": "eefc1df5ea5e",
-        "title": "TauricResearch/TradingAgents",
-        "summary": "[Python] TradingAgents: Multi-Agents LLM Financial Trading Framework · 745 stars today",
+        "id": "779512ce413a",
+        "title": "alphaXiv/OpenResearch",
+        "summary": "[Rust] Turn your coding agents into research agents · 531 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -626,12 +596,12 @@
         "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [],
-        "read_url": "https://github.com/TauricResearch/TradingAgents",
+        "read_url": "https://github.com/alphaXiv/OpenResearch",
         "try_url": "",
-        "fork_url": "https://github.com/TauricResearch/TradingAgents",
-        "engage_url": "https://github.com/TauricResearch/TradingAgents/discussions",
-        "why_it_matters": "TradingAgents 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 TradingAgents 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "fork_url": "https://github.com/alphaXiv/OpenResearch",
+        "engage_url": "https://github.com/alphaXiv/OpenResearch/discussions",
+        "why_it_matters": "OpenResearch 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 OpenResearch 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
         "scores": {
           "knowledge_value": 5,
           "marketing_value": 5,
@@ -639,12 +609,12 @@
           "engageability": 3,
           "total": 16
         },
-        "scraped_at": "2026-09-15T01:07:27.901968+00:00"
+        "scraped_at": "2026-09-16T00:58:39.176848+00:00"
       },
       {
-        "id": "06cc4531204a",
-        "title": "multimodal-art-projection/YuE",
-        "summary": "[Python] YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing. · 559 stars today",
+        "id": "d4506da3affa",
+        "title": "danny-avila/LibreChat",
+        "summary": "[TypeScript] Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching,… · 254 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -653,25 +623,52 @@
         "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [],
-        "read_url": "https://github.com/multimodal-art-projection/YuE",
+        "read_url": "https://github.com/danny-avila/LibreChat",
         "try_url": "",
-        "fork_url": "https://github.com/multimodal-art-projection/YuE",
-        "engage_url": "https://github.com/multimodal-art-projection/YuE/discussions",
-        "why_it_matters": "YuE 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 YuE 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "fork_url": "https://github.com/danny-avila/LibreChat",
+        "engage_url": "https://github.com/danny-avila/LibreChat/discussions",
+        "why_it_matters": "LibreChat 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 LibreChat 自动完成任务的过程，发帖「AI 自动化实操演示」",
         "scores": {
           "knowledge_value": 3,
           "marketing_value": 5,
+          "forkability": 5,
+          "engageability": 3,
+          "total": 16
+        },
+        "scraped_at": "2026-09-16T00:58:39.177819+00:00"
+      },
+      {
+        "id": "4ad7f34f59ad",
+        "title": "MG1937/ASC",
+        "summary": "[Python] ASC is a super FAST Android decompiler front-end designed for Agents/Mobile Researchers. · 129 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/MG1937/ASC",
+        "try_url": "",
+        "fork_url": "https://github.com/MG1937/ASC",
+        "engage_url": "https://github.com/MG1937/ASC/discussions",
+        "why_it_matters": "ASC 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 ASC 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 5,
+          "marketing_value": 5,
           "forkability": 3,
           "engageability": 3,
-          "total": 14
+          "total": 16
         },
-        "scraped_at": "2026-09-15T01:07:27.899359+00:00"
+        "scraped_at": "2026-09-16T00:58:39.178668+00:00"
       },
       {
         "id": "6be30a758453",
         "title": "debpalash/VoiceStudio",
-        "summary": "[Python] VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. · 2,776 stars today",
+        "summary": "[Python] VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. · 2,072 stars today",
         "source": "github",
         "tags": [
           "repo"
@@ -692,25 +689,26 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-09-15T01:07:27.899667+00:00"
+        "scraped_at": "2026-09-16T00:58:39.175394+00:00"
       },
       {
-        "id": "4c7cdfc27c28",
-        "title": "ruvnet/RuView",
-        "summary": "[Rust] π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video. · 383 stars today",
+        "id": "ca04de022546",
+        "title": "pacifio/atlas",
+        "summary": "[Rust] Source control for agents. Use multiple coding agents, track their changes and query them in one place · 91 stars today",
         "source": "github",
         "tags": [
-          "repo"
+          "repo",
+          "tool"
         ],
         "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [],
-        "read_url": "https://github.com/ruvnet/RuView",
+        "read_url": "https://github.com/pacifio/atlas",
         "try_url": "",
-        "fork_url": "https://github.com/ruvnet/RuView",
-        "engage_url": "https://github.com/ruvnet/RuView/discussions",
-        "why_it_matters": "RuView 正在 GitHub 上快速增长，说明开发者有真实需求",
-        "content_angle": "写一篇 RuView 的安装和上手教程，发帖「这个开源项目值得试」",
+        "fork_url": "https://github.com/pacifio/atlas",
+        "engage_url": "https://github.com/pacifio/atlas/discussions",
+        "why_it_matters": "atlas 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 atlas 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
         "scores": {
           "knowledge_value": 3,
           "marketing_value": 5,
@@ -718,40 +716,41 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-09-15T01:07:27.902264+00:00"
+        "scraped_at": "2026-09-16T00:58:39.178242+00:00"
       },
       {
-        "id": "d10fa3bdf9f5",
-        "title": "JustVugg/colibri",
-        "summary": "[C] Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦 · 2,173 stars today",
+        "id": "077460854484",
+        "title": "addyosmani/agent-skills",
+        "summary": "[JavaScript] Production-grade engineering skills for AI coding agents. · 307 stars today",
         "source": "github",
         "tags": [
-          "repo"
+          "repo",
+          "tool"
         ],
         "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [],
-        "read_url": "https://github.com/JustVugg/colibri",
+        "read_url": "https://github.com/addyosmani/agent-skills",
         "try_url": "",
-        "fork_url": "https://github.com/JustVugg/colibri",
-        "engage_url": "https://github.com/JustVugg/colibri/discussions",
-        "why_it_matters": "colibri 证明小模型也能跑出好效果，本地部署成本大幅降低",
-        "content_angle": "写一篇 colibri 的安装和上手教程，发帖「这个开源项目值得试」",
+        "fork_url": "https://github.com/addyosmani/agent-skills",
+        "engage_url": "https://github.com/addyosmani/agent-skills/discussions",
+        "why_it_matters": "agent-skills 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 agent-skills 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
         "scores": {
           "knowledge_value": 3,
-          "marketing_value": 3,
+          "marketing_value": 5,
           "forkability": 3,
           "engageability": 3,
-          "total": 12
+          "total": 14
         },
-        "scraped_at": "2026-09-15T01:07:27.898634+00:00"
+        "scraped_at": "2026-09-16T00:58:39.179082+00:00"
       }
     ],
     "tools": [
       {
-        "id": "26054df27001",
-        "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
-        "summary": "Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations. Because cost and latency accumulate over the full…",
+        "id": "cb35a6003113",
+        "title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
+        "summary": "Video diffusion models are stochastic and hard to control: precise content often requires repeated sampling without guaranteed success, and long-horizon scenes drift in appearance, interactions, and…",
         "source": "hf_papers",
         "tags": [
           "model",
@@ -763,92 +762,28 @@
         "entity_tags": [],
         "topic_tags": [
           "Agent",
-          "Coding"
+          "Video",
+          "Image"
         ],
-        "read_url": "https://huggingface.co/papers/2609.11977",
+        "read_url": "https://huggingface.co/papers/2609.15863",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2609.11977",
-        "why_it_matters": "Occamy-1.0 正在改变写代码的方式——速度和质量都在跃升",
-        "content_angle": "用 Occamy-1.0 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "engage_url": "https://huggingface.co/papers/2609.15863",
+        "why_it_matters": "LynnReal-Omni 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+        "content_angle": "拿 LynnReal-Omni 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
         "scores": {
           "knowledge_value": 3,
-          "marketing_value": 9,
+          "marketing_value": 10,
           "forkability": 3,
           "engageability": 3,
-          "total": 18
+          "total": 19
         },
-        "scraped_at": "2026-09-15T01:07:26.278980+00:00"
-      },
-      {
-        "id": "469103c7d707",
-        "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
-        "summary": "Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusable resources such as indices, scripts, or procedural guidance. Most automated…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [
-          "US",
-          "Europe"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent"
-        ],
-        "read_url": "https://huggingface.co/papers/2609.10824",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2609.10824",
-        "why_it_matters": "Studying Without a Syllabus 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 Studying Without a Syllabus 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 5,
-          "total": 18
-        },
-        "scraped_at": "2026-09-15T01:07:26.279800+00:00"
-      },
-      {
-        "id": "4a46ef20491a",
-        "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
-        "summary": "GUI agents accumulate high-resolution screenshots as the trajectory unfolds, increasing inference latency and memory usage. Training-free visual token pruning can reduce this cost, but cache reuse…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [
-          "US",
-          "Europe"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Infra"
-        ],
-        "read_url": "https://huggingface.co/papers/2609.10297",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2609.10297",
-        "why_it_matters": "TRACE 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 TRACE 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 5,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-09-15T01:07:26.279874+00:00"
+        "scraped_at": "2026-09-16T00:58:37.779623+00:00"
       },
       {
         "id": "992ec44c4a56",
         "title": "alibaba/open-code-review",
-        "summary": "[Go] Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,… · 1,571 stars today",
+        "summary": "[Go] Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,… · 2,756 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -870,39 +805,44 @@
           "engageability": 3,
           "total": 18
         },
-        "scraped_at": "2026-09-15T01:07:27.899024+00:00"
+        "scraped_at": "2026-09-16T00:58:39.173783+00:00"
       },
       {
-        "id": "e1265bb58a93",
-        "title": "Panniantong/Agent-Reach",
-        "summary": "[Python] Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. · 651 stars today",
-        "source": "github",
+        "id": "baa132925116",
+        "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
+        "summary": "The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals…",
+        "source": "hf_papers",
         "tags": [
-          "repo",
+          "model",
           "tool"
         ],
-        "geo_tags": [],
+        "geo_tags": [
+          "US"
+        ],
         "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/Panniantong/Agent-Reach",
+        "topic_tags": [
+          "Agent",
+          "Search"
+        ],
+        "read_url": "https://huggingface.co/papers/2609.13463",
         "try_url": "",
-        "fork_url": "https://github.com/Panniantong/Agent-Reach",
-        "engage_url": "https://github.com/Panniantong/Agent-Reach/discussions",
-        "why_it_matters": "Agent-Reach 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 Agent-Reach 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2609.13463",
+        "why_it_matters": "Root-Cause Attribution Is a… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 Root-Cause Attribution Is a… 自动完成任务的过程，发帖「AI 自动化实操演示」",
         "scores": {
           "knowledge_value": 3,
           "marketing_value": 5,
-          "forkability": 5,
-          "engageability": 3,
+          "forkability": 3,
+          "engageability": 5,
           "total": 16
         },
-        "scraped_at": "2026-09-15T01:07:27.900312+00:00"
+        "scraped_at": "2026-09-16T00:58:37.778905+00:00"
       },
       {
-        "id": "13ee412bb1f8",
-        "title": "rlaope/oh-my-hermes",
-        "summary": "[Python] All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages · 77 stars today",
+        "id": "98e90272cb42",
+        "title": "melgarafael/DeskcommCRM",
+        "summary": "[TypeScript] Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD. · 193 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -911,12 +851,12 @@
         "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [],
-        "read_url": "https://github.com/rlaope/oh-my-hermes",
+        "read_url": "https://github.com/melgarafael/DeskcommCRM",
         "try_url": "",
-        "fork_url": "https://github.com/rlaope/oh-my-hermes",
-        "engage_url": "https://github.com/rlaope/oh-my-hermes/discussions",
-        "why_it_matters": "oh-my-hermes 正在改变写代码的方式——速度和质量都在跃升",
-        "content_angle": "用 oh-my-hermes 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "fork_url": "https://github.com/melgarafael/DeskcommCRM",
+        "engage_url": "https://github.com/melgarafael/DeskcommCRM/discussions",
+        "why_it_matters": "DeskcommCRM 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 DeskcommCRM 自动完成任务的过程，发帖「AI 自动化实操演示」",
         "scores": {
           "knowledge_value": 3,
           "marketing_value": 7,
@@ -924,12 +864,12 @@
           "engageability": 3,
           "total": 16
         },
-        "scraped_at": "2026-09-15T01:07:27.900976+00:00"
+        "scraped_at": "2026-09-16T00:58:39.176397+00:00"
       },
       {
-        "id": "eefc1df5ea5e",
-        "title": "TauricResearch/TradingAgents",
-        "summary": "[Python] TradingAgents: Multi-Agents LLM Financial Trading Framework · 745 stars today",
+        "id": "779512ce413a",
+        "title": "alphaXiv/OpenResearch",
+        "summary": "[Rust] Turn your coding agents into research agents · 531 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -938,12 +878,12 @@
         "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [],
-        "read_url": "https://github.com/TauricResearch/TradingAgents",
+        "read_url": "https://github.com/alphaXiv/OpenResearch",
         "try_url": "",
-        "fork_url": "https://github.com/TauricResearch/TradingAgents",
-        "engage_url": "https://github.com/TauricResearch/TradingAgents/discussions",
-        "why_it_matters": "TradingAgents 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 TradingAgents 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "fork_url": "https://github.com/alphaXiv/OpenResearch",
+        "engage_url": "https://github.com/alphaXiv/OpenResearch/discussions",
+        "why_it_matters": "OpenResearch 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 OpenResearch 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
         "scores": {
           "knowledge_value": 5,
           "marketing_value": 5,
@@ -951,12 +891,12 @@
           "engageability": 3,
           "total": 16
         },
-        "scraped_at": "2026-09-15T01:07:27.901968+00:00"
+        "scraped_at": "2026-09-16T00:58:39.176848+00:00"
       },
       {
-        "id": "06cc4531204a",
-        "title": "multimodal-art-projection/YuE",
-        "summary": "[Python] YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing. · 559 stars today",
+        "id": "d4506da3affa",
+        "title": "danny-avila/LibreChat",
+        "summary": "[TypeScript] Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching,… · 254 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -965,12 +905,66 @@
         "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [],
-        "read_url": "https://github.com/multimodal-art-projection/YuE",
+        "read_url": "https://github.com/danny-avila/LibreChat",
         "try_url": "",
-        "fork_url": "https://github.com/multimodal-art-projection/YuE",
-        "engage_url": "https://github.com/multimodal-art-projection/YuE/discussions",
-        "why_it_matters": "YuE 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 YuE 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "fork_url": "https://github.com/danny-avila/LibreChat",
+        "engage_url": "https://github.com/danny-avila/LibreChat/discussions",
+        "why_it_matters": "LibreChat 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 LibreChat 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 5,
+          "engageability": 3,
+          "total": 16
+        },
+        "scraped_at": "2026-09-16T00:58:39.177819+00:00"
+      },
+      {
+        "id": "4ad7f34f59ad",
+        "title": "MG1937/ASC",
+        "summary": "[Python] ASC is a super FAST Android decompiler front-end designed for Agents/Mobile Researchers. · 129 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/MG1937/ASC",
+        "try_url": "",
+        "fork_url": "https://github.com/MG1937/ASC",
+        "engage_url": "https://github.com/MG1937/ASC/discussions",
+        "why_it_matters": "ASC 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 ASC 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 5,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 16
+        },
+        "scraped_at": "2026-09-16T00:58:39.178668+00:00"
+      },
+      {
+        "id": "ca04de022546",
+        "title": "pacifio/atlas",
+        "summary": "[Rust] Source control for agents. Use multiple coding agents, track their changes and query them in one place · 91 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/pacifio/atlas",
+        "try_url": "",
+        "fork_url": "https://github.com/pacifio/atlas",
+        "engage_url": "https://github.com/pacifio/atlas/discussions",
+        "why_it_matters": "atlas 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 atlas 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
         "scores": {
           "knowledge_value": 3,
           "marketing_value": 5,
@@ -978,7 +972,7 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-09-15T01:07:27.899359+00:00"
+        "scraped_at": "2026-09-16T00:58:39.178242+00:00"
       }
     ],
     "discussions": []
@@ -997,38 +991,66 @@
       "title": "📝 可发内容 Top 5",
       "text": "营销价值最高的话题",
       "items": [
-        "「Occamy-1.0: Open Pareto-fronti」—— 用 Occamy-1.0 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代",
-        "「Studying Without a Syllabus: T」—— 录制 Studying Without a Syllabus 自动完成任务的过程",
-        "「TRACE: Trajectory-robust Admis」—— 录制 TRACE 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "「LynnReal-Omni: Native multi-mo」—— 拿 LynnReal-Omni 生成一组作品截图，发帖「AI 做的图/视频能到什",
         "「alibaba/open-code-review」—— 用 open-code-review 完成一个实际任务，录屏发帖「AI 写代码 ",
-        "「ActionSplice: In-Flight Action」—— 用通俗语言解读 ActionSplice，发帖「一句话看懂今天的 AI 论文」"
+        "「AlayaVista: Streaming World Mo」—— 实测 AlayaVista 做一个具体任务，发帖「这个 AI 工具能帮你省多少时",
+        "「melgarafael/DeskcommCRM」—— 录制 DeskcommCRM 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "「E2A-Bench: Benchmarking Eviden」—— 用通俗语言解读 E2A-Bench，发帖「一句话看懂今天的 AI 论文」"
       ]
     },
     {
       "title": "📸 截图素材建议",
       "text": "可直接截图发社交媒体",
       "items": [
-        "Occamy-1.0: Open Pareto-f 的界面/结果截图",
-        "Studying Without a Syllab 的界面/结果截图",
-        "TRACE: Trajectory-robust  的界面/结果截图",
-        "alibaba/open-code-review 的界面/结果截图"
+        "LynnReal-Omni: Native mul 的界面/结果截图",
+        "alibaba/open-code-review 的界面/结果截图",
+        "AlayaVista: Streaming Wor 的界面/结果截图",
+        "melgarafael/DeskcommCRM 的界面/结果截图"
       ]
     },
     {
       "title": "⚡ 本周行动建议",
       "text": "基于趋势推荐的 3 个行动",
       "items": [
-        "试用/Fork: Occamy-1.0: Open Pareto-f",
-        "深度阅读: DataFlex-RL: An Evaluatio",
+        "试用/Fork: LynnReal-Omni: Native mul",
+        "深度阅读: E2A-Bench: Benchmarking E",
         "在 Reddit 发一篇 AI 工具对比帖"
       ]
     }
   ],
   "all_items": [
     {
-      "id": "26054df27001",
-      "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
-      "summary": "Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations. Because cost and latency accumulate over the full…",
+      "id": "d8772871ce5f",
+      "title": "E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning",
+      "summary": "Can financial vision-language models (VLMs) turn chart evidence into reliable action recommendations? Existing hallucination evaluations are mostly claim-centric; they assess whether generated…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.14302",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2609.14302",
+      "why_it_matters": "E2A-Bench 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+      "content_angle": "用通俗语言解读 E2A-Bench，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 9,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 20
+      },
+      "scraped_at": "2026-09-16T00:58:37.779000+00:00"
+    },
+    {
+      "id": "cb35a6003113",
+      "title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
+      "summary": "Video diffusion models are stochastic and hard to control: precise content often requires repeated sampling without guaranteed success, and long-horizon scenes drift in appearance, interactions, and…",
       "source": "hf_papers",
       "tags": [
         "model",
@@ -1040,92 +1062,56 @@
       "entity_tags": [],
       "topic_tags": [
         "Agent",
-        "Coding"
+        "Video",
+        "Image"
       ],
-      "read_url": "https://huggingface.co/papers/2609.11977",
+      "read_url": "https://huggingface.co/papers/2609.15863",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.11977",
-      "why_it_matters": "Occamy-1.0 正在改变写代码的方式——速度和质量都在跃升",
-      "content_angle": "用 Occamy-1.0 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "engage_url": "https://huggingface.co/papers/2609.15863",
+      "why_it_matters": "LynnReal-Omni 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 LynnReal-Omni 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
       "scores": {
         "knowledge_value": 3,
-        "marketing_value": 9,
+        "marketing_value": 10,
         "forkability": 3,
         "engageability": 3,
-        "total": 18
+        "total": 19
       },
-      "scraped_at": "2026-09-15T01:07:26.278980+00:00"
+      "scraped_at": "2026-09-16T00:58:37.779623+00:00"
     },
     {
-      "id": "469103c7d707",
-      "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
-      "summary": "Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusable resources such as indices, scripts, or procedural guidance. Most automated…",
+      "id": "28d1cb5f5b34",
+      "title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+      "summary": "We demonstrate that training LLMs with RL does not improve performance equally across a dataset. RL shows large improvements on easy problems that an LLM is already good at solving, but small…",
       "source": "hf_papers",
       "tags": [
-        "model",
-        "tool"
+        "model"
       ],
-      "geo_tags": [
-        "US",
-        "Europe"
-      ],
+      "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [
-        "Agent"
-      ],
-      "read_url": "https://huggingface.co/papers/2609.10824",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.10824",
-      "why_it_matters": "Studying Without a Syllabus 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 Studying Without a Syllabus 自动完成任务的过程，发帖「AI 自动化实操演示」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 7,
-        "forkability": 3,
-        "engageability": 5,
-        "total": 18
-      },
-      "scraped_at": "2026-09-15T01:07:26.279800+00:00"
-    },
-    {
-      "id": "4a46ef20491a",
-      "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
-      "summary": "GUI agents accumulate high-resolution screenshots as the trajectory unfolds, increasing inference latency and memory usage. Training-free visual token pruning can reduce this cost, but cache reuse…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [
-        "US",
-        "Europe"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
         "Infra"
       ],
-      "read_url": "https://huggingface.co/papers/2609.10297",
+      "read_url": "https://huggingface.co/papers/2609.13443",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.10297",
-      "why_it_matters": "TRACE 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 TRACE 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "engage_url": "https://huggingface.co/papers/2609.13443",
+      "why_it_matters": "Learning to Solve Hard… 降低了定制模型的门槛，小团队也能训练专属 AI",
+      "content_angle": "在本地跑一下 Learning to Solve Hard…，截图发帖「用自己电脑跑 AI 是什么体验」",
       "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 7,
+        "knowledge_value": 7,
+        "marketing_value": 5,
         "forkability": 3,
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-09-15T01:07:26.279874+00:00"
+      "scraped_at": "2026-09-16T00:58:37.778784+00:00"
     },
     {
       "id": "992ec44c4a56",
       "title": "alibaba/open-code-review",
-      "summary": "[Go] Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,… · 1,571 stars today",
+      "summary": "[Go] Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,… · 2,756 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1147,25 +1133,31 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-09-15T01:07:27.899024+00:00"
+      "scraped_at": "2026-09-16T00:58:39.173783+00:00"
     },
     {
-      "id": "99d7b4168835",
-      "title": "Feature Recovery for Object Understanding After Irreversible Fire Damage",
-      "summary": "Objects in post-fire environments often undergo irreversible physical transformations that change their geometry, material state, and visual appearance. Detecting and identifying these remnants is…",
+      "id": "baa132925116",
+      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
+      "summary": "The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals…",
       "source": "hf_papers",
       "tags": [
-        "model"
+        "model",
+        "tool"
       ],
-      "geo_tags": [],
+      "geo_tags": [
+        "US"
+      ],
       "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://huggingface.co/papers/2609.12078",
+      "topic_tags": [
+        "Agent",
+        "Search"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.13463",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.12078",
-      "why_it_matters": "Feature Recovery for Object… 是可以直接用的工具，能立刻提升你的工作效率",
-      "content_angle": "实测 Feature Recovery for Object… 做一个具体任务，发帖「这个 AI 工具能帮你省多少时间」",
+      "engage_url": "https://huggingface.co/papers/2609.13463",
+      "why_it_matters": "Root-Cause Attribution Is a… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 Root-Cause Attribution Is a… 自动完成任务的过程，发帖「AI 自动化实操演示」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 5,
@@ -1173,12 +1165,12 @@
         "engageability": 5,
         "total": 16
       },
-      "scraped_at": "2026-09-15T01:07:26.279411+00:00"
+      "scraped_at": "2026-09-16T00:58:37.778905+00:00"
     },
     {
-      "id": "2aab474febe6",
-      "title": "ActionSplice: In-Flight Action Editing for Interactive World Models",
-      "summary": "Chunk-autoregressive video world models typically condition each generated chunk on one action. An action received during sampling must therefore wait for the next chunk, condition future solver…",
+      "id": "f86fd3f02556",
+      "title": "Thought without systematicity? Evaluating reasoning models on rule induction tasks",
+      "summary": "A central tenet of human cognition is systematicity, the principle that understanding one concept is inherently tied to understanding close variations of that concept. Do reasoning models robustly…",
       "source": "hf_papers",
       "tags": [
         "model"
@@ -1188,45 +1180,73 @@
       ],
       "entity_tags": [],
       "topic_tags": [
-        "Video"
+        "Benchmark"
       ],
-      "read_url": "https://huggingface.co/papers/2609.08230",
+      "read_url": "https://huggingface.co/papers/2609.13948",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.08230",
-      "why_it_matters": "ActionSplice 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 ActionSplice，发帖「一句话看懂今天的 AI 论文」",
+      "engage_url": "https://huggingface.co/papers/2609.13948",
+      "why_it_matters": "Thought without… 提供了新的评估标准，帮助判断哪些模型真正好用",
+      "content_angle": "用通俗语言解读 Thought without…，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 5,
+        "total": 16
+      },
+      "scraped_at": "2026-09-16T00:58:37.779111+00:00"
+    },
+    {
+      "id": "10c8ef4c687a",
+      "title": "ModaLens: Measuring Image Sensitivity in Report-Conditioned Medical VLMs",
+      "summary": "A radiology report can already answer a clinical question, so it is hard to tell whether a vision-language model also uses the image. ModaLens, a paired image-swap audit, measures how report…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [
+        "Image",
+        "Open Source"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.15635",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2609.15635",
+      "why_it_matters": "ModaLens 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+      "content_angle": "用通俗语言解读 ModaLens，发帖「一句话看懂今天的 AI 论文」",
       "scores": {
         "knowledge_value": 3,
-        "marketing_value": 7,
-        "forkability": 3,
+        "marketing_value": 5,
+        "forkability": 5,
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-09-15T01:07:26.279945+00:00"
+      "scraped_at": "2026-09-16T00:58:37.779409+00:00"
     },
     {
-      "id": "ae02f105b4e9",
-      "title": "DataFlex-RL: An Evaluation Platform for RLVR Data Policies",
-      "summary": "Data policies for reinforcement learning with verifiable rewards (RLVR) determine which rollouts are used, how strongly they are weighted, and which domains contribute to subsequent training batches.…",
+      "id": "5f0c5ceae8d7",
+      "title": "Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction",
+      "summary": "The KV cache is a primary bottleneck for Transformer decoding: its memory footprint and cache-read traffic grow with sequence length. Grouped-query attention (GQA) reduces this cost by sharing…",
       "source": "hf_papers",
       "tags": [
         "model"
       ],
-      "geo_tags": [
-        "US"
-      ],
+      "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [
-        "Benchmark",
-        "Infra"
+        "Coding"
       ],
-      "read_url": "https://huggingface.co/papers/2609.06107",
+      "read_url": "https://huggingface.co/papers/2609.13285",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.06107",
-      "why_it_matters": "DataFlex-RL 降低了定制模型的门槛，小团队也能训练专属 AI",
-      "content_angle": "写 DataFlex-RL 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
+      "engage_url": "https://huggingface.co/papers/2609.13285",
+      "why_it_matters": "Grouped Value Attention 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 Grouped Value Attention 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
       "scores": {
         "knowledge_value": 7,
         "marketing_value": 3,
@@ -1234,53 +1254,29 @@
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-09-15T01:07:26.280048+00:00"
+      "scraped_at": "2026-09-16T00:58:37.779905+00:00"
     },
     {
-      "id": "e1265bb58a93",
-      "title": "Panniantong/Agent-Reach",
-      "summary": "[Python] Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. · 651 stars today",
-      "source": "github",
+      "id": "f7675dd33fbf",
+      "title": "AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video",
+      "summary": "Interactive video world models must maintain broad scene context under camera motion while producing high-fidelity observations with low latency. Existing approaches face a representation trade-off:…",
+      "source": "hf_papers",
       "tags": [
-        "repo",
-        "tool"
+        "model"
       ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://github.com/Panniantong/Agent-Reach",
-      "try_url": "",
-      "fork_url": "https://github.com/Panniantong/Agent-Reach",
-      "engage_url": "https://github.com/Panniantong/Agent-Reach/discussions",
-      "why_it_matters": "Agent-Reach 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 Agent-Reach 自动完成任务的过程，发帖「AI 自动化实操演示」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 5,
-        "forkability": 5,
-        "engageability": 3,
-        "total": 16
-      },
-      "scraped_at": "2026-09-15T01:07:27.900312+00:00"
-    },
-    {
-      "id": "13ee412bb1f8",
-      "title": "rlaope/oh-my-hermes",
-      "summary": "[Python] All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages · 77 stars today",
-      "source": "github",
-      "tags": [
-        "repo",
-        "tool"
+      "geo_tags": [
+        "US"
       ],
-      "geo_tags": [],
       "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://github.com/rlaope/oh-my-hermes",
+      "topic_tags": [
+        "Video"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.14462",
       "try_url": "",
-      "fork_url": "https://github.com/rlaope/oh-my-hermes",
-      "engage_url": "https://github.com/rlaope/oh-my-hermes/discussions",
-      "why_it_matters": "oh-my-hermes 正在改变写代码的方式——速度和质量都在跃升",
-      "content_angle": "用 oh-my-hermes 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2609.14462",
+      "why_it_matters": "AlayaVista 是可以直接用的工具，能立刻提升你的工作效率",
+      "content_angle": "实测 AlayaVista 做一个具体任务，发帖「这个 AI 工具能帮你省多少时间」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 7,
@@ -1288,12 +1284,12 @@
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-09-15T01:07:27.900976+00:00"
+      "scraped_at": "2026-09-16T00:58:37.780107+00:00"
     },
     {
-      "id": "eefc1df5ea5e",
-      "title": "TauricResearch/TradingAgents",
-      "summary": "[Python] TradingAgents: Multi-Agents LLM Financial Trading Framework · 745 stars today",
+      "id": "98e90272cb42",
+      "title": "melgarafael/DeskcommCRM",
+      "summary": "[TypeScript] Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD. · 193 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1302,12 +1298,39 @@
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://github.com/TauricResearch/TradingAgents",
+      "read_url": "https://github.com/melgarafael/DeskcommCRM",
       "try_url": "",
-      "fork_url": "https://github.com/TauricResearch/TradingAgents",
-      "engage_url": "https://github.com/TauricResearch/TradingAgents/discussions",
-      "why_it_matters": "TradingAgents 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 TradingAgents 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "fork_url": "https://github.com/melgarafael/DeskcommCRM",
+      "engage_url": "https://github.com/melgarafael/DeskcommCRM/discussions",
+      "why_it_matters": "DeskcommCRM 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 DeskcommCRM 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 7,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 16
+      },
+      "scraped_at": "2026-09-16T00:58:39.176397+00:00"
+    },
+    {
+      "id": "779512ce413a",
+      "title": "alphaXiv/OpenResearch",
+      "summary": "[Rust] Turn your coding agents into research agents · 531 stars today",
+      "source": "github",
+      "tags": [
+        "repo",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [],
+      "read_url": "https://github.com/alphaXiv/OpenResearch",
+      "try_url": "",
+      "fork_url": "https://github.com/alphaXiv/OpenResearch",
+      "engage_url": "https://github.com/alphaXiv/OpenResearch/discussions",
+      "why_it_matters": "OpenResearch 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 OpenResearch 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
       "scores": {
         "knowledge_value": 5,
         "marketing_value": 5,
@@ -1315,182 +1338,12 @@
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-09-15T01:07:27.901968+00:00"
+      "scraped_at": "2026-09-16T00:58:39.176848+00:00"
     },
     {
-      "id": "6564ed5a13c3",
-      "title": "ReMoMask-2: Latent Retrieval-Augmented Masked Motion Generation",
-      "summary": "Text-to-motion (T2M) generation maps natural language to human joint movements, aiding gaming, VR, and robotics. Retrieval-Augmented Text-to-Motion (RAG-T2M) improves generation on complex…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Robotics",
-        "Search",
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2609.08365",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.08365",
-      "why_it_matters": "ReMoMask-2 提升了 AI 获取和使用外部知识的能力，准确率更高了",
-      "content_angle": "用 ReMoMask-2 搭一个简单知识库 demo，发帖「10 分钟搭建 AI 知识助手」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 5,
-        "total": 14
-      },
-      "scraped_at": "2026-09-15T01:07:26.278744+00:00"
-    },
-    {
-      "id": "3d78b1e2d679",
-      "title": "MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control",
-      "summary": "Grounding natural-language instructions into reliable and executable actions remains a fundamental challenge for vision-language-action (VLA) systems on mobile robots, due to the persistent gap…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Robotics"
-      ],
-      "read_url": "https://huggingface.co/papers/2609.06251",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.06251",
-      "why_it_matters": "MobileVLA-R1 2.0 证明小模型也能跑出好效果，本地部署成本大幅降低",
-      "content_angle": "用通俗语言解读 MobileVLA-R1 2.0，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 14
-      },
-      "scraped_at": "2026-09-15T01:07:26.278879+00:00"
-    },
-    {
-      "id": "2b3bb8a8c85d",
-      "title": "Pelican-Sim 1.0: A General World Model Simulator for Embodied Intelligence",
-      "summary": "In this technical report, we propose Pelican-Sim 1.0, a general world model simulator for embodied intelligence that predicts future observations from visual context and robot actions to support…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Robotics",
-        "Open Source"
-      ],
-      "read_url": "https://huggingface.co/papers/2609.12036",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.12036",
-      "why_it_matters": "Pelican-Sim 1.0 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 Pelican-Sim 1.0，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 3,
-        "forkability": 5,
-        "engageability": 3,
-        "total": 14
-      },
-      "scraped_at": "2026-09-15T01:07:26.279054+00:00"
-    },
-    {
-      "id": "d30ce6ace3f3",
-      "title": "ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs",
-      "summary": "Reacting to sudden physical hazards (catching a slipping plate, dodging a falling knife) is both a meaningful test of embodied intelligence and a hard requirement for deploying multimodal large…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Robotics",
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2609.10895",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.10895",
-      "why_it_matters": "ReactHuman 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
-      "content_angle": "用通俗语言解读 ReactHuman，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 14
-      },
-      "scraped_at": "2026-09-15T01:07:26.279165+00:00"
-    },
-    {
-      "id": "7a3ba6a6ed99",
-      "title": "Ambient @ EgoProactive 2026 : Proactive Egocentric Assistance with Visually Grounded Supervision",
-      "summary": "We present our submission to the EgoProactive track of the ECCV 2026 Wearable AI Challenge, which ranked first in the large-model division and second in the <=2B division. The task requires a…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://huggingface.co/papers/2609.07099",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.07099",
-      "why_it_matters": "Ambient @ EgoProactive 2026 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
-      "content_angle": "用通俗语言解读 Ambient @ EgoProactive 2026，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 5,
-        "total": 14
-      },
-      "scraped_at": "2026-09-15T01:07:26.279610+00:00"
-    },
-    {
-      "id": "c8e93837025a",
-      "title": "Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model",
-      "summary": "We describe our entry to the EgoLongQA track of the Wearable-AI Challenge in ECCV 2026, which placed first in the <=2B parameter division with 0.8279 on the held-out test set. Our system is a single…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Video"
-      ],
-      "read_url": "https://huggingface.co/papers/2609.07154",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.07154",
-      "why_it_matters": "Ambient @ EgoLongQA 2026 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
-      "content_angle": "用通俗语言解读 Ambient @ EgoLongQA 2026，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 14
-      },
-      "scraped_at": "2026-09-15T01:07:26.279710+00:00"
-    },
-    {
-      "id": "06cc4531204a",
-      "title": "multimodal-art-projection/YuE",
-      "summary": "[Python] YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing. · 559 stars today",
+      "id": "d4506da3affa",
+      "title": "danny-avila/LibreChat",
+      "summary": "[TypeScript] Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching,… · 254 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1499,25 +1352,230 @@
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://github.com/multimodal-art-projection/YuE",
+      "read_url": "https://github.com/danny-avila/LibreChat",
       "try_url": "",
-      "fork_url": "https://github.com/multimodal-art-projection/YuE",
-      "engage_url": "https://github.com/multimodal-art-projection/YuE/discussions",
-      "why_it_matters": "YuE 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 YuE 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "fork_url": "https://github.com/danny-avila/LibreChat",
+      "engage_url": "https://github.com/danny-avila/LibreChat/discussions",
+      "why_it_matters": "LibreChat 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 LibreChat 自动完成任务的过程，发帖「AI 自动化实操演示」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 5,
+        "forkability": 5,
+        "engageability": 3,
+        "total": 16
+      },
+      "scraped_at": "2026-09-16T00:58:39.177819+00:00"
+    },
+    {
+      "id": "4ad7f34f59ad",
+      "title": "MG1937/ASC",
+      "summary": "[Python] ASC is a super FAST Android decompiler front-end designed for Agents/Mobile Researchers. · 129 stars today",
+      "source": "github",
+      "tags": [
+        "repo",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [],
+      "read_url": "https://github.com/MG1937/ASC",
+      "try_url": "",
+      "fork_url": "https://github.com/MG1937/ASC",
+      "engage_url": "https://github.com/MG1937/ASC/discussions",
+      "why_it_matters": "ASC 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 ASC 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 16
+      },
+      "scraped_at": "2026-09-16T00:58:39.178668+00:00"
+    },
+    {
+      "id": "73b25662a9d8",
+      "title": "Lightning Weave: Improving the Accuracy-Efficiency Frontier of Reasoning Models through Capability Composition",
+      "summary": "A core goal of efficient reasoning is to improve the accuracy-efficiency frontier. However, jointly improving reasoning accuracy and inference efficiency can be challenging, as the two objectives can…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Infra"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.14708",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2609.14708",
+      "why_it_matters": "Lightning Weave 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
+      "content_angle": "用通俗语言解读 Lightning Weave，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 3,
         "forkability": 3,
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-09-15T01:07:27.899359+00:00"
+      "scraped_at": "2026-09-16T00:58:37.778567+00:00"
+    },
+    {
+      "id": "20865b99a0aa",
+      "title": "Learning Sparse Decision Trees via Transformer Variational Auto-Encoders",
+      "summary": "Decision trees are among the most widely used models in machine learning, largely due to their transparent decision logic, making them well-suited for high-stakes decision-making contexts. However,…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [
+        "Coding"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.01430",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2609.01430",
+      "why_it_matters": "Learning Sparse Decision… 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 Learning Sparse Decision… 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 14
+      },
+      "scraped_at": "2026-09-16T00:58:37.779231+00:00"
+    },
+    {
+      "id": "329794e7d5f9",
+      "title": "How Lossless Is Lossless Speculative Decoding? The Role of Numerical Precision in Orthrus",
+      "summary": "Orthrus is a hybrid autoregressive-diffusion architecture that accelerates autoregressive language-model inference by generating multiple tokens in parallel while using a frozen autoregressive…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [
+        "Image",
+        "Coding",
+        "Infra"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.15504",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2609.15504",
+      "why_it_matters": "How Lossless Is Lossless… 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 How Lossless Is Lossless… 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 14
+      },
+      "scraped_at": "2026-09-16T00:58:37.779320+00:00"
+    },
+    {
+      "id": "883481211637",
+      "title": "Expert-Space Exploration in MoE Reinforcement Learning",
+      "summary": "Reinforcement learning (RL) has become central to post-training of large language models. Recent advances in RL for Mixture-of-Experts (MoE) models have primarily focused on improving optimization…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [
+        "Infra"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.13058",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2609.13058",
+      "why_it_matters": "Expert-Space Exploration in… 降低了定制模型的门槛，小团队也能训练专属 AI",
+      "content_angle": "写 Expert-Space Exploration in… 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 14
+      },
+      "scraped_at": "2026-09-16T00:58:37.779707+00:00"
+    },
+    {
+      "id": "91914ea58594",
+      "title": "MInTRL: Off-policy Intervention can boost On-policy RL",
+      "summary": "Reinforcement learning with verifiable rewards is typically performed on-policy, keeping training data close to the current policy but limiting learning to trajectories that the policy can discover…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Infra",
+        "Policy"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.12419",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2609.12419",
+      "why_it_matters": "MInTRL 降低了定制模型的门槛，小团队也能训练专属 AI",
+      "content_angle": "写 MInTRL 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 14
+      },
+      "scraped_at": "2026-09-16T00:58:37.779807+00:00"
+    },
+    {
+      "id": "0591d128dbfa",
+      "title": "Building a Production Greek-English Speech Recognizer",
+      "summary": "We report a multi-month engineering program to build Sophea, a production bilingual Greek-English automatic speech recognition system. We evaluate the system against nine production gates covering…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Benchmark",
+        "Open Source"
+      ],
+      "read_url": "https://huggingface.co/papers/2609.13498",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2609.13498",
+      "why_it_matters": "Building a Production… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "用通俗语言解读 Building a Production…，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 3,
+        "forkability": 5,
+        "engageability": 3,
+        "total": 14
+      },
+      "scraped_at": "2026-09-16T00:58:37.780010+00:00"
     },
     {
       "id": "6be30a758453",
       "title": "debpalash/VoiceStudio",
-      "summary": "[Python] VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. · 2,776 stars today",
+      "summary": "[Python] VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. · 2,072 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1538,25 +1596,26 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-09-15T01:07:27.899667+00:00"
+      "scraped_at": "2026-09-16T00:58:39.175394+00:00"
     },
     {
-      "id": "4c7cdfc27c28",
-      "title": "ruvnet/RuView",
-      "summary": "[Rust] π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video. · 383 stars today",
+      "id": "ca04de022546",
+      "title": "pacifio/atlas",
+      "summary": "[Rust] Source control for agents. Use multiple coding agents, track their changes and query them in one place · 91 stars today",
       "source": "github",
       "tags": [
-        "repo"
+        "repo",
+        "tool"
       ],
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://github.com/ruvnet/RuView",
+      "read_url": "https://github.com/pacifio/atlas",
       "try_url": "",
-      "fork_url": "https://github.com/ruvnet/RuView",
-      "engage_url": "https://github.com/ruvnet/RuView/discussions",
-      "why_it_matters": "RuView 正在 GitHub 上快速增长，说明开发者有真实需求",
-      "content_angle": "写一篇 RuView 的安装和上手教程，发帖「这个开源项目值得试」",
+      "fork_url": "https://github.com/pacifio/atlas",
+      "engage_url": "https://github.com/pacifio/atlas/discussions",
+      "why_it_matters": "atlas 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 atlas 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 5,
@@ -1564,68 +1623,39 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-09-15T01:07:27.902264+00:00"
+      "scraped_at": "2026-09-16T00:58:39.178242+00:00"
     },
     {
-      "id": "001c283922ba",
-      "title": "Competence-Gated Pooling of Language Models and Priors for Event Forecasting",
-      "summary": "In hybrid forecasting, a language model is often one of several available signals. A system may already have a market, crowd, or statistical forecast and must decide whether the model adds useful…",
-      "source": "hf_papers",
+      "id": "077460854484",
+      "title": "addyosmani/agent-skills",
+      "summary": "[JavaScript] Production-grade engineering skills for AI coding agents. · 307 stars today",
+      "source": "github",
       "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://huggingface.co/papers/2609.12101",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.12101",
-      "why_it_matters": "Competence-Gated Pooling of… 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 Competence-Gated Pooling of…，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 12
-      },
-      "scraped_at": "2026-09-15T01:07:26.279299+00:00"
-    },
-    {
-      "id": "4d5c00ba4e58",
-      "title": "Towards a Deterministic Math Solver for Clinical Language Models",
-      "summary": "Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single numerical error changes the recommendation. The standard response is to hardcode each…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
+        "repo",
+        "tool"
       ],
       "geo_tags": [],
       "entity_tags": [],
-      "topic_tags": [
-        "Coding"
-      ],
-      "read_url": "https://huggingface.co/papers/2609.10728",
+      "topic_tags": [],
+      "read_url": "https://github.com/addyosmani/agent-skills",
       "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.10728",
-      "why_it_matters": "Towards a Deterministic Math… 正在改变写代码的方式——速度和质量都在跃升",
-      "content_angle": "用 Towards a Deterministic Math… 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "fork_url": "https://github.com/addyosmani/agent-skills",
+      "engage_url": "https://github.com/addyosmani/agent-skills/discussions",
+      "why_it_matters": "agent-skills 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 agent-skills 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
       "scores": {
         "knowledge_value": 3,
-        "marketing_value": 3,
+        "marketing_value": 5,
         "forkability": 3,
         "engageability": 3,
-        "total": 12
+        "total": 14
       },
-      "scraped_at": "2026-09-15T01:07:26.279527+00:00"
+      "scraped_at": "2026-09-16T00:58:39.179082+00:00"
     },
     {
-      "id": "eb70448e8866",
-      "title": "Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech",
-      "summary": "In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus.…",
+      "id": "c122347b1a7e",
+      "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
+      "summary": "Visual goal and dynamics prediction can provide language-conditioned robot policies with both a target outcome and a representation of action-dependent scene changes. We bring these predictions into…",
       "source": "hf_papers",
       "tags": [
         "model"
@@ -1635,15 +1665,15 @@
       ],
       "entity_tags": [],
       "topic_tags": [
-        "Benchmark",
-        "Infra"
+        "Image",
+        "Robotics"
       ],
-      "read_url": "https://huggingface.co/papers/2609.03502",
+      "read_url": "https://huggingface.co/papers/2609.13053",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2609.03502",
-      "why_it_matters": "Building and Evaluating… 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
-      "content_angle": "用通俗语言解读 Building and Evaluating…，发帖「一句话看懂今天的 AI 论文」",
+      "engage_url": "https://huggingface.co/papers/2609.13053",
+      "why_it_matters": "Dynin-Robotics 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 Dynin-Robotics 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 3,
@@ -1651,12 +1681,12 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-09-15T01:07:26.280138+00:00"
+      "scraped_at": "2026-09-16T00:58:37.779521+00:00"
     },
     {
       "id": "d10fa3bdf9f5",
       "title": "JustVugg/colibri",
-      "summary": "[C] Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦 · 2,173 stars today",
+      "summary": "[C] Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦 · 2,026 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1677,12 +1707,12 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-09-15T01:07:27.898634+00:00"
+      "scraped_at": "2026-09-16T00:58:39.174353+00:00"
     },
     {
-      "id": "571d58ffc9cb",
-      "title": "666ghj/MiroFish",
-      "summary": "[Python] A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 · 560 stars today",
+      "id": "bd9baaf101db",
+      "title": "ever-co/ever-gauzy",
+      "summary": "[TypeScript] Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) -https://gauzy.co · 634 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1690,12 +1720,12 @@
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://github.com/666ghj/MiroFish",
+      "read_url": "https://github.com/ever-co/ever-gauzy",
       "try_url": "",
-      "fork_url": "https://github.com/666ghj/MiroFish",
-      "engage_url": "https://github.com/666ghj/MiroFish/discussions",
-      "why_it_matters": "MiroFish 正在 GitHub 上快速增长，说明开发者有真实需求",
-      "content_angle": "写一篇 MiroFish 的安装和上手教程，发帖「这个开源项目值得试」",
+      "fork_url": "https://github.com/ever-co/ever-gauzy",
+      "engage_url": "https://github.com/ever-co/ever-gauzy/discussions",
+      "why_it_matters": "ever-gauzy 是可以直接用的工具，能立刻提升你的工作效率",
+      "content_angle": "写一篇 ever-gauzy 的安装和上手教程，发帖「这个开源项目值得试」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 3,
@@ -1703,12 +1733,12 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-09-15T01:07:27.899986+00:00"
+      "scraped_at": "2026-09-16T00:58:39.174947+00:00"
     },
     {
-      "id": "0f4f8b5caaba",
-      "title": "asgeirtj/system_prompts_leaks",
-      "summary": "[JavaScript] Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok… · 764 stars today",
+      "id": "fba06ede2b7a",
+      "title": "Homebrew/BrewUI",
+      "summary": "[Swift] 📺 Homebrew's official macOS GUI · 271 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1716,12 +1746,12 @@
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "read_url": "https://github.com/Homebrew/BrewUI",
       "try_url": "",
-      "fork_url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "engage_url": "https://github.com/asgeirtj/system_prompts_leaks/discussions",
-      "why_it_matters": "system_prompts_leaks 正在改变写代码的方式——速度和质量都在跃升",
-      "content_angle": "用 system_prompts_leaks 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "fork_url": "https://github.com/Homebrew/BrewUI",
+      "engage_url": "https://github.com/Homebrew/BrewUI/discussions",
+      "why_it_matters": "BrewUI 正在 GitHub 上快速增长，说明开发者有真实需求",
+      "content_angle": "写一篇 BrewUI 的安装和上手教程，发帖「这个开源项目值得试」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 3,
@@ -1729,12 +1759,12 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-09-15T01:07:27.900678+00:00"
+      "scraped_at": "2026-09-16T00:58:39.175967+00:00"
     },
     {
-      "id": "3394d418fe98",
-      "title": "localsend/localsend",
-      "summary": "[Dart] An open-source cross-platform alternative to AirDrop · 251 stars today",
+      "id": "f63f6ca07851",
+      "title": "NationalSecurityAgency/ghidra",
+      "summary": "[Java] Ghidra is a software reverse engineering (SRE) framework · 725 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1742,12 +1772,12 @@
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://github.com/localsend/localsend",
+      "read_url": "https://github.com/NationalSecurityAgency/ghidra",
       "try_url": "",
-      "fork_url": "https://github.com/localsend/localsend",
-      "engage_url": "https://github.com/localsend/localsend/discussions",
-      "why_it_matters": "localsend 是开源的，意味着任何人都可以免费使用、修改和部署",
-      "content_angle": "在本地跑一下 localsend，截图发帖「用自己电脑跑 AI 是什么体验」",
+      "fork_url": "https://github.com/NationalSecurityAgency/ghidra",
+      "engage_url": "https://github.com/NationalSecurityAgency/ghidra/discussions",
+      "why_it_matters": "ghidra 是可以直接用的工具，能立刻提升你的工作效率",
+      "content_angle": "写一篇 ghidra 的安装和上手教程，发帖「这个开源项目值得试」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 3,
@@ -1755,33 +1785,7 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-09-15T01:07:27.901279+00:00"
-    },
-    {
-      "id": "6bfc47d4fe1f",
-      "title": "dani-garcia/vaultwarden",
-      "summary": "[Rust] Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs · 115 stars today",
-      "source": "github",
-      "tags": [
-        "repo"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://github.com/dani-garcia/vaultwarden",
-      "try_url": "",
-      "fork_url": "https://github.com/dani-garcia/vaultwarden",
-      "engage_url": "https://github.com/dani-garcia/vaultwarden/discussions",
-      "why_it_matters": "vaultwarden 正在 GitHub 上快速增长，说明开发者有真实需求",
-      "content_angle": "写一篇 vaultwarden 的安装和上手教程，发帖「这个开源项目值得试」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 12
-      },
-      "scraped_at": "2026-09-15T01:07:27.901657+00:00"
+      "scraped_at": "2026-09-16T00:58:39.177261+00:00"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-26T04:38:53.973065+00:00",
+    "updated_at": "2026-11-27T04:42:57.399441+00:00",
     "total_items": 27,
     "sources_scraped": [
       "hf_papers",
@@ -48,9 +48,9 @@
   ],
   "cover": [
     {
-      "id": "62893ad127e0",
-      "title": "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation",
-      "summary": "General-purpose multimodal foundation models enable robots to adapt during deployment from observations and execution feedback, without task-specific demonstrations or training. However, the robot…",
+      "id": "de5d718e3e00",
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but…",
       "source": "hf_papers",
       "tags": [
         "model",
@@ -60,109 +60,79 @@
       "entity_tags": [],
       "topic_tags": [
         "Agent",
-        "Robotics",
-        "Infra"
+        "Search",
+        "Benchmark",
+        "Open Source"
       ],
-      "read_url": "https://huggingface.co/papers/2611.33915",
+      "read_url": "https://huggingface.co/papers/2611.34852",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.33915",
-      "why_it_matters": "SEEK 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 SEEK 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "engage_url": "https://huggingface.co/papers/2611.34852",
+      "why_it_matters": "DRBench Pro 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 DRBench Pro 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 7,
+        "marketing_value": 5,
+        "forkability": 5,
+        "engageability": 3,
+        "total": 20
+      },
+      "scraped_at": "2026-11-27T04:42:54.494672+00:00"
+    },
+    {
+      "id": "52d9c0f359ac",
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments,…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.34232",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.34232",
+      "why_it_matters": "OS-Omni 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
       "scores": {
         "knowledge_value": 5,
         "marketing_value": 7,
         "forkability": 3,
-        "engageability": 5,
-        "total": 20
+        "engageability": 3,
+        "total": 18
       },
-      "scraped_at": "2026-11-26T04:38:52.268304+00:00"
+      "scraped_at": "2026-11-27T04:42:54.494580+00:00"
     },
     {
-      "id": "5a0a3fe6812e",
-      "title": "Loupe: Reinforcing Knowledge-Intensive Video Generation Agents",
-      "summary": "Knowledge-intensive video generation remains challenging because prompts often omit the facts, appearances, and temporal relationships required for accurate generation. While search-based workflows…",
+      "id": "deb638abfb07",
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic…",
       "source": "hf_papers",
       "tags": [
         "model",
         "tool"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Video",
-        "Search"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.31895",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.31895",
-      "why_it_matters": "Loupe 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 Loupe 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 10,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 19
-      },
-      "scraped_at": "2026-11-26T04:38:52.268057+00:00"
-    },
-    {
-      "id": "7ec81a4c17f7",
-      "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
-      "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
       ],
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [
-        "Infra"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.27962",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.27962",
-      "why_it_matters": "Model Carving 降低了定制模型的门槛，小团队也能训练专属 AI",
-      "content_angle": "写 Model Carving 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
-      "scores": {
-        "knowledge_value": 10,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 19
-      },
-      "scraped_at": "2026-11-26T04:38:52.268589+00:00"
-    },
-    {
-      "id": "029f35c1d6b6",
-      "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
-      "summary": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
         "Agent",
         "Video",
-        "Coding"
+        "Infra"
       ],
-      "read_url": "https://huggingface.co/papers/2611.33144",
+      "read_url": "https://huggingface.co/papers/2611.34290",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.33144",
-      "why_it_matters": "PyRUA-Dex 正在改变写代码的方式——速度和质量都在跃升",
-      "content_angle": "用 PyRUA-Dex 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "engage_url": "https://huggingface.co/papers/2611.34290",
+      "why_it_matters": "StateWeaver 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 StateWeaver 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 9,
@@ -170,12 +140,103 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-11-26T04:38:52.268437+00:00"
+      "scraped_at": "2026-11-27T04:42:54.494893+00:00"
+    },
+    {
+      "id": "6ba2c8dfd7ae",
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out?…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Video",
+        "Coding",
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.34813",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.34813",
+      "why_it_matters": "Solve Vision with Code 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 Solve Vision with Code 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 7,
+        "forkability": 3,
+        "engageability": 5,
+        "total": 18
+      },
+      "scraped_at": "2026-11-27T04:42:54.494982+00:00"
+    },
+    {
+      "id": "f6c2ead2c523",
+      "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+      "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Video",
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.34457",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.34457",
+      "why_it_matters": "ProxyGenBench 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 ProxyGenBench 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 7,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 18
+      },
+      "scraped_at": "2026-11-27T04:42:54.495208+00:00"
+    },
+    {
+      "id": "e4cdccd5593d",
+      "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
+      "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.20844",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.20844",
+      "why_it_matters": "DetourBench 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 DetourBench 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 7,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 18
+      },
+      "scraped_at": "2026-11-27T04:42:54.495409+00:00"
     },
     {
       "id": "74291b35a2dd",
       "title": "nginx/nginx",
-      "summary": "[C] The official NGINX Open Source repository. · 176 stars today",
+      "summary": "[C] The official NGINX Open Source repository. · 150 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -196,12 +257,12 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-11-26T04:38:53.596890+00:00"
+      "scraped_at": "2026-11-27T04:42:56.523065+00:00"
     },
     {
       "id": "b6b1fe318044",
       "title": "openvinotoolkit/openvino",
-      "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 191 stars today",
+      "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 176 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -223,77 +284,15 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-11-26T04:38:53.597141+00:00"
-    },
-    {
-      "id": "f11ec21700ce",
-      "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
-      "summary": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Video"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.34907",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34907",
-      "why_it_matters": "Agentic LongLive 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 Agentic LongLive 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 7,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 16
-      },
-      "scraped_at": "2026-11-26T04:38:52.267859+00:00"
-    },
-    {
-      "id": "f00412889f07",
-      "title": "Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations",
-      "summary": "Generating PPTX presentations is a structured task that requires semantic planning, visual composition, precise layout, and editability, motivating collaboration among specialized agents. However,…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Coding"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.28010",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.28010",
-      "why_it_matters": "Beyond Code and Pixels 正在改变写代码的方式——速度和质量都在跃升",
-      "content_angle": "用 Beyond Code and Pixels 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 5,
-        "total": 16
-      },
-      "scraped_at": "2026-11-26T04:38:52.267986+00:00"
+      "scraped_at": "2026-11-27T04:42:56.523386+00:00"
     }
   ],
   "sections": {
     "models": [
       {
-        "id": "62893ad127e0",
-        "title": "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation",
-        "summary": "General-purpose multimodal foundation models enable robots to adapt during deployment from observations and execution feedback, without task-specific demonstrations or training. However, the robot…",
+        "id": "de5d718e3e00",
+        "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+        "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but…",
         "source": "hf_papers",
         "tags": [
           "model",
@@ -303,109 +302,79 @@
         "entity_tags": [],
         "topic_tags": [
           "Agent",
-          "Robotics",
-          "Infra"
+          "Search",
+          "Benchmark",
+          "Open Source"
         ],
-        "read_url": "https://huggingface.co/papers/2611.33915",
+        "read_url": "https://huggingface.co/papers/2611.34852",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.33915",
-        "why_it_matters": "SEEK 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 SEEK 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "engage_url": "https://huggingface.co/papers/2611.34852",
+        "why_it_matters": "DRBench Pro 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 DRBench Pro 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 7,
+          "marketing_value": 5,
+          "forkability": 5,
+          "engageability": 3,
+          "total": 20
+        },
+        "scraped_at": "2026-11-27T04:42:54.494672+00:00"
+      },
+      {
+        "id": "52d9c0f359ac",
+        "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+        "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments,…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [
+          "US"
+        ],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Benchmark"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.34232",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.34232",
+        "why_it_matters": "OS-Omni 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
         "scores": {
           "knowledge_value": 5,
           "marketing_value": 7,
           "forkability": 3,
-          "engageability": 5,
-          "total": 20
+          "engageability": 3,
+          "total": 18
         },
-        "scraped_at": "2026-11-26T04:38:52.268304+00:00"
+        "scraped_at": "2026-11-27T04:42:54.494580+00:00"
       },
       {
-        "id": "5a0a3fe6812e",
-        "title": "Loupe: Reinforcing Knowledge-Intensive Video Generation Agents",
-        "summary": "Knowledge-intensive video generation remains challenging because prompts often omit the facts, appearances, and temporal relationships required for accurate generation. While search-based workflows…",
+        "id": "deb638abfb07",
+        "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+        "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic…",
         "source": "hf_papers",
         "tags": [
           "model",
           "tool"
-        ],
-        "geo_tags": [
-          "US"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Video",
-          "Search"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.31895",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.31895",
-        "why_it_matters": "Loupe 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-        "content_angle": "拿 Loupe 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 10,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 19
-        },
-        "scraped_at": "2026-11-26T04:38:52.268057+00:00"
-      },
-      {
-        "id": "7ec81a4c17f7",
-        "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
-        "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every…",
-        "source": "hf_papers",
-        "tags": [
-          "model"
         ],
         "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [
-          "Infra"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.27962",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.27962",
-        "why_it_matters": "Model Carving 降低了定制模型的门槛，小团队也能训练专属 AI",
-        "content_angle": "写 Model Carving 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
-        "scores": {
-          "knowledge_value": 10,
-          "marketing_value": 3,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 19
-        },
-        "scraped_at": "2026-11-26T04:38:52.268589+00:00"
-      },
-      {
-        "id": "029f35c1d6b6",
-        "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
-        "summary": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [
-          "US"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
           "Agent",
           "Video",
-          "Coding"
+          "Infra"
         ],
-        "read_url": "https://huggingface.co/papers/2611.33144",
+        "read_url": "https://huggingface.co/papers/2611.34290",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.33144",
-        "why_it_matters": "PyRUA-Dex 正在改变写代码的方式——速度和质量都在跃升",
-        "content_angle": "用 PyRUA-Dex 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "engage_url": "https://huggingface.co/papers/2611.34290",
+        "why_it_matters": "StateWeaver 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+        "content_angle": "拿 StateWeaver 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
         "scores": {
           "knowledge_value": 3,
           "marketing_value": 9,
@@ -413,44 +382,12 @@
           "engageability": 3,
           "total": 18
         },
-        "scraped_at": "2026-11-26T04:38:52.268437+00:00"
+        "scraped_at": "2026-11-27T04:42:54.494893+00:00"
       },
       {
-        "id": "f11ec21700ce",
-        "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
-        "summary": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [
-          "US"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Video"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.34907",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.34907",
-        "why_it_matters": "Agentic LongLive 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-        "content_angle": "拿 Agentic LongLive 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 16
-        },
-        "scraped_at": "2026-11-26T04:38:52.267859+00:00"
-      },
-      {
-        "id": "f00412889f07",
-        "title": "Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations",
-        "summary": "Generating PPTX presentations is a structured task that requires semantic planning, visual composition, precise layout, and editability, motivating collaboration among specialized agents. However,…",
+        "id": "6ba2c8dfd7ae",
+        "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+        "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out?…",
         "source": "hf_papers",
         "tags": [
           "model",
@@ -460,47 +397,106 @@
         "entity_tags": [],
         "topic_tags": [
           "Agent",
-          "Coding"
+          "Video",
+          "Coding",
+          "Benchmark"
         ],
-        "read_url": "https://huggingface.co/papers/2611.28010",
+        "read_url": "https://huggingface.co/papers/2611.34813",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.28010",
-        "why_it_matters": "Beyond Code and Pixels 正在改变写代码的方式——速度和质量都在跃升",
-        "content_angle": "用 Beyond Code and Pixels 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "engage_url": "https://huggingface.co/papers/2611.34813",
+        "why_it_matters": "Solve Vision with Code 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+        "content_angle": "拿 Solve Vision with Code 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
         "scores": {
           "knowledge_value": 3,
-          "marketing_value": 5,
+          "marketing_value": 7,
           "forkability": 3,
           "engageability": 5,
-          "total": 16
+          "total": 18
         },
-        "scraped_at": "2026-11-26T04:38:52.267986+00:00"
+        "scraped_at": "2026-11-27T04:42:54.494982+00:00"
       },
       {
-        "id": "c1c8d74dff25",
-        "title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
-        "summary": "Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes…",
+        "id": "f6c2ead2c523",
+        "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+        "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Video",
+          "Benchmark"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.34457",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.34457",
+        "why_it_matters": "ProxyGenBench 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+        "content_angle": "拿 ProxyGenBench 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+        "scores": {
+          "knowledge_value": 5,
+          "marketing_value": 7,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 18
+        },
+        "scraped_at": "2026-11-27T04:42:54.495208+00:00"
+      },
+      {
+        "id": "e4cdccd5593d",
+        "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
+        "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a…",
         "source": "hf_papers",
         "tags": [
           "model",
           "tool"
         ],
-        "geo_tags": [
-          "US"
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Benchmark"
         ],
+        "read_url": "https://huggingface.co/papers/2611.20844",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.20844",
+        "why_it_matters": "DetourBench 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 DetourBench 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 7,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 18
+        },
+        "scraped_at": "2026-11-27T04:42:54.495409+00:00"
+      },
+      {
+        "id": "a30ca2f47d60",
+        "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+        "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [
           "Agent",
           "Robotics",
-          "Benchmark"
+          "Policy"
         ],
-        "read_url": "https://huggingface.co/papers/2611.33143",
+        "read_url": "https://huggingface.co/papers/2611.32238",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.33143",
-        "why_it_matters": "ROAM-Bench 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 ROAM-Bench 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "engage_url": "https://huggingface.co/papers/2611.32238",
+        "why_it_matters": "Boundary-Aware Policy… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 Boundary-Aware Policy… 自动完成任务的过程，发帖「AI 自动化实操演示」",
         "scores": {
           "knowledge_value": 5,
           "marketing_value": 5,
@@ -508,38 +504,36 @@
           "engageability": 3,
           "total": 16
         },
-        "scraped_at": "2026-11-26T04:38:52.268367+00:00"
+        "scraped_at": "2026-11-27T04:42:54.494263+00:00"
       },
       {
-        "id": "cf0c654e2672",
-        "title": "Steerable by Design: Conditional Pretraining for Robust Control of Language Models",
-        "summary": "Our goal is to build language models that are steerable by design. Today's language models are pretrained with next-token prediction, which relegates alignment and control to the final 1% of training…",
+        "id": "e519d2e7d82f",
+        "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+        "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode…",
         "source": "hf_papers",
         "tags": [
           "model"
         ],
-        "geo_tags": [
-          "US"
-        ],
+        "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [
-          "Infra",
-          "Policy"
+          "Image",
+          "Coding"
         ],
-        "read_url": "https://huggingface.co/papers/2611.32199",
+        "read_url": "https://huggingface.co/papers/2611.34719",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.32199",
-        "why_it_matters": "Steerable by Design 降低了定制模型的门槛，小团队也能训练专属 AI",
-        "content_angle": "写 Steerable by Design 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
+        "engage_url": "https://huggingface.co/papers/2611.34719",
+        "why_it_matters": "Reading, Not Adapting 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+        "content_angle": "拿 Reading, Not Adapting 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
         "scores": {
-          "knowledge_value": 7,
-          "marketing_value": 3,
+          "knowledge_value": 3,
+          "marketing_value": 7,
           "forkability": 3,
           "engageability": 3,
           "total": 16
         },
-        "scraped_at": "2026-11-26T04:38:52.268667+00:00"
+        "scraped_at": "2026-11-27T04:42:54.494434+00:00"
       }
     ],
     "products": [],
@@ -547,7 +541,7 @@
       {
         "id": "74291b35a2dd",
         "title": "nginx/nginx",
-        "summary": "[C] The official NGINX Open Source repository. · 176 stars today",
+        "summary": "[C] The official NGINX Open Source repository. · 150 stars today",
         "source": "github",
         "tags": [
           "repo"
@@ -568,12 +562,12 @@
           "engageability": 3,
           "total": 18
         },
-        "scraped_at": "2026-11-26T04:38:53.596890+00:00"
+        "scraped_at": "2026-11-27T04:42:56.523065+00:00"
       },
       {
         "id": "b6b1fe318044",
         "title": "openvinotoolkit/openvino",
-        "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 191 stars today",
+        "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 176 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -595,12 +589,12 @@
           "engageability": 3,
           "total": 18
         },
-        "scraped_at": "2026-11-26T04:38:53.597141+00:00"
+        "scraped_at": "2026-11-27T04:42:56.523386+00:00"
       },
       {
         "id": "b518529580bf",
         "title": "mvanhorn/last30days-skill",
-        "summary": "[Python] AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · 945 stars today",
+        "summary": "[Python] AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · 759 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -622,12 +616,12 @@
           "engageability": 3,
           "total": 16
         },
-        "scraped_at": "2026-11-26T04:38:53.597707+00:00"
+        "scraped_at": "2026-11-27T04:42:56.524101+00:00"
       },
       {
         "id": "4d44aba20185",
         "title": "elementalsouls/Claude-BugHunter",
-        "summary": "[Python] A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise… · 1,652 stars today",
+        "summary": "[Python] A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise… · 1,597 stars today",
         "source": "github",
         "tags": [
           "repo"
@@ -648,12 +642,12 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-11-26T04:38:53.595271+00:00"
+        "scraped_at": "2026-11-27T04:42:56.520936+00:00"
       },
       {
         "id": "88767f3d91d6",
         "title": "obra/superpowers",
-        "summary": "[Shell] An agentic skills framework & software development methodology that works. · 903 stars today",
+        "summary": "[Shell] An agentic skills framework & software development methodology that works. · 854 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -675,12 +669,12 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-11-26T04:38:53.595664+00:00"
+        "scraped_at": "2026-11-27T04:42:56.521425+00:00"
       },
       {
         "id": "a2bb9c8e97f4",
         "title": "HKUDS/CLI-Anything",
-        "summary": "[Python] \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/ · 1,106 stars today",
+        "summary": "[Python] \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/ · 746 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -702,12 +696,12 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-11-26T04:38:53.595922+00:00"
+        "scraped_at": "2026-11-27T04:42:56.521780+00:00"
       },
       {
         "id": "1327a377387a",
         "title": "firecrawl/firecrawl",
-        "summary": "[TypeScript] Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. · 1,135 stars today",
+        "summary": "[TypeScript] Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. · 1,046 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -729,12 +723,12 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-11-26T04:38:53.596650+00:00"
+        "scraped_at": "2026-11-27T04:42:56.522752+00:00"
       },
       {
         "id": "6e561ec2b5e9",
         "title": "cathrynlavery/diagram-design",
-        "summary": "[HTML] Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. · 1,141 stars today",
+        "summary": "[HTML] Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. · 955 stars today",
         "source": "github",
         "tags": [
           "repo"
@@ -755,14 +749,14 @@
           "engageability": 3,
           "total": 14
         },
-        "scraped_at": "2026-11-26T04:38:53.597446+00:00"
+        "scraped_at": "2026-11-27T04:42:56.523787+00:00"
       }
     ],
     "tools": [
       {
-        "id": "62893ad127e0",
-        "title": "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation",
-        "summary": "General-purpose multimodal foundation models enable robots to adapt during deployment from observations and execution feedback, without task-specific demonstrations or training. However, the robot…",
+        "id": "de5d718e3e00",
+        "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+        "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but…",
         "source": "hf_papers",
         "tags": [
           "model",
@@ -772,81 +766,79 @@
         "entity_tags": [],
         "topic_tags": [
           "Agent",
-          "Robotics",
-          "Infra"
+          "Search",
+          "Benchmark",
+          "Open Source"
         ],
-        "read_url": "https://huggingface.co/papers/2611.33915",
+        "read_url": "https://huggingface.co/papers/2611.34852",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.33915",
-        "why_it_matters": "SEEK 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 SEEK 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "engage_url": "https://huggingface.co/papers/2611.34852",
+        "why_it_matters": "DRBench Pro 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 DRBench Pro 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 7,
+          "marketing_value": 5,
+          "forkability": 5,
+          "engageability": 3,
+          "total": 20
+        },
+        "scraped_at": "2026-11-27T04:42:54.494672+00:00"
+      },
+      {
+        "id": "52d9c0f359ac",
+        "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+        "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments,…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [
+          "US"
+        ],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Benchmark"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.34232",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.34232",
+        "why_it_matters": "OS-Omni 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
         "scores": {
           "knowledge_value": 5,
           "marketing_value": 7,
           "forkability": 3,
-          "engageability": 5,
-          "total": 20
-        },
-        "scraped_at": "2026-11-26T04:38:52.268304+00:00"
-      },
-      {
-        "id": "5a0a3fe6812e",
-        "title": "Loupe: Reinforcing Knowledge-Intensive Video Generation Agents",
-        "summary": "Knowledge-intensive video generation remains challenging because prompts often omit the facts, appearances, and temporal relationships required for accurate generation. While search-based workflows…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [
-          "US"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Video",
-          "Search"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.31895",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.31895",
-        "why_it_matters": "Loupe 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-        "content_angle": "拿 Loupe 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 10,
-          "forkability": 3,
           "engageability": 3,
-          "total": 19
+          "total": 18
         },
-        "scraped_at": "2026-11-26T04:38:52.268057+00:00"
+        "scraped_at": "2026-11-27T04:42:54.494580+00:00"
       },
       {
-        "id": "029f35c1d6b6",
-        "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
-        "summary": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and…",
+        "id": "deb638abfb07",
+        "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+        "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic…",
         "source": "hf_papers",
         "tags": [
           "model",
           "tool"
         ],
-        "geo_tags": [
-          "US"
-        ],
+        "geo_tags": [],
         "entity_tags": [],
         "topic_tags": [
           "Agent",
           "Video",
-          "Coding"
+          "Infra"
         ],
-        "read_url": "https://huggingface.co/papers/2611.33144",
+        "read_url": "https://huggingface.co/papers/2611.34290",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.33144",
-        "why_it_matters": "PyRUA-Dex 正在改变写代码的方式——速度和质量都在跃升",
-        "content_angle": "用 PyRUA-Dex 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "engage_url": "https://huggingface.co/papers/2611.34290",
+        "why_it_matters": "StateWeaver 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+        "content_angle": "拿 StateWeaver 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
         "scores": {
           "knowledge_value": 3,
           "marketing_value": 9,
@@ -854,12 +846,74 @@
           "engageability": 3,
           "total": 18
         },
-        "scraped_at": "2026-11-26T04:38:52.268437+00:00"
+        "scraped_at": "2026-11-27T04:42:54.494893+00:00"
+      },
+      {
+        "id": "6ba2c8dfd7ae",
+        "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+        "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out?…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Video",
+          "Coding",
+          "Benchmark"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.34813",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.34813",
+        "why_it_matters": "Solve Vision with Code 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+        "content_angle": "拿 Solve Vision with Code 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 7,
+          "forkability": 3,
+          "engageability": 5,
+          "total": 18
+        },
+        "scraped_at": "2026-11-27T04:42:54.494982+00:00"
+      },
+      {
+        "id": "e4cdccd5593d",
+        "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
+        "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Benchmark"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.20844",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.20844",
+        "why_it_matters": "DetourBench 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 DetourBench 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 7,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 18
+        },
+        "scraped_at": "2026-11-27T04:42:54.495409+00:00"
       },
       {
         "id": "b6b1fe318044",
         "title": "openvinotoolkit/openvino",
-        "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 191 stars today",
+        "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 176 stars today",
         "source": "github",
         "tags": [
           "repo",
@@ -881,94 +935,30 @@
           "engageability": 3,
           "total": 18
         },
-        "scraped_at": "2026-11-26T04:38:53.597141+00:00"
+        "scraped_at": "2026-11-27T04:42:56.523386+00:00"
       },
       {
-        "id": "f11ec21700ce",
-        "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
-        "summary": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [
-          "US"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Video"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.34907",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.34907",
-        "why_it_matters": "Agentic LongLive 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-        "content_angle": "拿 Agentic LongLive 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 16
-        },
-        "scraped_at": "2026-11-26T04:38:52.267859+00:00"
-      },
-      {
-        "id": "f00412889f07",
-        "title": "Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations",
-        "summary": "Generating PPTX presentations is a structured task that requires semantic planning, visual composition, precise layout, and editability, motivating collaboration among specialized agents. However,…",
+        "id": "a30ca2f47d60",
+        "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+        "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the…",
         "source": "hf_papers",
         "tags": [
           "model",
           "tool"
         ],
         "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Coding"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.28010",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.28010",
-        "why_it_matters": "Beyond Code and Pixels 正在改变写代码的方式——速度和质量都在跃升",
-        "content_angle": "用 Beyond Code and Pixels 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 5,
-          "total": 16
-        },
-        "scraped_at": "2026-11-26T04:38:52.267986+00:00"
-      },
-      {
-        "id": "c1c8d74dff25",
-        "title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
-        "summary": "Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [
-          "US"
-        ],
         "entity_tags": [],
         "topic_tags": [
           "Agent",
           "Robotics",
-          "Benchmark"
+          "Policy"
         ],
-        "read_url": "https://huggingface.co/papers/2611.33143",
+        "read_url": "https://huggingface.co/papers/2611.32238",
         "try_url": "",
         "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.33143",
-        "why_it_matters": "ROAM-Bench 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 ROAM-Bench 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "engage_url": "https://huggingface.co/papers/2611.32238",
+        "why_it_matters": "Boundary-Aware Policy… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 Boundary-Aware Policy… 自动完成任务的过程，发帖「AI 自动化实操演示」",
         "scores": {
           "knowledge_value": 5,
           "marketing_value": 5,
@@ -976,26 +966,29 @@
           "engageability": 3,
           "total": 16
         },
-        "scraped_at": "2026-11-26T04:38:52.268367+00:00"
+        "scraped_at": "2026-11-27T04:42:54.494263+00:00"
       },
       {
-        "id": "b518529580bf",
-        "title": "mvanhorn/last30days-skill",
-        "summary": "[Python] AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · 945 stars today",
-        "source": "github",
+        "id": "e8c013c4bc50",
+        "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
+        "summary": "Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial relations. Existing methods learn grounded interactions from supervised traces,…",
+        "source": "hf_papers",
         "tags": [
-          "repo",
+          "model",
           "tool"
         ],
         "geo_tags": [],
         "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/mvanhorn/last30days-skill",
+        "topic_tags": [
+          "Agent",
+          "Robotics"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.29969",
         "try_url": "",
-        "fork_url": "https://github.com/mvanhorn/last30days-skill",
-        "engage_url": "https://github.com/mvanhorn/last30days-skill/discussions",
-        "why_it_matters": "last30days-skill 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 last30days-skill 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.29969",
+        "why_it_matters": "CARE-3D 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 CARE-3D 自动完成任务的过程，发帖「AI 自动化实操演示」",
         "scores": {
           "knowledge_value": 5,
           "marketing_value": 5,
@@ -1003,7 +996,7 @@
           "engageability": 3,
           "total": 16
         },
-        "scraped_at": "2026-11-26T04:38:53.597707+00:00"
+        "scraped_at": "2026-11-27T04:42:54.495597+00:00"
       }
     ],
     "discussions": []
@@ -1022,38 +1015,38 @@
       "title": "📝 可发内容 Top 5",
       "text": "营销价值最高的话题",
       "items": [
-        "「Loupe: Reinforcing Knowledge-I」—— 拿 Loupe 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-        "「PyRUA-Dex: Learning Programmat」—— 用 PyRUA-Dex 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码",
-        "「SEEK: Self-Evolution through E」—— 录制 SEEK 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "「openvinotoolkit/openvino」—— 写一篇 openvino 的安装和上手教程，发帖「这个开源项目值得试」",
-        "「Agentic LongLive: Asynchronous」—— 拿 Agentic LongLive 生成一组作品截图，发帖「AI 做的图/视频"
+        "「StateWeaver: Multi-Agent Coord」—— 拿 StateWeaver 生成一组作品截图，发帖「AI 做的图/视频能到什么水",
+        "「OS-Omni: Benchmarking Generali」—— 录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "「Solve Vision with Code: Coding」—— 拿 Solve Vision with Code 生成一组作品截图，发帖「AI ",
+        "「ProxyGenBench: Benchmarking Pr」—— 拿 ProxyGenBench 生成一组作品截图，发帖「AI 做的图/视频能到什",
+        "「openvinotoolkit/openvino」—— 写一篇 openvino 的安装和上手教程，发帖「这个开源项目值得试」"
       ]
     },
     {
       "title": "📸 截图素材建议",
       "text": "可直接截图发社交媒体",
       "items": [
-        "Loupe: Reinforcing Knowle 的界面/结果截图",
-        "PyRUA-Dex: Learning Progr 的界面/结果截图",
-        "SEEK: Self-Evolution thro 的界面/结果截图",
-        "openvinotoolkit/openvino 的界面/结果截图"
+        "StateWeaver: Multi-Agent  的界面/结果截图",
+        "OS-Omni: Benchmarking Gen 的界面/结果截图",
+        "Solve Vision with Code: C 的界面/结果截图",
+        "ProxyGenBench: Benchmarki 的界面/结果截图"
       ]
     },
     {
       "title": "⚡ 本周行动建议",
       "text": "基于趋势推荐的 3 个行动",
       "items": [
-        "试用/Fork: Loupe: Reinforcing Knowle",
-        "深度阅读: Model Carving: Training T",
+        "试用/Fork: StateWeaver: Multi-Agent ",
+        "深度阅读: DRBench Pro: A Knowledge-",
         "在 Reddit 发一篇 AI 工具对比帖"
       ]
     }
   ],
   "all_items": [
     {
-      "id": "62893ad127e0",
-      "title": "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation",
-      "summary": "General-purpose multimodal foundation models enable robots to adapt during deployment from observations and execution feedback, without task-specific demonstrations or training. However, the robot…",
+      "id": "de5d718e3e00",
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but…",
       "source": "hf_papers",
       "tags": [
         "model",
@@ -1063,109 +1056,79 @@
       "entity_tags": [],
       "topic_tags": [
         "Agent",
-        "Robotics",
-        "Infra"
+        "Search",
+        "Benchmark",
+        "Open Source"
       ],
-      "read_url": "https://huggingface.co/papers/2611.33915",
+      "read_url": "https://huggingface.co/papers/2611.34852",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.33915",
-      "why_it_matters": "SEEK 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 SEEK 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "engage_url": "https://huggingface.co/papers/2611.34852",
+      "why_it_matters": "DRBench Pro 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 DRBench Pro 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 7,
+        "marketing_value": 5,
+        "forkability": 5,
+        "engageability": 3,
+        "total": 20
+      },
+      "scraped_at": "2026-11-27T04:42:54.494672+00:00"
+    },
+    {
+      "id": "52d9c0f359ac",
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments,…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.34232",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.34232",
+      "why_it_matters": "OS-Omni 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
       "scores": {
         "knowledge_value": 5,
         "marketing_value": 7,
         "forkability": 3,
-        "engageability": 5,
-        "total": 20
+        "engageability": 3,
+        "total": 18
       },
-      "scraped_at": "2026-11-26T04:38:52.268304+00:00"
+      "scraped_at": "2026-11-27T04:42:54.494580+00:00"
     },
     {
-      "id": "5a0a3fe6812e",
-      "title": "Loupe: Reinforcing Knowledge-Intensive Video Generation Agents",
-      "summary": "Knowledge-intensive video generation remains challenging because prompts often omit the facts, appearances, and temporal relationships required for accurate generation. While search-based workflows…",
+      "id": "deb638abfb07",
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic…",
       "source": "hf_papers",
       "tags": [
         "model",
         "tool"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Video",
-        "Search"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.31895",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.31895",
-      "why_it_matters": "Loupe 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 Loupe 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 10,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 19
-      },
-      "scraped_at": "2026-11-26T04:38:52.268057+00:00"
-    },
-    {
-      "id": "7ec81a4c17f7",
-      "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
-      "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
       ],
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [
-        "Infra"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.27962",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.27962",
-      "why_it_matters": "Model Carving 降低了定制模型的门槛，小团队也能训练专属 AI",
-      "content_angle": "写 Model Carving 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
-      "scores": {
-        "knowledge_value": 10,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 19
-      },
-      "scraped_at": "2026-11-26T04:38:52.268589+00:00"
-    },
-    {
-      "id": "029f35c1d6b6",
-      "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
-      "summary": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
         "Agent",
         "Video",
-        "Coding"
+        "Infra"
       ],
-      "read_url": "https://huggingface.co/papers/2611.33144",
+      "read_url": "https://huggingface.co/papers/2611.34290",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.33144",
-      "why_it_matters": "PyRUA-Dex 正在改变写代码的方式——速度和质量都在跃升",
-      "content_angle": "用 PyRUA-Dex 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "engage_url": "https://huggingface.co/papers/2611.34290",
+      "why_it_matters": "StateWeaver 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 StateWeaver 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 9,
@@ -1173,12 +1136,103 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-11-26T04:38:52.268437+00:00"
+      "scraped_at": "2026-11-27T04:42:54.494893+00:00"
+    },
+    {
+      "id": "6ba2c8dfd7ae",
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out?…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Video",
+        "Coding",
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.34813",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.34813",
+      "why_it_matters": "Solve Vision with Code 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 Solve Vision with Code 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 7,
+        "forkability": 3,
+        "engageability": 5,
+        "total": 18
+      },
+      "scraped_at": "2026-11-27T04:42:54.494982+00:00"
+    },
+    {
+      "id": "f6c2ead2c523",
+      "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+      "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Video",
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.34457",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.34457",
+      "why_it_matters": "ProxyGenBench 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 ProxyGenBench 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 7,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 18
+      },
+      "scraped_at": "2026-11-27T04:42:54.495208+00:00"
+    },
+    {
+      "id": "e4cdccd5593d",
+      "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
+      "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.20844",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.20844",
+      "why_it_matters": "DetourBench 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 DetourBench 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 7,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 18
+      },
+      "scraped_at": "2026-11-27T04:42:54.495409+00:00"
     },
     {
       "id": "74291b35a2dd",
       "title": "nginx/nginx",
-      "summary": "[C] The official NGINX Open Source repository. · 176 stars today",
+      "summary": "[C] The official NGINX Open Source repository. · 150 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1199,12 +1253,12 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-11-26T04:38:53.596890+00:00"
+      "scraped_at": "2026-11-27T04:42:56.523065+00:00"
     },
     {
       "id": "b6b1fe318044",
       "title": "openvinotoolkit/openvino",
-      "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 191 stars today",
+      "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 176 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1226,31 +1280,59 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-11-26T04:38:53.597141+00:00"
+      "scraped_at": "2026-11-27T04:42:56.523386+00:00"
     },
     {
-      "id": "f11ec21700ce",
-      "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
-      "summary": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent…",
+      "id": "a30ca2f47d60",
+      "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+      "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the…",
       "source": "hf_papers",
       "tags": [
         "model",
         "tool"
       ],
-      "geo_tags": [
-        "US"
-      ],
+      "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [
         "Agent",
-        "Video"
+        "Robotics",
+        "Policy"
       ],
-      "read_url": "https://huggingface.co/papers/2611.34907",
+      "read_url": "https://huggingface.co/papers/2611.32238",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34907",
-      "why_it_matters": "Agentic LongLive 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 Agentic LongLive 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+      "engage_url": "https://huggingface.co/papers/2611.32238",
+      "why_it_matters": "Boundary-Aware Policy… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 Boundary-Aware Policy… 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 16
+      },
+      "scraped_at": "2026-11-27T04:42:54.494263+00:00"
+    },
+    {
+      "id": "e519d2e7d82f",
+      "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+      "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Image",
+        "Coding"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.34719",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.34719",
+      "why_it_matters": "Reading, Not Adapting 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+      "content_angle": "拿 Reading, Not Adapting 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 7,
@@ -1258,42 +1340,72 @@
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-11-26T04:38:52.267859+00:00"
+      "scraped_at": "2026-11-27T04:42:54.494434+00:00"
     },
     {
-      "id": "f00412889f07",
-      "title": "Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations",
-      "summary": "Generating PPTX presentations is a structured task that requires semantic planning, visual composition, precise layout, and editability, motivating collaboration among specialized agents. However,…",
+      "id": "d0a2e610b136",
+      "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+      "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action…",
       "source": "hf_papers",
       "tags": [
-        "model",
-        "tool"
+        "model"
       ],
-      "geo_tags": [],
+      "geo_tags": [
+        "US"
+      ],
       "entity_tags": [],
       "topic_tags": [
-        "Agent",
-        "Coding"
+        "Video"
       ],
-      "read_url": "https://huggingface.co/papers/2611.28010",
+      "read_url": "https://huggingface.co/papers/2611.34693",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.28010",
-      "why_it_matters": "Beyond Code and Pixels 正在改变写代码的方式——速度和质量都在跃升",
-      "content_angle": "用 Beyond Code and Pixels 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "engage_url": "https://huggingface.co/papers/2611.34693",
+      "why_it_matters": "ShowNow 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
+      "content_angle": "用通俗语言解读 ShowNow，发帖「一句话看懂今天的 AI 论文」",
       "scores": {
         "knowledge_value": 3,
-        "marketing_value": 5,
+        "marketing_value": 7,
         "forkability": 3,
-        "engageability": 5,
+        "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-11-26T04:38:52.267986+00:00"
+      "scraped_at": "2026-11-27T04:42:54.495071+00:00"
     },
     {
-      "id": "c1c8d74dff25",
-      "title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
-      "summary": "Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes…",
+      "id": "e8c013c4bc50",
+      "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
+      "summary": "Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial relations. Existing methods learn grounded interactions from supervised traces,…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Robotics"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.29969",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.29969",
+      "why_it_matters": "CARE-3D 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 CARE-3D 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 16
+      },
+      "scraped_at": "2026-11-27T04:42:54.495597+00:00"
+    },
+    {
+      "id": "0d1788cb1e51",
+      "title": "Evaluating Memanto on DolphinBench for AI Agents",
+      "summary": "Memory benchmarks built on question answering tell an agent which fact to recall. Workplace requests often leave that need implicit: to post an update in the team's channel, an agent must work out…",
       "source": "hf_papers",
       "tags": [
         "model",
@@ -1302,18 +1414,19 @@
       "geo_tags": [
         "US"
       ],
-      "entity_tags": [],
+      "entity_tags": [
+        "Microsoft"
+      ],
       "topic_tags": [
         "Agent",
-        "Robotics",
         "Benchmark"
       ],
-      "read_url": "https://huggingface.co/papers/2611.33143",
+      "read_url": "https://huggingface.co/papers/2611.28231",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.33143",
-      "why_it_matters": "ROAM-Bench 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 ROAM-Bench 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "engage_url": "https://huggingface.co/papers/2611.28231",
+      "why_it_matters": "Evaluating Memanto on… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 Evaluating Memanto on… 自动完成任务的过程，发帖「AI 自动化实操演示」",
       "scores": {
         "knowledge_value": 5,
         "marketing_value": 5,
@@ -1321,71 +1434,12 @@
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-11-26T04:38:52.268367+00:00"
-    },
-    {
-      "id": "cf0c654e2672",
-      "title": "Steerable by Design: Conditional Pretraining for Robust Control of Language Models",
-      "summary": "Our goal is to build language models that are steerable by design. Today's language models are pretrained with next-token prediction, which relegates alignment and control to the final 1% of training…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Infra",
-        "Policy"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.32199",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.32199",
-      "why_it_matters": "Steerable by Design 降低了定制模型的门槛，小团队也能训练专属 AI",
-      "content_angle": "写 Steerable by Design 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
-      "scores": {
-        "knowledge_value": 7,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 16
-      },
-      "scraped_at": "2026-11-26T04:38:52.268667+00:00"
-    },
-    {
-      "id": "3e190b3ee255",
-      "title": "LookAnything: A Foundation Model for Holistic Gaze Following",
-      "summary": "Human gaze provides a rich window into attention and intent, making its understanding essential for applications ranging from social signal analysis to human-robot interaction. Existing methods…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Robotics"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.32351",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.32351",
-      "why_it_matters": "LookAnything 是可以直接用的工具，能立刻提升你的工作效率",
-      "content_angle": "实测 LookAnything 做一个具体任务，发帖「这个 AI 工具能帮你省多少时间」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 16
-      },
-      "scraped_at": "2026-11-26T04:38:52.268746+00:00"
+      "scraped_at": "2026-11-27T04:42:54.495690+00:00"
     },
     {
       "id": "b518529580bf",
       "title": "mvanhorn/last30days-skill",
-      "summary": "[Python] AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · 945 stars today",
+      "summary": "[Python] AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · 759 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1407,120 +1461,56 @@
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-11-26T04:38:53.597707+00:00"
+      "scraped_at": "2026-11-27T04:42:56.524101+00:00"
     },
     {
-      "id": "f732ad0e1543",
-      "title": "CONCOR: Benchmarking Contrastive Decoding for Visual Hallucination Mitigation Beyond Final-Output Performance",
-      "summary": "Contrastive decoding (CD) mitigates object hallucination in multimodal large language models (MLLMs) by contrasting token distributions under different conditions to adjust token scores. However,…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Coding",
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.30460",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.30460",
-      "why_it_matters": "CONCOR 正在改变写代码的方式——速度和质量都在跃升",
-      "content_angle": "用 CONCOR 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 14
-      },
-      "scraped_at": "2026-11-26T04:38:52.268116+00:00"
-    },
-    {
-      "id": "5c13a8d1c5e0",
-      "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
-      "summary": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Image"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.30844",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.30844",
-      "why_it_matters": "DyLoMo-DiT 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 DyLoMo-DiT 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 14
-      },
-      "scraped_at": "2026-11-26T04:38:52.268510+00:00"
-    },
-    {
-      "id": "13f37ad940fa",
-      "title": "Fractal Neural Synthesis: Constant-Storage Procedural Weight Derivation via Complex Quadratic Boundary Dynamics",
-      "summary": "Conventional neural networks store synaptic parameters as explicit tensors whose persistent Flash footprint scales linearly (O(W)) with parameter count, constraining resource-limited edge…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "Europe"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Search",
-        "Infra"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.32393",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.32393",
-      "why_it_matters": "Fractal Neural Synthesis 提升了 AI 获取和使用外部知识的能力，准确率更高了",
-      "content_angle": "用 Fractal Neural Synthesis 搭一个简单知识库 demo，发帖「10 分钟搭建 AI 知识助手」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 14
-      },
-      "scraped_at": "2026-11-26T04:38:52.268911+00:00"
-    },
-    {
-      "id": "373c6d558c41",
-      "title": "Point Dynamics as Proxy for Robotic World Models",
-      "summary": "Robotic world models predict future video frames from the current observation and a sequence of robot actions. While recent models follow the given actions closely, manipulated objects often collapse…",
+      "id": "4f37efe4f38a",
+      "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+      "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control…",
       "source": "hf_papers",
       "tags": [
         "model"
       ],
       "geo_tags": [],
       "entity_tags": [],
-      "topic_tags": [
-        "Video",
-        "Robotics"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.25946",
+      "topic_tags": [],
+      "read_url": "https://huggingface.co/papers/2611.34051",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.25946",
-      "why_it_matters": "Point Dynamics as Proxy for… 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 Point Dynamics as Proxy for…，发帖「一句话看懂今天的 AI 论文」",
+      "engage_url": "https://huggingface.co/papers/2611.34051",
+      "why_it_matters": "Stable Gated DeltaNet-2 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
+      "content_angle": "用通俗语言解读 Stable Gated DeltaNet-2，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 14
+      },
+      "scraped_at": "2026-11-27T04:42:54.495286+00:00"
+    },
+    {
+      "id": "d596c32d2d50",
+      "title": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
+      "summary": "Agentic pipelines that combine graph detectors, deterministic rules, retrieval-augmented generation and an LLM judge are being proposed to monitor illicit cryptocurrency flows and to write…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Search",
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.29829",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.29829",
+      "why_it_matters": "Who Makes the Decision?… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 Who Makes the Decision?… 自动完成任务的过程，发帖「AI 自动化实操演示」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 5,
@@ -1528,12 +1518,43 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-26T04:38:52.268977+00:00"
+      "scraped_at": "2026-11-27T04:42:54.495495+00:00"
+    },
+    {
+      "id": "420460fa2fca",
+      "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
+      "summary": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive capacity and randomness that obscure the consequences of their actions. We…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.29259",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.29259",
+      "why_it_matters": "Look Back 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 Look Back 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 14
+      },
+      "scraped_at": "2026-11-27T04:42:54.495765+00:00"
     },
     {
       "id": "4d44aba20185",
       "title": "elementalsouls/Claude-BugHunter",
-      "summary": "[Python] A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise… · 1,652 stars today",
+      "summary": "[Python] A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise… · 1,597 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1554,12 +1575,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-26T04:38:53.595271+00:00"
+      "scraped_at": "2026-11-27T04:42:56.520936+00:00"
     },
     {
       "id": "88767f3d91d6",
       "title": "obra/superpowers",
-      "summary": "[Shell] An agentic skills framework & software development methodology that works. · 903 stars today",
+      "summary": "[Shell] An agentic skills framework & software development methodology that works. · 854 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1581,12 +1602,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-26T04:38:53.595664+00:00"
+      "scraped_at": "2026-11-27T04:42:56.521425+00:00"
     },
     {
       "id": "a2bb9c8e97f4",
       "title": "HKUDS/CLI-Anything",
-      "summary": "[Python] \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/ · 1,106 stars today",
+      "summary": "[Python] \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/ · 746 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1608,12 +1629,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-26T04:38:53.595922+00:00"
+      "scraped_at": "2026-11-27T04:42:56.521780+00:00"
     },
     {
       "id": "1327a377387a",
       "title": "firecrawl/firecrawl",
-      "summary": "[TypeScript] Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. · 1,135 stars today",
+      "summary": "[TypeScript] Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. · 1,046 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1635,12 +1656,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-26T04:38:53.596650+00:00"
+      "scraped_at": "2026-11-27T04:42:56.522752+00:00"
     },
     {
       "id": "6e561ec2b5e9",
       "title": "cathrynlavery/diagram-design",
-      "summary": "[HTML] Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. · 1,141 stars today",
+      "summary": "[HTML] Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. · 955 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1661,12 +1682,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-26T04:38:53.597446+00:00"
+      "scraped_at": "2026-11-27T04:42:56.523787+00:00"
     },
     {
       "id": "b5325bd34602",
       "title": "google-labs-code/stitch-skills",
-      "summary": "[TypeScript] A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude… · 355 stars today",
+      "summary": "[TypeScript] A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude… · 309 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1688,12 +1709,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-26T04:38:53.597947+00:00"
+      "scraped_at": "2026-11-27T04:42:56.524404+00:00"
     },
     {
       "id": "9056aa852ac5",
       "title": "mjmirza/app-store-compliance",
-      "summary": "[Shell] Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked… · 858 stars today",
+      "summary": "[Shell] Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked… · 562 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1714,27 +1735,25 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-26T04:38:53.598233+00:00"
+      "scraped_at": "2026-11-27T04:42:56.524800+00:00"
     },
     {
-      "id": "4a00db654df2",
-      "title": "Target-Part Preference Optimization for Part-Aware 3D Generation",
-      "summary": "Part-aware 3D generation requires not only globally plausible objects but also complete, well-separated semantic parts, yet high-quality part decompositions remain too scarce to support large-scale…",
+      "id": "ff2380199ead",
+      "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+      "summary": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates. However, existing 3D medical multimodal models…",
       "source": "hf_papers",
       "tags": [
         "model"
       ],
-      "geo_tags": [
-        "US"
-      ],
+      "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://huggingface.co/papers/2611.30472",
+      "read_url": "https://huggingface.co/papers/2611.32993",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.30472",
-      "why_it_matters": "Target-Part Preference… 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 Target-Part Preference…，发帖「一句话看懂今天的 AI 论文」",
+      "engage_url": "https://huggingface.co/papers/2611.32993",
+      "why_it_matters": "Decision-Native Multimodal… 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+      "content_angle": "用通俗语言解读 Decision-Native Multimodal…，发帖「一句话看懂今天的 AI 论文」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 3,
@@ -1742,44 +1761,12 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-11-26T04:38:52.268182+00:00"
-    },
-    {
-      "id": "8d918a02a948",
-      "title": "Seeing Is Locating: Spatial Awareness and Geographic Bias in Decision Language Models",
-      "summary": "Decision models, which output probability distributions over candidate labels instead of generating text, are increasingly used as classifiers and evaluators for inputs associated with real-world…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [
-        "Microsoft"
-      ],
-      "topic_tags": [
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.30564",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.30564",
-      "why_it_matters": "Seeing Is Locating 提供了新的评估标准，帮助判断哪些模型真正好用",
-      "content_angle": "用通俗语言解读 Seeing Is Locating，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 3,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 12
-      },
-      "scraped_at": "2026-11-26T04:38:52.268827+00:00"
+      "scraped_at": "2026-11-27T04:42:54.494770+00:00"
     },
     {
       "id": "7784b5b283f4",
       "title": "jingyaogong/minimind",
-      "summary": "[Python] 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours. · 826 stars today",
+      "summary": "[Python] 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours. · 702 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1800,12 +1787,12 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-11-26T04:38:53.596153+00:00"
+      "scraped_at": "2026-11-27T04:42:56.522099+00:00"
     },
     {
       "id": "db2d87fbfd4c",
       "title": "cursor/plugins",
-      "summary": "[TypeScript] Cursor plugin specification and official plugins · 416 stars today",
+      "summary": "[TypeScript] Cursor plugin specification and official plugins · 270 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1826,7 +1813,7 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-11-26T04:38:53.596407+00:00"
+      "scraped_at": "2026-11-27T04:42:56.522430+00:00"
     }
   ]
 }

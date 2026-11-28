@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updated_at": "2026-11-27T04:42:57.399441+00:00",
+    "updated_at": "2026-11-28T04:28:09.166297+00:00",
     "total_items": 27,
     "sources_scraped": [
-      "hf_papers",
-      "github"
+      "github",
+      "hf_papers"
     ],
     "version": "1.0"
   },
@@ -18,14 +18,14 @@
     {
       "label": "watch",
       "labelText": "值得关注",
-      "title": "AI 视频生成竞赛加速",
-      "text": "多家公司发布视频生成模型，质量和速度都在快速提升"
-    },
-    {
-      "label": "watch",
-      "labelText": "值得关注",
       "title": "Benchmark 刷新频率加快",
       "text": "模型性能天花板持续提升，但实际应用差距仍待验证"
+    },
+    {
+      "label": "hype",
+      "labelText": "Hype 预警",
+      "title": "AI 产品同质化严重",
+      "text": "大量包装类 AI 产品涌现，核心差异化不足"
     },
     {
       "label": "real",
@@ -48,9 +48,9 @@
   ],
   "cover": [
     {
-      "id": "de5d718e3e00",
-      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
-      "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but…",
+      "id": "26115d5a95e0",
+      "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+      "summary": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security…",
       "source": "hf_papers",
       "tags": [
         "model",
@@ -60,24 +60,81 @@
       "entity_tags": [],
       "topic_tags": [
         "Agent",
-        "Search",
+        "Coding",
+        "Open Source"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.27112",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.27112",
+      "why_it_matters": "Markdown Is Not a Firewall 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 Markdown Is Not a Firewall 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 5,
+        "forkability": 5,
+        "engageability": 5,
+        "total": 18
+      },
+      "scraped_at": "2026-11-28T04:28:06.356354+00:00"
+    },
+    {
+      "id": "b666a975d3ca",
+      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+      "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
         "Benchmark",
         "Open Source"
       ],
-      "read_url": "https://huggingface.co/papers/2611.34852",
+      "read_url": "https://huggingface.co/papers/2611.31619",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34852",
-      "why_it_matters": "DRBench Pro 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 DRBench Pro 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "engage_url": "https://huggingface.co/papers/2611.31619",
+      "why_it_matters": "What a Forecasting… 降低了定制模型的门槛，小团队也能训练专属 AI",
+      "content_angle": "写 What a Forecasting… 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
       "scores": {
-        "knowledge_value": 7,
-        "marketing_value": 5,
+        "knowledge_value": 5,
+        "marketing_value": 3,
         "forkability": 5,
-        "engageability": 3,
-        "total": 20
+        "engageability": 5,
+        "total": 18
       },
-      "scraped_at": "2026-11-27T04:42:54.494672+00:00"
+      "scraped_at": "2026-11-28T04:28:06.357069+00:00"
+    },
+    {
+      "id": "8c6e83647a46",
+      "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+      "summary": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help. We ask what…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.30483",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.30483",
+      "why_it_matters": "When an AI agent makes a… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 When an AI agent makes a… 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 7,
+        "total": 18
+      },
+      "scraped_at": "2026-11-28T04:28:06.357256+00:00"
     },
     {
       "id": "52d9c0f359ac",
@@ -109,134 +166,12 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-11-27T04:42:54.494580+00:00"
-    },
-    {
-      "id": "deb638abfb07",
-      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
-      "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Video",
-        "Infra"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.34290",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34290",
-      "why_it_matters": "StateWeaver 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 StateWeaver 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 9,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 18
-      },
-      "scraped_at": "2026-11-27T04:42:54.494893+00:00"
-    },
-    {
-      "id": "6ba2c8dfd7ae",
-      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
-      "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out?…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Video",
-        "Coding",
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.34813",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34813",
-      "why_it_matters": "Solve Vision with Code 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 Solve Vision with Code 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 7,
-        "forkability": 3,
-        "engageability": 5,
-        "total": 18
-      },
-      "scraped_at": "2026-11-27T04:42:54.494982+00:00"
-    },
-    {
-      "id": "f6c2ead2c523",
-      "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
-      "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Video",
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.34457",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34457",
-      "why_it_matters": "ProxyGenBench 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 ProxyGenBench 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 7,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 18
-      },
-      "scraped_at": "2026-11-27T04:42:54.495208+00:00"
-    },
-    {
-      "id": "e4cdccd5593d",
-      "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
-      "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.20844",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.20844",
-      "why_it_matters": "DetourBench 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 DetourBench 自动完成任务的过程，发帖「AI 自动化实操演示」",
-      "scores": {
-        "knowledge_value": 7,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 18
-      },
-      "scraped_at": "2026-11-27T04:42:54.495409+00:00"
+      "scraped_at": "2026-11-28T04:28:06.357522+00:00"
     },
     {
       "id": "74291b35a2dd",
       "title": "nginx/nginx",
-      "summary": "[C] The official NGINX Open Source repository. · 150 stars today",
+      "summary": "[C] The official NGINX Open Source repository. · 146 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -257,12 +192,12 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-11-27T04:42:56.523065+00:00"
+      "scraped_at": "2026-11-28T04:28:08.166754+00:00"
     },
     {
       "id": "b6b1fe318044",
       "title": "openvinotoolkit/openvino",
-      "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 176 stars today",
+      "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 151 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -284,1003 +219,38 @@
         "engageability": 3,
         "total": 18
       },
-      "scraped_at": "2026-11-27T04:42:56.523386+00:00"
-    }
-  ],
-  "sections": {
-    "models": [
-      {
-        "id": "de5d718e3e00",
-        "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
-        "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Search",
-          "Benchmark",
-          "Open Source"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.34852",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.34852",
-        "why_it_matters": "DRBench Pro 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 DRBench Pro 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 7,
-          "marketing_value": 5,
-          "forkability": 5,
-          "engageability": 3,
-          "total": 20
-        },
-        "scraped_at": "2026-11-27T04:42:54.494672+00:00"
-      },
-      {
-        "id": "52d9c0f359ac",
-        "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
-        "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments,…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [
-          "US"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Benchmark"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.34232",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.34232",
-        "why_it_matters": "OS-Omni 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 5,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-11-27T04:42:54.494580+00:00"
-      },
-      {
-        "id": "deb638abfb07",
-        "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
-        "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Video",
-          "Infra"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.34290",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.34290",
-        "why_it_matters": "StateWeaver 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-        "content_angle": "拿 StateWeaver 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 9,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-11-27T04:42:54.494893+00:00"
-      },
-      {
-        "id": "6ba2c8dfd7ae",
-        "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
-        "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out?…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Video",
-          "Coding",
-          "Benchmark"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.34813",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.34813",
-        "why_it_matters": "Solve Vision with Code 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-        "content_angle": "拿 Solve Vision with Code 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 5,
-          "total": 18
-        },
-        "scraped_at": "2026-11-27T04:42:54.494982+00:00"
-      },
-      {
-        "id": "f6c2ead2c523",
-        "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
-        "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene…",
-        "source": "hf_papers",
-        "tags": [
-          "model"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Video",
-          "Benchmark"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.34457",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.34457",
-        "why_it_matters": "ProxyGenBench 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-        "content_angle": "拿 ProxyGenBench 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-        "scores": {
-          "knowledge_value": 5,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-11-27T04:42:54.495208+00:00"
-      },
-      {
-        "id": "e4cdccd5593d",
-        "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
-        "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Benchmark"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.20844",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.20844",
-        "why_it_matters": "DetourBench 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 DetourBench 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 7,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-11-27T04:42:54.495409+00:00"
-      },
-      {
-        "id": "a30ca2f47d60",
-        "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
-        "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Robotics",
-          "Policy"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.32238",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.32238",
-        "why_it_matters": "Boundary-Aware Policy… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 Boundary-Aware Policy… 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 5,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 16
-        },
-        "scraped_at": "2026-11-27T04:42:54.494263+00:00"
-      },
-      {
-        "id": "e519d2e7d82f",
-        "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
-        "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode…",
-        "source": "hf_papers",
-        "tags": [
-          "model"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Image",
-          "Coding"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.34719",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.34719",
-        "why_it_matters": "Reading, Not Adapting 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-        "content_angle": "拿 Reading, Not Adapting 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 16
-        },
-        "scraped_at": "2026-11-27T04:42:54.494434+00:00"
-      }
-    ],
-    "products": [],
-    "opensource": [
-      {
-        "id": "74291b35a2dd",
-        "title": "nginx/nginx",
-        "summary": "[C] The official NGINX Open Source repository. · 150 stars today",
-        "source": "github",
-        "tags": [
-          "repo"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/nginx/nginx",
-        "try_url": "",
-        "fork_url": "https://github.com/nginx/nginx",
-        "engage_url": "https://github.com/nginx/nginx/discussions",
-        "why_it_matters": "nginx 是开源的，意味着任何人都可以免费使用、修改和部署",
-        "content_angle": "写一篇 nginx 的安装和上手教程，发帖「这个开源项目值得试」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 5,
-          "forkability": 7,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-11-27T04:42:56.523065+00:00"
-      },
-      {
-        "id": "b6b1fe318044",
-        "title": "openvinotoolkit/openvino",
-        "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 176 stars today",
-        "source": "github",
-        "tags": [
-          "repo",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/openvinotoolkit/openvino",
-        "try_url": "",
-        "fork_url": "https://github.com/openvinotoolkit/openvino",
-        "engage_url": "https://github.com/openvinotoolkit/openvino/discussions",
-        "why_it_matters": "openvino 是开源的，意味着任何人都可以免费使用、修改和部署",
-        "content_angle": "写一篇 openvino 的安装和上手教程，发帖「这个开源项目值得试」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 7,
-          "forkability": 5,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-11-27T04:42:56.523386+00:00"
-      },
-      {
-        "id": "b518529580bf",
-        "title": "mvanhorn/last30days-skill",
-        "summary": "[Python] AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · 759 stars today",
-        "source": "github",
-        "tags": [
-          "repo",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/mvanhorn/last30days-skill",
-        "try_url": "",
-        "fork_url": "https://github.com/mvanhorn/last30days-skill",
-        "engage_url": "https://github.com/mvanhorn/last30days-skill/discussions",
-        "why_it_matters": "last30days-skill 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 last30days-skill 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 5,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 16
-        },
-        "scraped_at": "2026-11-27T04:42:56.524101+00:00"
-      },
-      {
-        "id": "4d44aba20185",
-        "title": "elementalsouls/Claude-BugHunter",
-        "summary": "[Python] A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise… · 1,597 stars today",
-        "source": "github",
-        "tags": [
-          "repo"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/elementalsouls/Claude-BugHunter",
-        "try_url": "",
-        "fork_url": "https://github.com/elementalsouls/Claude-BugHunter",
-        "engage_url": "https://github.com/elementalsouls/Claude-BugHunter/discussions",
-        "why_it_matters": "Claude-BugHunter 正在改变写代码的方式——速度和质量都在跃升",
-        "content_angle": "用 Claude-BugHunter 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 3,
-          "forkability": 5,
-          "engageability": 3,
-          "total": 14
-        },
-        "scraped_at": "2026-11-27T04:42:56.520936+00:00"
-      },
-      {
-        "id": "88767f3d91d6",
-        "title": "obra/superpowers",
-        "summary": "[Shell] An agentic skills framework & software development methodology that works. · 854 stars today",
-        "source": "github",
-        "tags": [
-          "repo",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/obra/superpowers",
-        "try_url": "",
-        "fork_url": "https://github.com/obra/superpowers",
-        "engage_url": "https://github.com/obra/superpowers/discussions",
-        "why_it_matters": "superpowers 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 superpowers 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 14
-        },
-        "scraped_at": "2026-11-27T04:42:56.521425+00:00"
-      },
-      {
-        "id": "a2bb9c8e97f4",
-        "title": "HKUDS/CLI-Anything",
-        "summary": "[Python] \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/ · 746 stars today",
-        "source": "github",
-        "tags": [
-          "repo",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/HKUDS/CLI-Anything",
-        "try_url": "",
-        "fork_url": "https://github.com/HKUDS/CLI-Anything",
-        "engage_url": "https://github.com/HKUDS/CLI-Anything/discussions",
-        "why_it_matters": "CLI-Anything 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 CLI-Anything 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 14
-        },
-        "scraped_at": "2026-11-27T04:42:56.521780+00:00"
-      },
-      {
-        "id": "1327a377387a",
-        "title": "firecrawl/firecrawl",
-        "summary": "[TypeScript] Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. · 1,046 stars today",
-        "source": "github",
-        "tags": [
-          "repo",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/firecrawl/firecrawl",
-        "try_url": "",
-        "fork_url": "https://github.com/firecrawl/firecrawl",
-        "engage_url": "https://github.com/firecrawl/firecrawl/discussions",
-        "why_it_matters": "firecrawl 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 firecrawl 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 14
-        },
-        "scraped_at": "2026-11-27T04:42:56.522752+00:00"
-      },
-      {
-        "id": "6e561ec2b5e9",
-        "title": "cathrynlavery/diagram-design",
-        "summary": "[HTML] Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. · 955 stars today",
-        "source": "github",
-        "tags": [
-          "repo"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/cathrynlavery/diagram-design",
-        "try_url": "",
-        "fork_url": "https://github.com/cathrynlavery/diagram-design",
-        "engage_url": "https://github.com/cathrynlavery/diagram-design/discussions",
-        "why_it_matters": "diagram-design 正在改变写代码的方式——速度和质量都在跃升",
-        "content_angle": "用 diagram-design 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 3,
-          "forkability": 5,
-          "engageability": 3,
-          "total": 14
-        },
-        "scraped_at": "2026-11-27T04:42:56.523787+00:00"
-      }
-    ],
-    "tools": [
-      {
-        "id": "de5d718e3e00",
-        "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
-        "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Search",
-          "Benchmark",
-          "Open Source"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.34852",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.34852",
-        "why_it_matters": "DRBench Pro 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 DRBench Pro 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 7,
-          "marketing_value": 5,
-          "forkability": 5,
-          "engageability": 3,
-          "total": 20
-        },
-        "scraped_at": "2026-11-27T04:42:54.494672+00:00"
-      },
-      {
-        "id": "52d9c0f359ac",
-        "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
-        "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments,…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [
-          "US"
-        ],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Benchmark"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.34232",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.34232",
-        "why_it_matters": "OS-Omni 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 5,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-11-27T04:42:54.494580+00:00"
-      },
-      {
-        "id": "deb638abfb07",
-        "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
-        "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Video",
-          "Infra"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.34290",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.34290",
-        "why_it_matters": "StateWeaver 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-        "content_angle": "拿 StateWeaver 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 9,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-11-27T04:42:54.494893+00:00"
-      },
-      {
-        "id": "6ba2c8dfd7ae",
-        "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
-        "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out?…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Video",
-          "Coding",
-          "Benchmark"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.34813",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.34813",
-        "why_it_matters": "Solve Vision with Code 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-        "content_angle": "拿 Solve Vision with Code 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 7,
-          "forkability": 3,
-          "engageability": 5,
-          "total": 18
-        },
-        "scraped_at": "2026-11-27T04:42:54.494982+00:00"
-      },
-      {
-        "id": "e4cdccd5593d",
-        "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
-        "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Benchmark"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.20844",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.20844",
-        "why_it_matters": "DetourBench 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 DetourBench 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 7,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-11-27T04:42:54.495409+00:00"
-      },
-      {
-        "id": "b6b1fe318044",
-        "title": "openvinotoolkit/openvino",
-        "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 176 stars today",
-        "source": "github",
-        "tags": [
-          "repo",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [],
-        "read_url": "https://github.com/openvinotoolkit/openvino",
-        "try_url": "",
-        "fork_url": "https://github.com/openvinotoolkit/openvino",
-        "engage_url": "https://github.com/openvinotoolkit/openvino/discussions",
-        "why_it_matters": "openvino 是开源的，意味着任何人都可以免费使用、修改和部署",
-        "content_angle": "写一篇 openvino 的安装和上手教程，发帖「这个开源项目值得试」",
-        "scores": {
-          "knowledge_value": 3,
-          "marketing_value": 7,
-          "forkability": 5,
-          "engageability": 3,
-          "total": 18
-        },
-        "scraped_at": "2026-11-27T04:42:56.523386+00:00"
-      },
-      {
-        "id": "a30ca2f47d60",
-        "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
-        "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Robotics",
-          "Policy"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.32238",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.32238",
-        "why_it_matters": "Boundary-Aware Policy… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 Boundary-Aware Policy… 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 5,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 16
-        },
-        "scraped_at": "2026-11-27T04:42:54.494263+00:00"
-      },
-      {
-        "id": "e8c013c4bc50",
-        "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
-        "summary": "Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial relations. Existing methods learn grounded interactions from supervised traces,…",
-        "source": "hf_papers",
-        "tags": [
-          "model",
-          "tool"
-        ],
-        "geo_tags": [],
-        "entity_tags": [],
-        "topic_tags": [
-          "Agent",
-          "Robotics"
-        ],
-        "read_url": "https://huggingface.co/papers/2611.29969",
-        "try_url": "",
-        "fork_url": "",
-        "engage_url": "https://huggingface.co/papers/2611.29969",
-        "why_it_matters": "CARE-3D 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-        "content_angle": "录制 CARE-3D 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "scores": {
-          "knowledge_value": 5,
-          "marketing_value": 5,
-          "forkability": 3,
-          "engageability": 3,
-          "total": 16
-        },
-        "scraped_at": "2026-11-27T04:42:54.495597+00:00"
-      }
-    ],
-    "discussions": []
-  },
-  "insights": [
-    {
-      "title": "🔥 本周趋势关键词",
-      "text": "基于抓取内容自动提取的高频主题",
-      "items": [
-        "model",
-        "tool",
-        "repo"
-      ]
+      "scraped_at": "2026-11-28T04:28:08.167089+00:00"
     },
     {
-      "title": "📝 可发内容 Top 5",
-      "text": "营销价值最高的话题",
-      "items": [
-        "「StateWeaver: Multi-Agent Coord」—— 拿 StateWeaver 生成一组作品截图，发帖「AI 做的图/视频能到什么水",
-        "「OS-Omni: Benchmarking Generali」—— 录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
-        "「Solve Vision with Code: Coding」—— 拿 Solve Vision with Code 生成一组作品截图，发帖「AI ",
-        "「ProxyGenBench: Benchmarking Pr」—— 拿 ProxyGenBench 生成一组作品截图，发帖「AI 做的图/视频能到什",
-        "「openvinotoolkit/openvino」—— 写一篇 openvino 的安装和上手教程，发帖「这个开源项目值得试」"
-      ]
-    },
-    {
-      "title": "📸 截图素材建议",
-      "text": "可直接截图发社交媒体",
-      "items": [
-        "StateWeaver: Multi-Agent  的界面/结果截图",
-        "OS-Omni: Benchmarking Gen 的界面/结果截图",
-        "Solve Vision with Code: C 的界面/结果截图",
-        "ProxyGenBench: Benchmarki 的界面/结果截图"
-      ]
-    },
-    {
-      "title": "⚡ 本周行动建议",
-      "text": "基于趋势推荐的 3 个行动",
-      "items": [
-        "试用/Fork: StateWeaver: Multi-Agent ",
-        "深度阅读: DRBench Pro: A Knowledge-",
-        "在 Reddit 发一篇 AI 工具对比帖"
-      ]
-    }
-  ],
-  "all_items": [
-    {
-      "id": "de5d718e3e00",
-      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
-      "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but…",
+      "id": "b81d99d4912e",
+      "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+      "summary": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when…",
       "source": "hf_papers",
       "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Search",
-        "Benchmark",
-        "Open Source"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.34852",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34852",
-      "why_it_matters": "DRBench Pro 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 DRBench Pro 自动完成任务的过程，发帖「AI 自动化实操演示」",
-      "scores": {
-        "knowledge_value": 7,
-        "marketing_value": 5,
-        "forkability": 5,
-        "engageability": 3,
-        "total": 20
-      },
-      "scraped_at": "2026-11-27T04:42:54.494672+00:00"
-    },
-    {
-      "id": "52d9c0f359ac",
-      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
-      "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments,…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
+        "model"
       ],
       "geo_tags": [
         "US"
       ],
       "entity_tags": [],
       "topic_tags": [
-        "Agent",
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.34232",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34232",
-      "why_it_matters": "OS-Omni 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 7,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 18
-      },
-      "scraped_at": "2026-11-27T04:42:54.494580+00:00"
-    },
-    {
-      "id": "deb638abfb07",
-      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
-      "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Video",
+        "Image",
         "Infra"
       ],
-      "read_url": "https://huggingface.co/papers/2611.34290",
+      "read_url": "https://huggingface.co/papers/2611.33885",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34290",
-      "why_it_matters": "StateWeaver 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 StateWeaver 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 9,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 18
-      },
-      "scraped_at": "2026-11-27T04:42:54.494893+00:00"
-    },
-    {
-      "id": "6ba2c8dfd7ae",
-      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
-      "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out?…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Video",
-        "Coding",
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.34813",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34813",
-      "why_it_matters": "Solve Vision with Code 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 Solve Vision with Code 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+      "engage_url": "https://huggingface.co/papers/2611.33885",
+      "why_it_matters": "LayoutRecall 是可以直接用的工具，能立刻提升你的工作效率",
+      "content_angle": "实测 LayoutRecall 做一个具体任务，发帖「这个 AI 工具能帮你省多少时间」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 7,
         "forkability": 3,
-        "engageability": 5,
-        "total": 18
-      },
-      "scraped_at": "2026-11-27T04:42:54.494982+00:00"
-    },
-    {
-      "id": "f6c2ead2c523",
-      "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
-      "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Video",
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.34457",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34457",
-      "why_it_matters": "ProxyGenBench 降低了视觉内容创作门槛，非设计师也能做出专业素材",
-      "content_angle": "拿 ProxyGenBench 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 7,
-        "forkability": 3,
         "engageability": 3,
-        "total": 18
+        "total": 16
       },
-      "scraped_at": "2026-11-27T04:42:54.495208+00:00"
-    },
-    {
-      "id": "e4cdccd5593d",
-      "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
-      "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.20844",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.20844",
-      "why_it_matters": "DetourBench 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 DetourBench 自动完成任务的过程，发帖「AI 自动化实操演示」",
-      "scores": {
-        "knowledge_value": 7,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 18
-      },
-      "scraped_at": "2026-11-27T04:42:54.495409+00:00"
-    },
-    {
-      "id": "74291b35a2dd",
-      "title": "nginx/nginx",
-      "summary": "[C] The official NGINX Open Source repository. · 150 stars today",
-      "source": "github",
-      "tags": [
-        "repo"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://github.com/nginx/nginx",
-      "try_url": "",
-      "fork_url": "https://github.com/nginx/nginx",
-      "engage_url": "https://github.com/nginx/nginx/discussions",
-      "why_it_matters": "nginx 是开源的，意味着任何人都可以免费使用、修改和部署",
-      "content_angle": "写一篇 nginx 的安装和上手教程，发帖「这个开源项目值得试」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 5,
-        "forkability": 7,
-        "engageability": 3,
-        "total": 18
-      },
-      "scraped_at": "2026-11-27T04:42:56.523065+00:00"
-    },
-    {
-      "id": "b6b1fe318044",
-      "title": "openvinotoolkit/openvino",
-      "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 176 stars today",
-      "source": "github",
-      "tags": [
-        "repo",
-        "tool"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [],
-      "read_url": "https://github.com/openvinotoolkit/openvino",
-      "try_url": "",
-      "fork_url": "https://github.com/openvinotoolkit/openvino",
-      "engage_url": "https://github.com/openvinotoolkit/openvino/discussions",
-      "why_it_matters": "openvino 是开源的，意味着任何人都可以免费使用、修改和部署",
-      "content_angle": "写一篇 openvino 的安装和上手教程，发帖「这个开源项目值得试」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 7,
-        "forkability": 5,
-        "engageability": 3,
-        "total": 18
-      },
-      "scraped_at": "2026-11-27T04:42:56.523386+00:00"
+      "scraped_at": "2026-11-28T04:28:06.355857+00:00"
     },
     {
       "id": "a30ca2f47d60",
@@ -1311,7 +281,980 @@
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-11-27T04:42:54.494263+00:00"
+      "scraped_at": "2026-11-28T04:28:06.357359+00:00"
+    }
+  ],
+  "sections": {
+    "models": [
+      {
+        "id": "26115d5a95e0",
+        "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+        "summary": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Coding",
+          "Open Source"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.27112",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.27112",
+        "why_it_matters": "Markdown Is Not a Firewall 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 Markdown Is Not a Firewall 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 5,
+          "engageability": 5,
+          "total": 18
+        },
+        "scraped_at": "2026-11-28T04:28:06.356354+00:00"
+      },
+      {
+        "id": "b666a975d3ca",
+        "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+        "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Benchmark",
+          "Open Source"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.31619",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.31619",
+        "why_it_matters": "What a Forecasting… 降低了定制模型的门槛，小团队也能训练专属 AI",
+        "content_angle": "写 What a Forecasting… 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
+        "scores": {
+          "knowledge_value": 5,
+          "marketing_value": 3,
+          "forkability": 5,
+          "engageability": 5,
+          "total": 18
+        },
+        "scraped_at": "2026-11-28T04:28:06.357069+00:00"
+      },
+      {
+        "id": "8c6e83647a46",
+        "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+        "summary": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help. We ask what…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.30483",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.30483",
+        "why_it_matters": "When an AI agent makes a… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 When an AI agent makes a… 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 7,
+          "total": 18
+        },
+        "scraped_at": "2026-11-28T04:28:06.357256+00:00"
+      },
+      {
+        "id": "52d9c0f359ac",
+        "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+        "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments,…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [
+          "US"
+        ],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Benchmark"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.34232",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.34232",
+        "why_it_matters": "OS-Omni 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 5,
+          "marketing_value": 7,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 18
+        },
+        "scraped_at": "2026-11-28T04:28:06.357522+00:00"
+      },
+      {
+        "id": "b81d99d4912e",
+        "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+        "summary": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [
+          "US"
+        ],
+        "entity_tags": [],
+        "topic_tags": [
+          "Image",
+          "Infra"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.33885",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.33885",
+        "why_it_matters": "LayoutRecall 是可以直接用的工具，能立刻提升你的工作效率",
+        "content_angle": "实测 LayoutRecall 做一个具体任务，发帖「这个 AI 工具能帮你省多少时间」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 7,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 16
+        },
+        "scraped_at": "2026-11-28T04:28:06.355857+00:00"
+      },
+      {
+        "id": "a30ca2f47d60",
+        "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+        "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Robotics",
+          "Policy"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.32238",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.32238",
+        "why_it_matters": "Boundary-Aware Policy… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 Boundary-Aware Policy… 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 5,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 16
+        },
+        "scraped_at": "2026-11-28T04:28:06.357359+00:00"
+      },
+      {
+        "id": "e519d2e7d82f",
+        "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+        "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Image",
+          "Coding"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.34719",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.34719",
+        "why_it_matters": "Reading, Not Adapting 降低了视觉内容创作门槛，非设计师也能做出专业素材",
+        "content_angle": "拿 Reading, Not Adapting 生成一组作品截图，发帖「AI 做的图/视频能到什么水平了」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 7,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 16
+        },
+        "scraped_at": "2026-11-28T04:28:06.357442+00:00"
+      },
+      {
+        "id": "195ed7bd9b76",
+        "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+        "summary": "Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced…",
+        "source": "hf_papers",
+        "tags": [
+          "model"
+        ],
+        "geo_tags": [
+          "US"
+        ],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://huggingface.co/papers/2611.30723",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.30723",
+        "why_it_matters": "BiSAT 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+        "content_angle": "用通俗语言解读 BiSAT，发帖「一句话看懂今天的 AI 论文」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 14
+        },
+        "scraped_at": "2026-11-28T04:28:06.356213+00:00"
+      }
+    ],
+    "products": [],
+    "opensource": [
+      {
+        "id": "74291b35a2dd",
+        "title": "nginx/nginx",
+        "summary": "[C] The official NGINX Open Source repository. · 146 stars today",
+        "source": "github",
+        "tags": [
+          "repo"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/nginx/nginx",
+        "try_url": "",
+        "fork_url": "https://github.com/nginx/nginx",
+        "engage_url": "https://github.com/nginx/nginx/discussions",
+        "why_it_matters": "nginx 是开源的，意味着任何人都可以免费使用、修改和部署",
+        "content_angle": "写一篇 nginx 的安装和上手教程，发帖「这个开源项目值得试」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 7,
+          "engageability": 3,
+          "total": 18
+        },
+        "scraped_at": "2026-11-28T04:28:08.166754+00:00"
+      },
+      {
+        "id": "b6b1fe318044",
+        "title": "openvinotoolkit/openvino",
+        "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 151 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/openvinotoolkit/openvino",
+        "try_url": "",
+        "fork_url": "https://github.com/openvinotoolkit/openvino",
+        "engage_url": "https://github.com/openvinotoolkit/openvino/discussions",
+        "why_it_matters": "openvino 是开源的，意味着任何人都可以免费使用、修改和部署",
+        "content_angle": "写一篇 openvino 的安装和上手教程，发帖「这个开源项目值得试」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 7,
+          "forkability": 5,
+          "engageability": 3,
+          "total": 18
+        },
+        "scraped_at": "2026-11-28T04:28:08.167089+00:00"
+      },
+      {
+        "id": "b518529580bf",
+        "title": "mvanhorn/last30days-skill",
+        "summary": "[Python] AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · 675 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/mvanhorn/last30days-skill",
+        "try_url": "",
+        "fork_url": "https://github.com/mvanhorn/last30days-skill",
+        "engage_url": "https://github.com/mvanhorn/last30days-skill/discussions",
+        "why_it_matters": "last30days-skill 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 last30days-skill 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 5,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 16
+        },
+        "scraped_at": "2026-11-28T04:28:08.167785+00:00"
+      },
+      {
+        "id": "4d44aba20185",
+        "title": "elementalsouls/Claude-BugHunter",
+        "summary": "[Python] A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise… · 1,608 stars today",
+        "source": "github",
+        "tags": [
+          "repo"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/elementalsouls/Claude-BugHunter",
+        "try_url": "",
+        "fork_url": "https://github.com/elementalsouls/Claude-BugHunter",
+        "engage_url": "https://github.com/elementalsouls/Claude-BugHunter/discussions",
+        "why_it_matters": "Claude-BugHunter 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 Claude-BugHunter 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 3,
+          "forkability": 5,
+          "engageability": 3,
+          "total": 14
+        },
+        "scraped_at": "2026-11-28T04:28:08.164632+00:00"
+      },
+      {
+        "id": "88767f3d91d6",
+        "title": "obra/superpowers",
+        "summary": "[Shell] An agentic skills framework & software development methodology that works. · 922 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/obra/superpowers",
+        "try_url": "",
+        "fork_url": "https://github.com/obra/superpowers",
+        "engage_url": "https://github.com/obra/superpowers/discussions",
+        "why_it_matters": "superpowers 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 superpowers 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 14
+        },
+        "scraped_at": "2026-11-28T04:28:08.165149+00:00"
+      },
+      {
+        "id": "a2bb9c8e97f4",
+        "title": "HKUDS/CLI-Anything",
+        "summary": "[Python] \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/ · 666 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/HKUDS/CLI-Anything",
+        "try_url": "",
+        "fork_url": "https://github.com/HKUDS/CLI-Anything",
+        "engage_url": "https://github.com/HKUDS/CLI-Anything/discussions",
+        "why_it_matters": "CLI-Anything 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 CLI-Anything 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 14
+        },
+        "scraped_at": "2026-11-28T04:28:08.165492+00:00"
+      },
+      {
+        "id": "1327a377387a",
+        "title": "firecrawl/firecrawl",
+        "summary": "[TypeScript] Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. · 822 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/firecrawl/firecrawl",
+        "try_url": "",
+        "fork_url": "https://github.com/firecrawl/firecrawl",
+        "engage_url": "https://github.com/firecrawl/firecrawl/discussions",
+        "why_it_matters": "firecrawl 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 firecrawl 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 14
+        },
+        "scraped_at": "2026-11-28T04:28:08.166426+00:00"
+      },
+      {
+        "id": "6e561ec2b5e9",
+        "title": "cathrynlavery/diagram-design",
+        "summary": "[HTML] Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. · 725 stars today",
+        "source": "github",
+        "tags": [
+          "repo"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/cathrynlavery/diagram-design",
+        "try_url": "",
+        "fork_url": "https://github.com/cathrynlavery/diagram-design",
+        "engage_url": "https://github.com/cathrynlavery/diagram-design/discussions",
+        "why_it_matters": "diagram-design 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 diagram-design 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 3,
+          "forkability": 5,
+          "engageability": 3,
+          "total": 14
+        },
+        "scraped_at": "2026-11-28T04:28:08.167471+00:00"
+      }
+    ],
+    "tools": [
+      {
+        "id": "26115d5a95e0",
+        "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+        "summary": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Coding",
+          "Open Source"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.27112",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.27112",
+        "why_it_matters": "Markdown Is Not a Firewall 正在改变写代码的方式——速度和质量都在跃升",
+        "content_angle": "用 Markdown Is Not a Firewall 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 5,
+          "engageability": 5,
+          "total": 18
+        },
+        "scraped_at": "2026-11-28T04:28:06.356354+00:00"
+      },
+      {
+        "id": "8c6e83647a46",
+        "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+        "summary": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help. We ask what…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.30483",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.30483",
+        "why_it_matters": "When an AI agent makes a… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 When an AI agent makes a… 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 7,
+          "total": 18
+        },
+        "scraped_at": "2026-11-28T04:28:06.357256+00:00"
+      },
+      {
+        "id": "52d9c0f359ac",
+        "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+        "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments,…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [
+          "US"
+        ],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Benchmark"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.34232",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.34232",
+        "why_it_matters": "OS-Omni 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 5,
+          "marketing_value": 7,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 18
+        },
+        "scraped_at": "2026-11-28T04:28:06.357522+00:00"
+      },
+      {
+        "id": "b6b1fe318044",
+        "title": "openvinotoolkit/openvino",
+        "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 151 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/openvinotoolkit/openvino",
+        "try_url": "",
+        "fork_url": "https://github.com/openvinotoolkit/openvino",
+        "engage_url": "https://github.com/openvinotoolkit/openvino/discussions",
+        "why_it_matters": "openvino 是开源的，意味着任何人都可以免费使用、修改和部署",
+        "content_angle": "写一篇 openvino 的安装和上手教程，发帖「这个开源项目值得试」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 7,
+          "forkability": 5,
+          "engageability": 3,
+          "total": 18
+        },
+        "scraped_at": "2026-11-28T04:28:08.167089+00:00"
+      },
+      {
+        "id": "a30ca2f47d60",
+        "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+        "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the…",
+        "source": "hf_papers",
+        "tags": [
+          "model",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [
+          "Agent",
+          "Robotics",
+          "Policy"
+        ],
+        "read_url": "https://huggingface.co/papers/2611.32238",
+        "try_url": "",
+        "fork_url": "",
+        "engage_url": "https://huggingface.co/papers/2611.32238",
+        "why_it_matters": "Boundary-Aware Policy… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 Boundary-Aware Policy… 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 5,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 16
+        },
+        "scraped_at": "2026-11-28T04:28:06.357359+00:00"
+      },
+      {
+        "id": "b518529580bf",
+        "title": "mvanhorn/last30days-skill",
+        "summary": "[Python] AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · 675 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/mvanhorn/last30days-skill",
+        "try_url": "",
+        "fork_url": "https://github.com/mvanhorn/last30days-skill",
+        "engage_url": "https://github.com/mvanhorn/last30days-skill/discussions",
+        "why_it_matters": "last30days-skill 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 last30days-skill 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 5,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 16
+        },
+        "scraped_at": "2026-11-28T04:28:08.167785+00:00"
+      },
+      {
+        "id": "88767f3d91d6",
+        "title": "obra/superpowers",
+        "summary": "[Shell] An agentic skills framework & software development methodology that works. · 922 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/obra/superpowers",
+        "try_url": "",
+        "fork_url": "https://github.com/obra/superpowers",
+        "engage_url": "https://github.com/obra/superpowers/discussions",
+        "why_it_matters": "superpowers 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 superpowers 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 14
+        },
+        "scraped_at": "2026-11-28T04:28:08.165149+00:00"
+      },
+      {
+        "id": "a2bb9c8e97f4",
+        "title": "HKUDS/CLI-Anything",
+        "summary": "[Python] \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/ · 666 stars today",
+        "source": "github",
+        "tags": [
+          "repo",
+          "tool"
+        ],
+        "geo_tags": [],
+        "entity_tags": [],
+        "topic_tags": [],
+        "read_url": "https://github.com/HKUDS/CLI-Anything",
+        "try_url": "",
+        "fork_url": "https://github.com/HKUDS/CLI-Anything",
+        "engage_url": "https://github.com/HKUDS/CLI-Anything/discussions",
+        "why_it_matters": "CLI-Anything 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+        "content_angle": "录制 CLI-Anything 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "scores": {
+          "knowledge_value": 3,
+          "marketing_value": 5,
+          "forkability": 3,
+          "engageability": 3,
+          "total": 14
+        },
+        "scraped_at": "2026-11-28T04:28:08.165492+00:00"
+      }
+    ],
+    "discussions": []
+  },
+  "insights": [
+    {
+      "title": "🔥 本周趋势关键词",
+      "text": "基于抓取内容自动提取的高频主题",
+      "items": [
+        "model",
+        "tool",
+        "repo"
+      ]
+    },
+    {
+      "title": "📝 可发内容 Top 5",
+      "text": "营销价值最高的话题",
+      "items": [
+        "「OS-Omni: Benchmarking Generali」—— 录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
+        "「openvinotoolkit/openvino」—— 写一篇 openvino 的安装和上手教程，发帖「这个开源项目值得试」",
+        "「LayoutRecall: Preserving Appea」—— 实测 LayoutRecall 做一个具体任务，发帖「这个 AI 工具能帮你省多",
+        "「Reading, Not Adapting: Unlocki」—— 拿 Reading, Not Adapting 生成一组作品截图，发帖「AI 做",
+        "「Markdown Is Not a Firewall: fo」—— 用 Markdown Is Not a Firewall 完成一个实际任务，录屏"
+      ]
+    },
+    {
+      "title": "📸 截图素材建议",
+      "text": "可直接截图发社交媒体",
+      "items": [
+        "OS-Omni: Benchmarking Gen 的界面/结果截图",
+        "openvinotoolkit/openvino 的界面/结果截图",
+        "LayoutRecall: Preserving  的界面/结果截图",
+        "Reading, Not Adapting: Un 的界面/结果截图"
+      ]
+    },
+    {
+      "title": "⚡ 本周行动建议",
+      "text": "基于趋势推荐的 3 个行动",
+      "items": [
+        "试用/Fork: OS-Omni: Benchmarking Gen",
+        "深度阅读: What a Forecasting Leader",
+        "在 Reddit 发一篇 AI 工具对比帖"
+      ]
+    }
+  ],
+  "all_items": [
+    {
+      "id": "26115d5a95e0",
+      "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+      "summary": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Coding",
+        "Open Source"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.27112",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.27112",
+      "why_it_matters": "Markdown Is Not a Firewall 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 Markdown Is Not a Firewall 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 5,
+        "forkability": 5,
+        "engageability": 5,
+        "total": 18
+      },
+      "scraped_at": "2026-11-28T04:28:06.356354+00:00"
+    },
+    {
+      "id": "b666a975d3ca",
+      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+      "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Benchmark",
+        "Open Source"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.31619",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.31619",
+      "why_it_matters": "What a Forecasting… 降低了定制模型的门槛，小团队也能训练专属 AI",
+      "content_angle": "写 What a Forecasting… 的微调教程，发帖「手把手教你训练自己的 AI 模型」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 3,
+        "forkability": 5,
+        "engageability": 5,
+        "total": 18
+      },
+      "scraped_at": "2026-11-28T04:28:06.357069+00:00"
+    },
+    {
+      "id": "8c6e83647a46",
+      "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+      "summary": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help. We ask what…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.30483",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.30483",
+      "why_it_matters": "When an AI agent makes a… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 When an AI agent makes a… 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 7,
+        "total": 18
+      },
+      "scraped_at": "2026-11-28T04:28:06.357256+00:00"
+    },
+    {
+      "id": "52d9c0f359ac",
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments,…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Benchmark"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.34232",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.34232",
+      "why_it_matters": "OS-Omni 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 OS-Omni 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 7,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 18
+      },
+      "scraped_at": "2026-11-28T04:28:06.357522+00:00"
+    },
+    {
+      "id": "74291b35a2dd",
+      "title": "nginx/nginx",
+      "summary": "[C] The official NGINX Open Source repository. · 146 stars today",
+      "source": "github",
+      "tags": [
+        "repo"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [],
+      "read_url": "https://github.com/nginx/nginx",
+      "try_url": "",
+      "fork_url": "https://github.com/nginx/nginx",
+      "engage_url": "https://github.com/nginx/nginx/discussions",
+      "why_it_matters": "nginx 是开源的，意味着任何人都可以免费使用、修改和部署",
+      "content_angle": "写一篇 nginx 的安装和上手教程，发帖「这个开源项目值得试」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 5,
+        "forkability": 7,
+        "engageability": 3,
+        "total": 18
+      },
+      "scraped_at": "2026-11-28T04:28:08.166754+00:00"
+    },
+    {
+      "id": "b6b1fe318044",
+      "title": "openvinotoolkit/openvino",
+      "summary": "[C++] OpenVINO™ is an open source toolkit for optimizing and deploying AI inference · 151 stars today",
+      "source": "github",
+      "tags": [
+        "repo",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [],
+      "read_url": "https://github.com/openvinotoolkit/openvino",
+      "try_url": "",
+      "fork_url": "https://github.com/openvinotoolkit/openvino",
+      "engage_url": "https://github.com/openvinotoolkit/openvino/discussions",
+      "why_it_matters": "openvino 是开源的，意味着任何人都可以免费使用、修改和部署",
+      "content_angle": "写一篇 openvino 的安装和上手教程，发帖「这个开源项目值得试」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 7,
+        "forkability": 5,
+        "engageability": 3,
+        "total": 18
+      },
+      "scraped_at": "2026-11-28T04:28:08.167089+00:00"
+    },
+    {
+      "id": "b81d99d4912e",
+      "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+      "summary": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [
+        "Image",
+        "Infra"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.33885",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.33885",
+      "why_it_matters": "LayoutRecall 是可以直接用的工具，能立刻提升你的工作效率",
+      "content_angle": "实测 LayoutRecall 做一个具体任务，发帖「这个 AI 工具能帮你省多少时间」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 7,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 16
+      },
+      "scraped_at": "2026-11-28T04:28:06.355857+00:00"
+    },
+    {
+      "id": "a30ca2f47d60",
+      "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+      "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the…",
+      "source": "hf_papers",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Agent",
+        "Robotics",
+        "Policy"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.32238",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.32238",
+      "why_it_matters": "Boundary-Aware Policy… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
+      "content_angle": "录制 Boundary-Aware Policy… 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "scores": {
+        "knowledge_value": 5,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 16
+      },
+      "scraped_at": "2026-11-28T04:28:06.357359+00:00"
     },
     {
       "id": "e519d2e7d82f",
@@ -1340,106 +1283,12 @@
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-11-27T04:42:54.494434+00:00"
-    },
-    {
-      "id": "d0a2e610b136",
-      "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
-      "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action…",
-      "source": "hf_papers",
-      "tags": [
-        "model"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [],
-      "topic_tags": [
-        "Video"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.34693",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34693",
-      "why_it_matters": "ShowNow 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 ShowNow，发帖「一句话看懂今天的 AI 论文」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 7,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 16
-      },
-      "scraped_at": "2026-11-27T04:42:54.495071+00:00"
-    },
-    {
-      "id": "e8c013c4bc50",
-      "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
-      "summary": "Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial relations. Existing methods learn grounded interactions from supervised traces,…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Robotics"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.29969",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.29969",
-      "why_it_matters": "CARE-3D 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 CARE-3D 自动完成任务的过程，发帖「AI 自动化实操演示」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 16
-      },
-      "scraped_at": "2026-11-27T04:42:54.495597+00:00"
-    },
-    {
-      "id": "0d1788cb1e51",
-      "title": "Evaluating Memanto on DolphinBench for AI Agents",
-      "summary": "Memory benchmarks built on question answering tell an agent which fact to recall. Workplace requests often leave that need implicit: to post an update in the team's channel, an agent must work out…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [
-        "US"
-      ],
-      "entity_tags": [
-        "Microsoft"
-      ],
-      "topic_tags": [
-        "Agent",
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.28231",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.28231",
-      "why_it_matters": "Evaluating Memanto on… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 Evaluating Memanto on… 自动完成任务的过程，发帖「AI 自动化实操演示」",
-      "scores": {
-        "knowledge_value": 5,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 16
-      },
-      "scraped_at": "2026-11-27T04:42:54.495690+00:00"
+      "scraped_at": "2026-11-28T04:28:06.357442+00:00"
     },
     {
       "id": "b518529580bf",
       "title": "mvanhorn/last30days-skill",
-      "summary": "[Python] AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · 759 stars today",
+      "summary": "[Python] AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · 675 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1461,12 +1310,98 @@
         "engageability": 3,
         "total": 16
       },
-      "scraped_at": "2026-11-27T04:42:56.524101+00:00"
+      "scraped_at": "2026-11-28T04:28:08.167785+00:00"
     },
     {
-      "id": "4f37efe4f38a",
-      "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
-      "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control…",
+      "id": "195ed7bd9b76",
+      "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+      "summary": "Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [],
+      "read_url": "https://huggingface.co/papers/2611.30723",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.30723",
+      "why_it_matters": "BiSAT 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+      "content_angle": "用通俗语言解读 BiSAT，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 14
+      },
+      "scraped_at": "2026-11-28T04:28:06.356213+00:00"
+    },
+    {
+      "id": "0add75c41a61",
+      "title": "Revisiting LLMs as Context Engineers",
+      "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [
+        "Meta"
+      ],
+      "topic_tags": [],
+      "read_url": "https://huggingface.co/papers/2611.30494",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.30494",
+      "why_it_matters": "Revisiting LLMs as Context… 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
+      "content_angle": "用通俗语言解读 Revisiting LLMs as Context…，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 5,
+        "total": 14
+      },
+      "scraped_at": "2026-11-28T04:28:06.356444+00:00"
+    },
+    {
+      "id": "707541ea4123",
+      "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+      "summary": "Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate. It is a very challenging problem, especially…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [
+        "US"
+      ],
+      "entity_tags": [],
+      "topic_tags": [],
+      "read_url": "https://huggingface.co/papers/2611.31516",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.31516",
+      "why_it_matters": "InitFree-SfM 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
+      "content_angle": "用通俗语言解读 InitFree-SfM，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 5,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 14
+      },
+      "scraped_at": "2026-11-28T04:28:06.356559+00:00"
+    },
+    {
+      "id": "8171a92bd649",
+      "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+      "summary": "A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multiplication is presented. Every scheme in it has its own rank pattern, an invariant formed by the ranks of the factor…",
       "source": "hf_papers",
       "tags": [
         "model"
@@ -1474,12 +1409,12 @@
       "geo_tags": [],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://huggingface.co/papers/2611.34051",
+      "read_url": "https://huggingface.co/papers/2611.31155",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.34051",
-      "why_it_matters": "Stable Gated DeltaNet-2 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
-      "content_angle": "用通俗语言解读 Stable Gated DeltaNet-2，发帖「一句话看懂今天的 AI 论文」",
+      "engage_url": "https://huggingface.co/papers/2611.31155",
+      "why_it_matters": "So Many Ways to Multiply… 提供了新的评估标准，帮助判断哪些模型真正好用",
+      "content_angle": "用通俗语言解读 So Many Ways to Multiply…，发帖「一句话看懂今天的 AI 论文」",
       "scores": {
         "knowledge_value": 5,
         "marketing_value": 3,
@@ -1487,61 +1422,57 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-27T04:42:54.495286+00:00"
+      "scraped_at": "2026-11-28T04:28:06.356686+00:00"
     },
     {
-      "id": "d596c32d2d50",
-      "title": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
-      "summary": "Agentic pipelines that combine graph detectors, deterministic rules, retrieval-augmented generation and an LLM judge are being proposed to monitor illicit cryptocurrency flows and to write…",
+      "id": "ebae80c82fc4",
+      "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+      "summary": "When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need unresolved. Choosing how to help requires distinguishing an established hazard…",
       "source": "hf_papers",
       "tags": [
-        "model",
-        "tool"
-      ],
-      "geo_tags": [],
-      "entity_tags": [],
-      "topic_tags": [
-        "Agent",
-        "Search",
-        "Benchmark"
-      ],
-      "read_url": "https://huggingface.co/papers/2611.29829",
-      "try_url": "",
-      "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.29829",
-      "why_it_matters": "Who Makes the Decision?… 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 Who Makes the Decision?… 自动完成任务的过程，发帖「AI 自动化实操演示」",
-      "scores": {
-        "knowledge_value": 3,
-        "marketing_value": 5,
-        "forkability": 3,
-        "engageability": 3,
-        "total": 14
-      },
-      "scraped_at": "2026-11-27T04:42:54.495495+00:00"
-    },
-    {
-      "id": "420460fa2fca",
-      "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
-      "summary": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive capacity and randomness that obscure the consequences of their actions. We…",
-      "source": "hf_papers",
-      "tags": [
-        "model",
-        "tool"
+        "model"
       ],
       "geo_tags": [
         "US"
       ],
       "entity_tags": [],
       "topic_tags": [
-        "Agent"
+        "Policy"
       ],
-      "read_url": "https://huggingface.co/papers/2611.29259",
+      "read_url": "https://huggingface.co/papers/2611.28849",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.29259",
-      "why_it_matters": "Look Back 让 AI 从「回答问题」进化到「自动干活」，效率提升是量级的",
-      "content_angle": "录制 Look Back 自动完成任务的过程，发帖「AI 自动化实操演示」",
+      "engage_url": "https://huggingface.co/papers/2611.28849",
+      "why_it_matters": "Guarding with Judgment 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
+      "content_angle": "用通俗语言解读 Guarding with Judgment，发帖「一句话看懂今天的 AI 论文」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 5,
+        "total": 14
+      },
+      "scraped_at": "2026-11-28T04:28:06.356962+00:00"
+    },
+    {
+      "id": "063d7f93142b",
+      "title": "Generation as Reverse Encoding",
+      "summary": "Pretrained visual representations accelerate generative learning by abstracting away appearance and spatial detail. Yet the same abstraction makes the return to pixels far harder, shifting much of…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Coding"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.34782",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.34782",
+      "why_it_matters": "Generation as Reverse Encoding 正在改变写代码的方式——速度和质量都在跃升",
+      "content_angle": "用 Generation as Reverse Encoding 完成一个实际任务，录屏发帖「AI 写代码 vs 人写代码」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 5,
@@ -1549,12 +1480,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-27T04:42:54.495765+00:00"
+      "scraped_at": "2026-11-28T04:28:06.357182+00:00"
     },
     {
       "id": "4d44aba20185",
       "title": "elementalsouls/Claude-BugHunter",
-      "summary": "[Python] A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise… · 1,597 stars today",
+      "summary": "[Python] A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise… · 1,608 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1575,12 +1506,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-27T04:42:56.520936+00:00"
+      "scraped_at": "2026-11-28T04:28:08.164632+00:00"
     },
     {
       "id": "88767f3d91d6",
       "title": "obra/superpowers",
-      "summary": "[Shell] An agentic skills framework & software development methodology that works. · 854 stars today",
+      "summary": "[Shell] An agentic skills framework & software development methodology that works. · 922 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1602,12 +1533,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-27T04:42:56.521425+00:00"
+      "scraped_at": "2026-11-28T04:28:08.165149+00:00"
     },
     {
       "id": "a2bb9c8e97f4",
       "title": "HKUDS/CLI-Anything",
-      "summary": "[Python] \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/ · 746 stars today",
+      "summary": "[Python] \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/ · 666 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1629,12 +1560,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-27T04:42:56.521780+00:00"
+      "scraped_at": "2026-11-28T04:28:08.165492+00:00"
     },
     {
       "id": "1327a377387a",
       "title": "firecrawl/firecrawl",
-      "summary": "[TypeScript] Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. · 1,046 stars today",
+      "summary": "[TypeScript] Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. · 822 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1656,12 +1587,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-27T04:42:56.522752+00:00"
+      "scraped_at": "2026-11-28T04:28:08.166426+00:00"
     },
     {
       "id": "6e561ec2b5e9",
       "title": "cathrynlavery/diagram-design",
-      "summary": "[HTML] Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. · 955 stars today",
+      "summary": "[HTML] Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. · 725 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1682,12 +1613,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-27T04:42:56.523787+00:00"
+      "scraped_at": "2026-11-28T04:28:08.167471+00:00"
     },
     {
       "id": "b5325bd34602",
       "title": "google-labs-code/stitch-skills",
-      "summary": "[TypeScript] A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude… · 309 stars today",
+      "summary": "[TypeScript] A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude… · 311 stars today",
       "source": "github",
       "tags": [
         "repo",
@@ -1709,12 +1640,12 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-27T04:42:56.524404+00:00"
+      "scraped_at": "2026-11-28T04:28:08.168100+00:00"
     },
     {
       "id": "9056aa852ac5",
       "title": "mjmirza/app-store-compliance",
-      "summary": "[Shell] Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked… · 562 stars today",
+      "summary": "[Shell] Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked… · 530 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1735,25 +1666,28 @@
         "engageability": 3,
         "total": 14
       },
-      "scraped_at": "2026-11-27T04:42:56.524800+00:00"
+      "scraped_at": "2026-11-28T04:28:08.168478+00:00"
     },
     {
-      "id": "ff2380199ead",
-      "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
-      "summary": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates. However, existing 3D medical multimodal models…",
+      "id": "b0a37d7a2024",
+      "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+      "summary": "Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations. We introduce the Damped Atomic Wave…",
       "source": "hf_papers",
       "tags": [
         "model"
       ],
-      "geo_tags": [],
+      "geo_tags": [
+        "US",
+        "Europe"
+      ],
       "entity_tags": [],
       "topic_tags": [],
-      "read_url": "https://huggingface.co/papers/2611.32993",
+      "read_url": "https://huggingface.co/papers/2611.30025",
       "try_url": "",
       "fork_url": "",
-      "engage_url": "https://huggingface.co/papers/2611.32993",
-      "why_it_matters": "Decision-Native Multimodal… 让 AI 能同时处理文本、图像、语音，应用场景扩大了",
-      "content_angle": "用通俗语言解读 Decision-Native Multimodal…，发帖「一句话看懂今天的 AI 论文」",
+      "engage_url": "https://huggingface.co/papers/2611.30025",
+      "why_it_matters": "Damped Atomic Wave… 代表了 AI 研究的最新方向，可能影响未来几个月的产品迭代",
+      "content_angle": "用通俗语言解读 Damped Atomic Wave…，发帖「一句话看懂今天的 AI 论文」",
       "scores": {
         "knowledge_value": 3,
         "marketing_value": 3,
@@ -1761,12 +1695,40 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-11-27T04:42:54.494770+00:00"
+      "scraped_at": "2026-11-28T04:28:06.356067+00:00"
+    },
+    {
+      "id": "b2e62abd1405",
+      "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+      "summary": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation…",
+      "source": "hf_papers",
+      "tags": [
+        "model"
+      ],
+      "geo_tags": [],
+      "entity_tags": [],
+      "topic_tags": [
+        "Search"
+      ],
+      "read_url": "https://huggingface.co/papers/2611.31491",
+      "try_url": "",
+      "fork_url": "",
+      "engage_url": "https://huggingface.co/papers/2611.31491",
+      "why_it_matters": "Pretrained Tabular Features… 提升了 AI 获取和使用外部知识的能力，准确率更高了",
+      "content_angle": "用 Pretrained Tabular Features… 搭一个简单知识库 demo，发帖「10 分钟搭建 AI 知识助手」",
+      "scores": {
+        "knowledge_value": 3,
+        "marketing_value": 3,
+        "forkability": 3,
+        "engageability": 3,
+        "total": 12
+      },
+      "scraped_at": "2026-11-28T04:28:06.356845+00:00"
     },
     {
       "id": "7784b5b283f4",
       "title": "jingyaogong/minimind",
-      "summary": "[Python] 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours. · 702 stars today",
+      "summary": "[Python] 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours. · 660 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1787,12 +1749,12 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-11-27T04:42:56.522099+00:00"
+      "scraped_at": "2026-11-28T04:28:08.165812+00:00"
     },
     {
       "id": "db2d87fbfd4c",
       "title": "cursor/plugins",
-      "summary": "[TypeScript] Cursor plugin specification and official plugins · 270 stars today",
+      "summary": "[TypeScript] Cursor plugin specification and official plugins · 243 stars today",
       "source": "github",
       "tags": [
         "repo"
@@ -1813,7 +1775,7 @@
         "engageability": 3,
         "total": 12
       },
-      "scraped_at": "2026-11-27T04:42:56.522430+00:00"
+      "scraped_at": "2026-11-28T04:28:08.166133+00:00"
     }
   ]
 }
